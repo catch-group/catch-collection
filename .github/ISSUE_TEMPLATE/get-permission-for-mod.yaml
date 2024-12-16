@@ -1,6 +1,6 @@
 name: Get permission for mod
 description: Track permission to create patches for a mod
-title: Get permission for <title>
+title: Get permission for {{modPlatformId}}-{{modCode}}
 body:
  - type: "dropdown"
    id: gameDomainName
@@ -24,7 +24,7 @@ body:
  - type: markdown
    attributes:
     value: |
-     The [mod page for <modPlatformId>-<modCode>](https://www.nexusmods.com/<gameDomainName>/mods/<modPlatformId>) states the following:
+     The [mod page for {{modPlatformId}}-{{modCode}}](https://www.nexusmods.com/{{gameDomainName}}/mods/{{modPlatformId}}) states the following:
 
      > **Modification permission**
      > You must get permission from me before you are allowed to modify my files to improve it
