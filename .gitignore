@@ -10,3 +10,7 @@
 .env
 
 /node_modules
+
+# Mods without permission
+**/12270-CLAS
+**/9121-CGX
