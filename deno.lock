@@ -18,6 +18,7 @@
     "jsr:@zip-js/zip-js@^2.7.54": "2.7.54",
     "npm:@eslint-community/eslint-plugin-eslint-comments@^4.4.0": "4.4.1_eslint@9.17.0",
     "npm:@eslint-react/eslint-plugin@^1.15.0": "1.19.0_eslint@9.17.0",
+    "npm:@knip/create-config@*": "1.0.3",
     "npm:@stylistic/eslint-plugin@^2.9.0": "2.12.1_eslint@9.17.0",
     "npm:@types/mdast@^4.0.4": "4.0.4",
     "npm:@typescript-eslint/parser@^8.11.0": "8.18.0_eslint@9.17.0_typescript@5.7.2",
@@ -1344,6 +1345,9 @@
         "@jridgewell/resolve-uri",
         "@jridgewell/sourcemap-codec"
       ]
+    },
+    "@knip/create-config@1.0.3": {
+      "integrity": "sha512-FoRUwExeRVdNQgnIyLzmRI4G2fQlVLhEsbKL5eaA7+CbklHQ/AppfomqxOfKZPfiR93qx41QHG5+XjannO87ZA=="
     },
     "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1": {
       "integrity": "sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==",
