@@ -1,12 +1,4 @@
-import { join } from "@std/path";
-
 import { sleep } from "@radashi-org/radashi";
-
-import getMod from "../_common/get-mod.js";
-
-const {
-	readFile
-} = Deno;
 
 /**
  *
