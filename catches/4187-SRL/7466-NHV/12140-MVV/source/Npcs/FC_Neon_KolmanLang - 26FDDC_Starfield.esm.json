@@ -6,14 +6,14 @@
 		"First": "-0.591797, -0.3623047, 0",
 		"Second": "0.59179676, 1.0341797, 1.2373047"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Essential",
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "24074",
@@ -41,51 +41,51 @@
 	"Properties": [
 		{
 			"ActorValue": "0002C2:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C3:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C4:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C5:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C6:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C7:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C8:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002D4:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002D5:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		},
 		{
 			"ActorValue": "0002CC:Starfield.esm",
-			"Value": 25
+			"Value": 25.0
 		},
 		{
 			"ActorValue": "0002CD:Starfield.esm",
-			"Value": 45
+			"Value": 45.0
 		}
 	],
 	"Items": [
@@ -326,7 +326,7 @@
 		},
 		{
 			"Index": 89,
-			"Position": -1
+			"Position": -1.0
 		}
 	],
 	"FaceMorphs": [
@@ -355,7 +355,7 @@
 					"MorphGroup": "Mouth"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Neck"
 				},
 				{
@@ -438,7 +438,7 @@
 		},
 		{
 			"BlendName": "male_eu_md2_Neck",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_ol1_Cheeks",

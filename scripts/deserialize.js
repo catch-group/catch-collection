@@ -41,7 +41,7 @@ const {
 	}
 );
 
-console.log("Serializing these catches:");
+console.log("Deserializing these catches:");
 console.log(filteredGameCatchIds.join("\n"));
 
 /**
@@ -80,18 +80,18 @@ for (const gameCatchId of filteredGameCatchIds) {
 
 	const catchFilePath = join(catchFolderPath, catchFileName);
 
-	await stat(catchFilePath);
-
 	const catchSourceFolderPath = join(catchFolderPath, "source");
 
 	const catchSourceMetaFilePath = join(catchSourceFolderPath, "spriggit-meta.json");
 
-	let catchSourceSerialized = false;
+	await stat(catchSourceMetaFilePath);
+
+	let catchDeserialized = false;
 
 	try {
-		await stat(catchSourceMetaFilePath);
+		await stat(catchFilePath);
 
-		catchSourceSerialized = true;
+		catchDeserialized = true;
 	}
 	catch (error) {
 		if (!(error instanceof NotFound)) {
@@ -99,18 +99,16 @@ for (const gameCatchId of filteredGameCatchIds) {
 		}
 	}
 
-	if (override || !catchSourceSerialized) {
+	if (override || !catchDeserialized) {
 		const command = new Command(
 			spriggitCliPath,
 			{
 				args: [
-					"serialize",
+					"deserialize",
 					"--InputPath",
-					catchFilePath,
-					"--OutputPath",
 					catchSourceFolderPath,
-					"--GameRelease",
-					"Starfield",
+					"--OutputPath",
+					catchFilePath,
 					"--PackageName",
 					"Spriggit.Json"
 				],
@@ -119,7 +117,7 @@ for (const gameCatchId of filteredGameCatchIds) {
 			}
 		);
 
-		console.info(`Serializing ${relative(cwd(), catchFilePath)}`);
+		console.info(`Deserializing ${relative(cwd(), catchSourceFolderPath)}`);
 
 		const { stdout: encodedOutput } = await command.output();
 
@@ -148,24 +146,24 @@ for (const gameCatchId of filteredGameCatchIds) {
 			console.error(output);
 		}
 
-		const walkIterator = walk(catchSourceFolderPath, {
-			exts: [".json"],
-			includeDirs: false,
-			includeSymlinks: false
-		});
+		// const walkIterator = walk(catchSourceFolderPath, {
+		// 	exts: [".json"],
+		// 	includeDirs: false,
+		// 	includeSymlinks: false
+		// });
 
-		const recordDataFilePath = join(catchSourceFolderPath, "RecordData.json");
+		// const recordDataFilePath = join(catchSourceFolderPath, "RecordData.json");
 
-		for await (const { path } of walkIterator) {
-			await formatJsonFile(
-				path,
-				{
-					replacer: path === recordDataFilePath
-						? replacer
-						: null
-				}
-			);
-		}
+		// for await (const { path } of walkIterator) {
+		// 	await formatJsonFile(
+		// 		path,
+		// 		{
+		// 			replacer: path === recordDataFilePath
+		// 				? replacer
+		// 				: null
+		// 		}
+		// 	);
+		// }
 	}
 }
 

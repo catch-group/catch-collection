@@ -6,13 +6,13 @@
 		"First": "-0.31000048, -0.31000048, -4.7683716E-07",
 		"Second": "0.31000048, 0.31000048, 1.8000004"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "19475",
@@ -39,44 +39,44 @@
 		},
 		{
 			"ActorValue": "0002C3:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C4:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002C5:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C6:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002C7:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C8:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002D4:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002D5:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		},
 		{
 			"ActorValue": "0002CC:Starfield.esm",
-			"Value": 15
+			"Value": 15.0
 		},
 		{
 			"ActorValue": "0002CD:Starfield.esm",
-			"Value": 45
+			"Value": 45.0
 		}
 	],
 	"Items": [

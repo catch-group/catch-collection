@@ -1,6 +1,8 @@
 import {
-	alphabetical, isPlainObject, set, traverse
+	isPlainObject, set, traverse
 } from "@radashi-org/radashi";
+
+import { fixJsonForMutagen } from "./format-json-file/_exports.js";
 
 const {
 	readTextFile,
@@ -17,9 +19,11 @@ const {
 const formatJsonFile = async (filePath, { replacer } = {}) => {
 	const fileContent = await readTextFile(filePath);
 
-	const parsedJson = JSON.parse(fileContent);
+	const parsedJson = JSON.parse(JSON.stringify(JSON.parse(fileContent), replacer));
 
-	let sortedParsedJson = {};
+	let sortedParsedJson = {
+		...parsedJson
+	};
 
 	traverse(
 		parsedJson,
@@ -27,16 +31,26 @@ const formatJsonFile = async (filePath, { replacer } = {}) => {
 			sortedParsedJson = set(sortedParsedJson, path.join("."), isPlainObject(value)
 				? Object.fromEntries(
 					Object.entries(value)
-						.toSorted(([keyA], [keyB]) => keyA.localeCompare(keyB))
+						.toSorted(([keyA], [keyB]) => (
+							keyA === "MutagenObjectType"
+								? -1
+								: (
+									keyB === "MutagenObjectType"
+										? 1
+										: keyA.localeCompare(keyB, "en", { numeric: true })
+								)
+						))
 				)
 				: value);
 		},
 		{ rootNeedsVisit: true }
 	);
 
-	const formattedJson = JSON.stringify(sortedParsedJson, replacer, "\t");
+	const formattedJson = JSON.stringify(sortedParsedJson, null, "\t");
 
-	await writeTextFile(filePath, formattedJson);
+	const fixedJson = fixJsonForMutagen(formattedJson);
+
+	await writeTextFile(filePath, fixedJson);
 };
 
 export default formatJsonFile;

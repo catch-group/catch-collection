@@ -6,14 +6,14 @@
 		"First": "-0.591797, -0.3623047, 0",
 		"Second": "0.59179676, 1.0341797, 1.2373047"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Female",
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "27664",
@@ -66,15 +66,15 @@
 		},
 		{
 			"ActorValue": "0002D5:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		},
 		{
 			"ActorValue": "0002CC:Starfield.esm",
-			"Value": 15
+			"Value": 15.0
 		}
 	],
 	"Items": [
@@ -274,11 +274,11 @@
 					"MorphGroup": "Ears"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Eyes"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Jaw"
 				},
 				{
@@ -320,11 +320,11 @@
 		},
 		{
 			"BlendName": "female_eu_md2_Eyes",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_eu_md2_Jaw",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_eu_md2_Mouth",

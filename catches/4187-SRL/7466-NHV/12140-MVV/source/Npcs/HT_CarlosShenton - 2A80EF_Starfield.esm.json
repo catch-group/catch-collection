@@ -6,13 +6,13 @@
 		"First": "-0.31000048, -0.31000048, -4.7683716E-07",
 		"Second": "0.31000048, 0.31000048, 1.8000004"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"Factions": [
@@ -55,7 +55,7 @@
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		}
 	],
 	"Items": [
@@ -137,7 +137,7 @@
 	"FaceDialPositions": [
 		{
 			"Index": 24,
-			"Position": 1
+			"Position": 1.0
 		},
 		{
 			"Index": 27,
@@ -157,23 +157,23 @@
 		},
 		{
 			"Index": 58,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 60,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 65,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 67,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 69,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 70,
@@ -209,39 +209,39 @@
 			"Index": 12,
 			"MorphGroups": [
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Cheeks"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Chin"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Ears"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Eyes"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Forehead"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Jaw"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Mouth"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Neck"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Nose"
 				}
 			]
@@ -270,23 +270,23 @@
 		},
 		{
 			"BlendName": "male_eu_md2_Cheeks",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_md2_Forehead",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_md2_Jaw",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_md2_Mouth",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_md2_Neck",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_md2_Nose",

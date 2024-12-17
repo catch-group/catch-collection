@@ -58,8 +58,8 @@
 						"Name": "NHAliasDisableOnUnloadScript",
 						"Properties": [
 							{
-								"Data": 11,
 								"MutagenObjectType": "ScriptIntProperty",
+								"Data": 11,
 								"Name": "StagePrereq"
 							}
 						]
@@ -77,8 +77,8 @@
 						"Name": "NHAliasDisableOnUnloadScript",
 						"Properties": [
 							{
-								"Data": 11,
 								"MutagenObjectType": "ScriptIntProperty",
+								"Data": 11,
 								"Name": "StagePrereq"
 							}
 						]
@@ -390,62 +390,62 @@
 					"Object": "00ABF9:Starfield.esm"
 				},
 				{
-					"Alias": 51,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 51,
 					"Name": "Alias_AllMiners",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 10,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 10,
 					"Name": "Alias_GillySeong",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 16,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 16,
 					"Name": "Alias_JaneWeller",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 18,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 18,
 					"Name": "Alias_LaylahPulaski",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 50,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 50,
 					"Name": "Alias_OldMiningEquipment",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 44,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 44,
 					"Name": "Alias_SaoirseBowden",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 33,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 33,
 					"Name": "Alias_SupervisorIntroMarker",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 27,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 27,
 					"Name": "Alias_TiaWu",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 49,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 49,
 					"Name": "Alias_TrackerAgent",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 43,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 43,
 					"Name": "Alias_TrevorMarker",
 					"Object": "24AFED:Starfield.esm"
 				},
@@ -545,8 +545,8 @@
 					"Object": "20B4B9:Starfield.esm"
 				},
 				{
-					"Alias": 7,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 7,
 					"Name": "DenisAverin",
 					"Object": "24AFED:Starfield.esm"
 				},
@@ -641,8 +641,8 @@
 					"Object": "24348C:Starfield.esm"
 				},
 				{
-					"Alias": 3,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 3,
 					"Name": "MitchBenjamin",
 					"Object": "24AFED:Starfield.esm"
 				},
@@ -657,14 +657,14 @@
 					"Object": "216D3D:Starfield.esm"
 				},
 				{
-					"Alias": 23,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 23,
 					"Name": "ReneeShelby",
 					"Object": "24AFED:Starfield.esm"
 				},
 				{
-					"Alias": 24,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 24,
 					"Name": "RivkahOvadia",
 					"Object": "24AFED:Starfield.esm"
 				},
@@ -674,8 +674,8 @@
 					"Object": "227FD7:Starfield.esm"
 				},
 				{
-					"Alias": 28,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 28,
 					"Name": "TrevorPetyarre",
 					"Object": "24AFED:Starfield.esm"
 				},
@@ -697,13 +697,13 @@
 							{
 								"Members": [
 									{
+										"MutagenObjectType": "ScriptIntProperty",
 										"Data": 12,
-										"MutagenObjectType": "ScriptIntProperty",
 										"Name": "StageToSet"
 									},
 									{
-										"Alias": 0,
 										"MutagenObjectType": "ScriptObjectProperty",
+										"Alias": 0,
 										"Name": "targetLocationAlias",
 										"Object": "24AFED:Starfield.esm"
 									}
@@ -712,8 +712,8 @@
 							{
 								"Members": [
 									{
+										"MutagenObjectType": "ScriptIntProperty",
 										"Data": 1120,
-										"MutagenObjectType": "ScriptIntProperty",
 										"Name": "PrereqStage"
 									},
 									{
@@ -721,13 +721,13 @@
 										"Name": "SetStageOnEnterLocation"
 									},
 									{
-										"Data": 1130,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 1130,
 										"Name": "StageToSet"
 									},
 									{
-										"Alias": 0,
 										"MutagenObjectType": "ScriptObjectProperty",
+										"Alias": 0,
 										"Name": "targetLocationAlias",
 										"Object": "24AFED:Starfield.esm"
 									}
@@ -736,8 +736,8 @@
 							{
 								"Members": [
 									{
-										"Data": 500,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 500,
 										"Name": "PrereqStage"
 									},
 									{
@@ -745,13 +745,13 @@
 										"Name": "SetStageOnEnterLocation"
 									},
 									{
-										"Data": 510,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 510,
 										"Name": "StageToSet"
 									},
 									{
-										"Alias": 0,
 										"MutagenObjectType": "ScriptObjectProperty",
+										"Alias": 0,
 										"Name": "targetLocationAlias",
 										"Object": "24AFED:Starfield.esm"
 									}
@@ -776,19 +776,19 @@
 							{
 								"Members": [
 									{
-										"Data": 10,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 10,
 										"Name": "StageToSet"
 									},
 									{
-										"Alias": 28,
 										"MutagenObjectType": "ScriptObjectProperty",
+										"Alias": 28,
 										"Name": "TargetAlias",
 										"Object": "24AFED:Starfield.esm"
 									},
 									{
-										"Data": 10,
 										"MutagenObjectType": "ScriptFloatProperty",
+										"Data": 10.0,
 										"Name": "TargetDistance"
 									}
 								]
@@ -801,8 +801,8 @@
 				"Name": "DialogueCydoniaQuestScript",
 				"Properties": [
 					{
-						"Alias": 51,
 						"MutagenObjectType": "ScriptObjectProperty",
+						"Alias": 51,
 						"Name": "AllMiners",
 						"Object": "24AFED:Starfield.esm"
 					},
@@ -2780,227 +2780,227 @@
 	],
 	"Aliases": [
 		{
+			"MutagenObjectType": "QuestLocationAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
-			"MutagenObjectType": "QuestLocationAlias",
 			"Name": "Cydonia",
 			"SpecificLocation": "015FF7:Starfield.esm"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 1,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "AndresJensen",
 			"UniqueActor": "255D21:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 2,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "AnnaImani",
 			"UniqueActor": "255D12:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 3,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "MitchBenjamin",
 			"UniqueActor": "255D20:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 4,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Booth",
 			"UniqueActor": "255D1F:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 6,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "CharlieFlynn",
 			"UniqueActor": "255D11:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 46,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "DemelzaMyers",
 			"UniqueActor": "09B6B3:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 7,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "DenisAverin",
 			"UniqueActor": "255D1E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 8,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ErickVonPrice",
 			"UniqueActor": "255D1D:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 9,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "GauriLimsong",
 			"UniqueActor": "255D10:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 10,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "GillySeong",
 			"UniqueActor": "255D0F:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 11,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "GlenHurst",
 			"UniqueActor": "255D1C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 12,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "HenryFerraro",
 			"UniqueActor": "255D1A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 13,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "HorusGamal",
 			"UniqueActor": "255D19:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 14,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "IfeanyiAdigwe",
 			"UniqueActor": "255D18:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 15,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Jack",
 			"UniqueActor": "28A2B9:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 16,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "JaneWeller",
 			"UniqueActor": "255D0E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 17,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "JoyBryant",
 			"UniqueActor": "255D0D:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 18,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "LaylahPulaski",
 			"UniqueActor": "255D0C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 19,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "LeonaHawkes",
 			"UniqueActor": "255D0B:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 45,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ManaakiAlmonte",
 			"UniqueActor": "09DBA3:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 20,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Noam",
 			"UniqueActor": "255D07:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 21,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "PeterBrennan",
 			"UniqueActor": "255D17:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 23,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ReneeShelby",
 			"UniqueActor": "255D0A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 24,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "RivkahOvadia",
 			"PackageData": [
 				"2F17EB:Starfield.esm"
@@ -3009,60 +3009,61 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 25,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "SamundBergRamirez",
 			"UniqueActor": "255D16:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 44,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "SaoirseBowden",
 			"UniqueActor": "262CC5:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 26,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "TayeImani",
 			"UniqueActor": "255D15:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 27,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "TiaWu",
 			"UniqueActor": "255D08:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 28,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "TrevorPetyarre",
 			"UniqueActor": "255D14:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 29,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "VincentWoodard",
 			"UniqueActor": "255D13:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 33,
@@ -3070,11 +3071,11 @@
 				"AliasID": 0,
 				"RefType": "24AFD8:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "SupervisorIntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 37,
@@ -3082,11 +3083,11 @@
 				"AliasID": 0,
 				"RefType": "24AFD6:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Miner01IntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 34,
@@ -3094,11 +3095,11 @@
 				"AliasID": 0,
 				"RefType": "24AFD7:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Miner02IntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"CreateReferenceToObject": {
 				"AliasID": 37,
@@ -3116,7 +3117,6 @@
 			"Keywords": [
 				"3CA246:Starfield.esm"
 			],
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "IntroMiner01",
 			"PackageData": [
 				"20B4BF:Starfield.esm",
@@ -3125,6 +3125,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"CreateReferenceToObject": {
 				"AliasID": 34,
@@ -3142,7 +3143,6 @@
 			"Keywords": [
 				"3CA246:Starfield.esm"
 			],
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "IntroMiner02",
 			"PackageData": [
 				"20B4BE:Starfield.esm",
@@ -3151,6 +3151,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"CreateRefTemp"
@@ -3160,7 +3161,6 @@
 				"AliasID": 0,
 				"RefType": "20B4C1:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "IntroChair01",
 			"PackageData": [
 				"240488:Starfield.esm"
@@ -3168,6 +3168,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"CreateRefTemp"
@@ -3177,7 +3178,6 @@
 				"AliasID": 0,
 				"RefType": "20B4C0:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "IntroChair02",
 			"PackageData": [
 				"240488:Starfield.esm"
@@ -3185,6 +3185,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"External": {
 				"AliasID": 0,
@@ -3197,20 +3198,20 @@
 				"OptionalAllScenes"
 			],
 			"ID": 35,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Companion",
 			"VoiceTypes": "02935D:Starfield.esm"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 36,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Player",
 			"UniqueActor": "000007:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -3230,10 +3231,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -3253,10 +3254,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 43,
@@ -3264,38 +3265,38 @@
 				"AliasID": 0,
 				"RefType": "1FA6BB:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "TrevorMarker",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 47,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ChrisCullen",
 			"UniqueActor": "031AC8:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 48,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "WaylonParker",
 			"UniqueActor": "02DD56:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 49,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "TrackerAgent",
 			"UniqueActor": "1D8BDF:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -3316,10 +3317,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -3339,8 +3340,7 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		}
 	]
 }

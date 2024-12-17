@@ -6,14 +6,14 @@
 		"First": "-0.32306919, -0.32306919, -4.969392E-07",
 		"Second": "0.32306919, 0.32306919, 1.8758831"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Respawn",
 		"BleedoutOverride"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"Factions": [
@@ -53,15 +53,15 @@
 		},
 		{
 			"ActorValue": "0002D5:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		},
 		{
 			"ActorValue": "0002CC:Starfield.esm",
-			"Value": 15
+			"Value": 15.0
 		}
 	],
 	"Items": [
@@ -176,7 +176,7 @@
 		},
 		{
 			"Index": 27,
-			"Position": 1
+			"Position": 1.0
 		},
 		{
 			"Index": 28,
@@ -212,7 +212,7 @@
 		},
 		{
 			"Index": 54,
-			"Position": 1
+			"Position": 1.0
 		},
 		{
 			"Index": 58,
@@ -244,7 +244,7 @@
 		},
 		{
 			"Index": 69,
-			"Position": 1
+			"Position": 1.0
 		},
 		{
 			"Index": 70,
@@ -333,7 +333,7 @@
 					"MorphGroup": "Ears"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Jaw"
 				},
 				{
@@ -389,7 +389,7 @@
 					"MorphGroup": "Eyes"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Mouth"
 				}
 			]
@@ -428,11 +428,11 @@
 		},
 		{
 			"BlendName": "male_af_md1_Jaw",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_af_md1_Mouth",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_af_md1_Nose",

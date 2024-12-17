@@ -6,13 +6,13 @@
 		"First": "-0.31000048, -0.31000048, -4.7683716E-07",
 		"Second": "0.31000048, 0.31000048, 1.8000004"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"Factions": [
@@ -55,7 +55,7 @@
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		}
 	],
 	"ForcedLocations": [
@@ -351,15 +351,15 @@
 					"MorphGroup": "Eyes"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Forehead"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Jaw"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Neck"
 				},
 				{
@@ -420,15 +420,15 @@
 		},
 		{
 			"BlendName": "male_as_yo1_Forehead",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_as_yo1_Jaw",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_as_yo1_Neck",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_as_yo1_Nose",

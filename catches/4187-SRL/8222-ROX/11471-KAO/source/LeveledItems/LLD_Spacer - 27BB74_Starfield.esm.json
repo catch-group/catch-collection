@@ -6,8 +6,8 @@
 	"StarfieldMajorRecordFlags": [
 		"VisibleWhenDistant"
 	],
-	"ODTY": 0,
-	"ChanceNone": 5,
+	"ODTY": 0.0,
+	"ChanceNone": 5.0,
 	"MaxCount": 0,
 	"Flags": [
 		"UseAll"
@@ -29,19 +29,19 @@
 			"ChanceNone": 0.85,
 			"Conditions": [
 				{
-					"Data": {
-						"FirstParameter": "1CCFB6:Starfield.esm",
-						"MutagenObjectType": "GetGlobalValueConditionData"
-					},
 					"MutagenObjectType": "ConditionFloat",
+					"Data": {
+						"MutagenObjectType": "GetGlobalValueConditionData",
+						"FirstParameter": "1CCFB6:Starfield.esm"
+					},
 					"Unknown2": 22829
 				},
 				{
-					"Data": {
-						"FirstParameter": "18AE75:Starfield.esm",
-						"MutagenObjectType": "GetIsCurrentLocationConditionData"
-					},
 					"MutagenObjectType": "ConditionFloat",
+					"Data": {
+						"MutagenObjectType": "GetIsCurrentLocationConditionData",
+						"FirstParameter": "18AE75:Starfield.esm"
+					},
 					"Unknown2": 22829
 				}
 			],

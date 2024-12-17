@@ -7,6 +7,7 @@
 	"GameRelease": "Starfield",
 	"ModHeader": {
 		"Author": "Catch Group",
+		"Description": "0.1.0",
 		"Flags": [
 			"Master"
 		],
@@ -18,7 +19,6 @@
 			{
 				"Master": "KZ_AIO.esm"
 			}
-		],
-		"Description": "0.1.0"
+		]
 	}
 }

@@ -2,7 +2,7 @@
 	"FormKey": "285E4B:Starfield.esm",
 	"EditorID": "LLS_Weapon_Ranged_Heavy_ByNPCFaction",
 	"FormVersion": 576,
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"MaxCount": 0,
 	"Flags": [
 		"CalculateFromAllLevelsLessThanOrEqualPlayer",
@@ -10,11 +10,11 @@
 	],
 	"Conditions": [
 		{
-			"Data": {
-				"FirstParameter": "000007:Starfield.esm",
-				"MutagenObjectType": "GetIsIDConditionData"
-			},
 			"MutagenObjectType": "ConditionFloat",
+			"Data": {
+				"MutagenObjectType": "GetIsIDConditionData",
+				"FirstParameter": "000007:Starfield.esm"
+			},
 			"Unknown2": 55300
 		}
 	],
@@ -22,27 +22,27 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE29:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -54,75 +54,75 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE28:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -134,15 +134,15 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE24:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -154,63 +154,63 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE28:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -222,51 +222,51 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "26FB5B:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "26FB5B:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "29A8EF:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "29A8EF:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -278,87 +278,87 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE28:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE24:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -370,87 +370,87 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE24:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE28:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -462,51 +462,51 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -518,51 +518,51 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "26FB5B:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "26FB5B:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E44:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "29A8EF:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "29A8EF:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -574,63 +574,63 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -642,75 +642,75 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE28:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE29:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE24:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -722,27 +722,27 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE29:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -754,27 +754,27 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE29:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -786,27 +786,27 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE27:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE29:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],
@@ -818,51 +818,51 @@
 		{
 			"Conditions": [
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE26:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "04CE25:Starfield.esm",
-						"MutagenObjectType": "GetInFactionConditionData"
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "00D707:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				},
 				{
-					"ComparisonValue": 1,
+					"MutagenObjectType": "ConditionFloat",
+					"ComparisonValue": 1.0,
 					"Data": {
-						"FirstParameter": "285E45:Starfield.esm",
-						"MutagenObjectType": "IsTrueForConditionFormConditionData"
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E45:Starfield.esm"
 					},
 					"Flags": [
 						"OR"
 					],
-					"MutagenObjectType": "ConditionFloat",
 					"Unknown2": 50097
 				}
 			],

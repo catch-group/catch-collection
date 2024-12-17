@@ -6,15 +6,15 @@
 		"First": "-0.828125, -0.46826172, -0.17602539",
 		"Second": "0.7260742, 0.44555664, 0.40625"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"ObjectPlacementDefaults": {
-		"Unknown14": 1,
-		"Unknown16": 1,
-		"Unknown17": 1,
-		"Unknown18": 0.5235988,
-		"Unknown20": 3.4028235e+38,
 		"Unknown5": 7e-45,
-		"Unknown6": 1
+		"Unknown6": 1.0,
+		"Unknown14": 1.0,
+		"Unknown16": 1.0,
+		"Unknown17": 1.0,
+		"Unknown18": 0.5235988,
+		"Unknown20": 3.4028235e+38
 	},
 	"Components": [
 		{
@@ -38,7 +38,7 @@
 	"Properties": [
 		{
 			"ActorValue": "252075:Starfield.esm",
-			"Value": 1
+			"Value": 1.0
 		}
 	],
 	"PNAM": "0xCC4C3300",
@@ -51,9 +51,9 @@
 	"Ingredient": "339FF8:Starfield.esm",
 	"Production": {},
 	"ActionKeyword": "0638EB:Starfield.esm",
-	"BNAM": 200,
-	"FMAH": 1,
-	"FMIH": 1,
+	"BNAM": 200.0,
+	"FMAH": 1.0,
+	"FMIH": 1.0,
 	"MinGlobal": "27A592:Starfield.esm",
 	"Explosion": "2520C3:Starfield.esm",
 	"FHLS": {

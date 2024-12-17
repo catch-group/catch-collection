@@ -6,15 +6,15 @@
 		"First": "-0.591797, -0.3623047, 0",
 		"Second": "0.59179676, 1.0341797, 1.2373047"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Female",
 		"Essential",
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "19482",
@@ -47,44 +47,44 @@
 		},
 		{
 			"ActorValue": "0002C3:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C4:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002C5:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C6:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002C7:Starfield.esm",
-			"Value": 5
+			"Value": 5.0
 		},
 		{
 			"ActorValue": "0002C8:Starfield.esm"
 		},
 		{
 			"ActorValue": "0002D4:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002D5:Starfield.esm",
-			"Value": 50
+			"Value": 50.0
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		},
 		{
 			"ActorValue": "0002CC:Starfield.esm",
-			"Value": 15
+			"Value": 15.0
 		},
 		{
 			"ActorValue": "0002CD:Starfield.esm",
-			"Value": 45
+			"Value": 45.0
 		}
 	],
 	"ForcedLocations": [
@@ -215,7 +215,7 @@
 		},
 		{
 			"Index": 36,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 38,
@@ -243,7 +243,7 @@
 		},
 		{
 			"Index": 54,
-			"Position": 1
+			"Position": 1.0
 		},
 		{
 			"Index": 55,
@@ -259,7 +259,7 @@
 		},
 		{
 			"Index": 69,
-			"Position": -1
+			"Position": -1.0
 		},
 		{
 			"Index": 70,
@@ -275,7 +275,7 @@
 		},
 		{
 			"Index": 79,
-			"Position": -1
+			"Position": -1.0
 		}
 	],
 	"FaceMorphs": [
@@ -283,39 +283,39 @@
 			"Index": 1,
 			"MorphGroups": [
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Cheeks"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Chin"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Ears"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Eyes"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Forehead"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Jaw"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Mouth"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Neck"
 				},
 				{
-					"BlendIntensity": 1,
+					"BlendIntensity": 1.0,
 					"MorphGroup": "Nose"
 				}
 			]
@@ -332,7 +332,7 @@
 		},
 		{
 			"BlendName": "female_af_md1_Neck",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_af_yo1_Mouth",
@@ -348,7 +348,7 @@
 		},
 		{
 			"BlendName": "female_eu_md2_Chin",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_eu_md2_Ears",
@@ -356,11 +356,11 @@
 		},
 		{
 			"BlendName": "female_eu_md2_Forehead",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_eu_md2_Jaw",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "female_eu_md2_Mouth",
@@ -368,7 +368,7 @@
 		},
 		{
 			"BlendName": "female_eu_md2_Nose",
-			"Intensity": 1
+			"Intensity": 1.0
 		},
 		{
 			"BlendName": "male_eu_yo1_Neck",

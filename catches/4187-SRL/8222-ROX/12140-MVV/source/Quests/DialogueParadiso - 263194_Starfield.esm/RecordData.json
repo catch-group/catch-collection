@@ -20,13 +20,13 @@
 								"Object": "0EE436:Starfield.esm"
 							},
 							{
-								"Data": 300,
 								"MutagenObjectType": "ScriptIntProperty",
+								"Data": 300,
 								"Name": "StageToSet"
 							},
 							{
-								"Data": 300,
 								"MutagenObjectType": "ScriptIntProperty",
+								"Data": 300,
 								"Name": "TurnOffStageDone"
 							}
 						]
@@ -44,8 +44,8 @@
 						"Name": "DefaultAliasOnTriggerEnter",
 						"Properties": [
 							{
-								"Data": 600,
 								"MutagenObjectType": "ScriptIntProperty",
+								"Data": 600,
 								"Name": "StageToSet"
 							}
 						]
@@ -191,68 +191,68 @@
 			"Name": "Fragments:Quests:QF_DialogueParadiso_00263194",
 			"Properties": [
 				{
-					"Alias": 29,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 29,
 					"Name": "Alias_BoardRoomDoor",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 2,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 2,
 					"Name": "Alias_ChiefJiro",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 25,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 25,
 					"Name": "Alias_Daisuke",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 4,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 4,
 					"Name": "Alias_Dirk",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 40,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 40,
 					"Name": "Alias_ECSTransplantSlate",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 5,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 5,
 					"Name": "Alias_Emilian",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 24,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 24,
 					"Name": "Alias_Jacquotte",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 8,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 8,
 					"Name": "Alias_Kumar",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 39,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 39,
 					"Name": "Alias_NamedECSNPCs",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 31,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 31,
 					"Name": "Alias_NPCsToDisableExt",
 					"Object": "263194:Starfield.esm"
 				},
 				{
-					"Alias": 34,
 					"MutagenObjectType": "ScriptObjectProperty",
+					"Alias": 34,
 					"Name": "Alias_NPCsToEnableExt",
 					"Object": "263194:Starfield.esm"
 				},
@@ -427,8 +427,8 @@
 										"Name": "SetStageOnEnterLocation"
 									},
 									{
-										"Data": 50,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 50,
 										"Name": "StageToSet"
 									},
 									{
@@ -445,8 +445,8 @@
 										"Name": "CheckPlayerShip"
 									},
 									{
-										"Data": 2000,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 2000,
 										"Name": "PrereqStage"
 									},
 									{
@@ -454,8 +454,8 @@
 										"Name": "SetStageOnEnterLocation"
 									},
 									{
-										"Data": 2010,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 2010,
 										"Name": "StageToSet"
 									},
 									{
@@ -484,19 +484,19 @@
 							{
 								"Members": [
 									{
-										"Data": 25,
 										"MutagenObjectType": "ScriptIntProperty",
+										"Data": 25,
 										"Name": "StageToSet"
 									},
 									{
-										"Alias": 9,
 										"MutagenObjectType": "ScriptObjectProperty",
+										"Alias": 9,
 										"Name": "TargetAlias",
 										"Object": "263194:Starfield.esm"
 									},
 									{
-										"Data": 20,
 										"MutagenObjectType": "ScriptFloatProperty",
+										"Data": 20.0,
 										"Name": "TargetDistance"
 									}
 								]
@@ -1435,134 +1435,134 @@
 	],
 	"Aliases": [
 		{
+			"MutagenObjectType": "QuestLocationAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
 			"ID": 21,
-			"MutagenObjectType": "QuestLocationAlias",
 			"Name": "Paradiso",
 			"SpecificLocation": "26310D:Starfield.esm"
 		},
 		{
+			"MutagenObjectType": "QuestLocationAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
 			"ID": 23,
-			"MutagenObjectType": "QuestLocationAlias",
 			"Name": "ParadisoInterior",
 			"SpecificLocation": "15F5AD:Starfield.esm"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowDisabled"
 			],
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "AjaMamasa",
 			"UniqueActor": "2BACF8:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 1,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Balam",
 			"UniqueActor": "263109:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 2,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ChiefJiro",
 			"UniqueActor": "263169:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 3,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Clara",
 			"UniqueActor": "263107:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"Optional"
 			],
 			"ID": 25,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Daisuke",
 			"UniqueActor": "28B39C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 4,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Dirk",
 			"UniqueActor": "263104:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 5,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Emilian",
 			"UniqueActor": "263106:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 6,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Harish",
 			"UniqueActor": "26316B:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 24,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Jacquotte",
 			"UniqueActor": "15D3C1:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 7,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Keavy",
 			"UniqueActor": "263167:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 8,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Kumar",
 			"UniqueActor": "263165:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 9,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Muhammad",
 			"PackageData": [
 				"15F5B1:Starfield.esm",
@@ -1572,83 +1572,84 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 10,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Oliver",
 			"UniqueActor": "263161:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 11,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Polly",
 			"UniqueActor": "263160:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 12,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Sima",
 			"UniqueActor": "26315E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 13,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Viator",
 			"UniqueActor": "26315A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 14,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Violet",
 			"UniqueActor": "26315C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowDead",
 				"AllowDisabled"
 			],
 			"ID": 27,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Corbin",
 			"UniqueActor": "1C3895:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 38,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Simon",
 			"UniqueActor": "325C18:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"StoresText"
 			],
 			"ID": 19,
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "Player",
 			"UniqueActor": "000007:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 20,
@@ -1656,11 +1657,11 @@
 				"AliasID": 23,
 				"RefType": "1CF5EE:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "KeavySceneTrigger",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 22,
@@ -1668,11 +1669,11 @@
 				"AliasID": 23,
 				"RefType": "1CF5EF:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "BoardroomSceneTrigger",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 26,
@@ -1680,11 +1681,11 @@
 				"AliasID": 21,
 				"RefType": "15D3BA:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ConciergeComputer",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 29,
@@ -1692,11 +1693,11 @@
 				"AliasID": 23,
 				"RefType": "04842E:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "BoardRoomDoor",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -1715,10 +1716,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -1737,10 +1738,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 35,
@@ -1748,7 +1749,6 @@
 				"AliasID": 21,
 				"RefType": "04555F:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "MeditationNPC01",
 			"PackageData": [
 				"045557:Starfield.esm",
@@ -1757,6 +1757,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [],
 			"ID": 36,
@@ -1764,7 +1765,6 @@
 				"AliasID": 21,
 				"RefType": "04555E:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "MeditationNPC02",
 			"PackageData": [
 				"045557:Starfield.esm",
@@ -1773,6 +1773,7 @@
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"DisplayName": "045563:Starfield.esm",
 			"Flags": [
@@ -1783,11 +1784,11 @@
 				"AliasID": 21,
 				"RefType": "045567:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "FrontDeskGreeter",
 			"VoiceTypes": "1D0454:Starfield.esm"
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -1810,10 +1811,10 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		},
 		{
+			"MutagenObjectType": "QuestReferenceAlias",
 			"ALFG": 0,
 			"Flags": [
 				"AllowDisabled"
@@ -1823,11 +1824,11 @@
 				"AliasID": 21,
 				"RefType": "394392:Starfield.esm"
 			},
-			"MutagenObjectType": "QuestReferenceAlias",
 			"Name": "ECSTransplantSlate",
 			"VoiceTypes": "Null"
 		},
 		{
+			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
 					"ALAM": 0,
@@ -1853,8 +1854,7 @@
 						"VoiceTypes": "Null"
 					}
 				}
-			],
-			"MutagenObjectType": "QuestCollectionAlias"
+			]
 		}
 	]
 }

@@ -6,13 +6,13 @@
 		"First": "-0.31000048, -0.31000048, -4.7683716E-07",
 		"Second": "0.31000048, 0.31000048, 1.8000004"
 	},
-	"ODTY": 0,
+	"ODTY": 0.0,
 	"Flags": [
 		"Unique"
 	],
 	"Level": {
-		"Level": 1,
-		"MutagenObjectType": "NpcLevel"
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
 	},
 	"DispositionBase": 35,
 	"Factions": [
@@ -52,7 +52,7 @@
 		},
 		{
 			"ActorValue": "0002DA:Starfield.esm",
-			"Value": 100
+			"Value": 100.0
 		}
 	],
 	"Items": [

@@ -31,13 +31,13 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
+									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
 									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
 										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm",
 										"RunOnType": "Target"
-									},
-									"MutagenObjectType": "ConditionFloat"
+									}
 								}
 							],
 							"Name": "Flora"
@@ -60,16 +60,17 @@
 					"Stage": 501
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 16612
 								}
 							],
@@ -78,12 +79,12 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 16612
 								}
 							],
@@ -92,23 +93,23 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 0,
 					"Priority": 1,
 					"Value": 0.05
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 16612
 								}
 							],
@@ -117,11 +118,11 @@
 						{
 							"Conditions": [
 								{
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 16612
 								}
 							],
@@ -130,11 +131,10 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 10,
 					"Priority": 2,
-					"Value": 100
+					"Value": 100.0
 				}
 			]
 		},
@@ -152,13 +152,13 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
+									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
 									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
 										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm",
 										"RunOnType": "Target"
-									},
-									"MutagenObjectType": "ConditionFloat"
+									}
 								}
 							],
 							"Name": "Flora"
@@ -182,16 +182,17 @@
 					"Stage": 502
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -200,12 +201,12 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -214,7 +215,6 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 1,
 					"Priority": 1,
@@ -222,16 +222,17 @@
 					"Value": 0.05
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -240,11 +241,11 @@
 						{
 							"Conditions": [
 								{
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -253,12 +254,11 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 11,
 					"Priority": 2,
 					"Rank": 1,
-					"Value": 125
+					"Value": 125.0
 				}
 			]
 		},
@@ -276,13 +276,13 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
+									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
 									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
 										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm",
 										"RunOnType": "Target"
-									},
-									"MutagenObjectType": "ConditionFloat"
+									}
 								}
 							],
 							"Name": "Flora"
@@ -306,16 +306,17 @@
 					"Stage": 503
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -324,12 +325,12 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -338,7 +339,6 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 2,
 					"Priority": 1,
@@ -346,16 +346,17 @@
 					"Value": 0.05
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -364,11 +365,11 @@
 						{
 							"Conditions": [
 								{
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -377,12 +378,11 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 12,
 					"Priority": 2,
 					"Rank": 2,
-					"Value": 150
+					"Value": 150.0
 				}
 			]
 		},
@@ -393,25 +393,26 @@
 			},
 			"Effects": [
 				{
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm"
+									},
 									"Unknown2": 22450
 								},
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "2C3B5B:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "2C3B5B:Starfield.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -420,31 +421,31 @@
 					],
 					"EntryPoint": "AddHarvestedItems",
 					"Item": "2C3B5C:Starfield.esm",
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"PerkConditionTabCount": 2,
 					"PerkEntryID": 5,
 					"Rank": 3
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm"
+									},
 									"Unknown2": 22450
 								},
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "2C3B59:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "2C3B59:Starfield.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -453,31 +454,31 @@
 					],
 					"EntryPoint": "AddHarvestedItems",
 					"Item": "2C3B5E:Starfield.esm",
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"PerkConditionTabCount": 2,
 					"PerkEntryID": 6,
 					"Rank": 3
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "222E04:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "222E04:Starfield.esm"
+									},
 									"Unknown2": 22450
 								},
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "2C3B5A:Starfield.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "2C3B5A:Starfield.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -486,22 +487,22 @@
 					],
 					"EntryPoint": "AddHarvestedItems",
 					"Item": "2C3B5D:Starfield.esm",
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
 					"PerkConditionTabCount": 2,
 					"PerkEntryID": 7,
 					"Rank": 3
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -510,12 +511,12 @@
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -524,7 +525,6 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 3,
 					"Priority": 1,
@@ -532,16 +532,17 @@
 					"Value": 0.05
 				},
 				{
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"Conditions": [
 						{
 							"Conditions": [
 								{
-									"ComparisonValue": 1,
-									"Data": {
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "HasKeywordConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1.0,
+									"Data": {
+										"MutagenObjectType": "HasKeywordConditionData",
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -550,11 +551,11 @@
 						{
 							"Conditions": [
 								{
-									"Data": {
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
-										"MutagenObjectType": "IsTrueForConditionFormConditionData"
-									},
 									"MutagenObjectType": "ConditionFloat",
+									"Data": {
+										"MutagenObjectType": "IsTrueForConditionFormConditionData",
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+									},
 									"Unknown2": 22450
 								}
 							],
@@ -563,12 +564,11 @@
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
 					"Modification": "Multiply",
-					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 13,
 					"Priority": 2,
 					"Rank": 3,
-					"Value": 175
+					"Value": 175.0
 				}
 			]
 		}
