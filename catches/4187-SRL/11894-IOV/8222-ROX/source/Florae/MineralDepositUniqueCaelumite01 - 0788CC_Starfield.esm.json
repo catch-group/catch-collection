@@ -1,63 +1,63 @@
 {
-  "FormKey": "0788CC:Starfield.esm",
-  "EditorID": "MineralDepositUniqueCaelumite01",
-  "FormVersion": 576,
-  "ObjectBounds": {
-    "First": "-0.828125, -0.46826172, -0.17602539",
-    "Second": "0.7260742, 0.44555664, 0.40625"
-  },
-  "ODTY": 0.0,
-  "ObjectPlacementDefaults": {
-    "Unknown5": 7E-45,
-    "Unknown6": 1.0,
-    "Unknown14": 1.0,
-    "Unknown16": 1.0,
-    "Unknown17": 1.0,
-    "Unknown18": 0.5235988,
-    "Unknown20": 3.4028235E+38
-  },
-  "Components": [
-    {
-      "MutagenObjectType": "ScannableComponent"
-    }
-  ],
-  "Name": {
-    "TargetLanguage": "English",
-    "Value": "Caelumite Deposit"
-  },
-  "Model": {
-    "File": "Landscape\\Resources\\FloraCrystalDeposit\\FloraCrystalDeposit01.nif",
-    "FLLD": "0x01000000"
-  },
-  "Keywords": [
-    "06FB66:Starfield.esm",
-    "200AE4:Starfield.esm",
-    "222E04:Starfield.esm",
-    "2C3B5B:Starfield.esm"
-  ],
-  "Properties": [
-    {
-      "ActorValue": "252075:Starfield.esm",
-      "Value": 1.0
-    }
-  ],
-  "PNAM": "0xCC4C3300",
-  "ActivateTextOverride": {
-    "TargetLanguage": "English",
-    "Value": "Harvest"
-  },
-  "FNAM": "0x0000",
-  "JNAM": "0x6801",
-  "Ingredient": "339FF8:Starfield.esm",
-  "Production": {},
-  "ActionKeyword": "0638EB:Starfield.esm",
-  "BNAM": 200.0,
-  "FMAH": 1.0,
-  "FMIH": 1.0,
-  "MinGlobal": "27A592:Starfield.esm",
-  "Explosion": "2520C3:Starfield.esm",
-  "FHLS": {
-    "Start": "e5614c75-1eb8-3786-d7ac-a575aa701f86",
-    "Stop": "b5424e57-f6c7-866d-10c7-d85fa52a03a9"
-  }
+	"FormKey": "0788CC:Starfield.esm",
+	"EditorID": "MineralDepositUniqueCaelumite01",
+	"FormVersion": 576,
+	"ObjectBounds": {
+		"First": "-0.828125, -0.46826172, -0.17602539",
+		"Second": "0.7260742, 0.44555664, 0.40625"
+	},
+	"ODTY": 0,
+	"ObjectPlacementDefaults": {
+		"Unknown5": 7e-45,
+		"Unknown6": 1,
+		"Unknown14": 1,
+		"Unknown16": 1,
+		"Unknown17": 1,
+		"Unknown18": 0.5235988,
+		"Unknown20": 3.4028235e+38
+	},
+	"Components": [
+		{
+			"MutagenObjectType": "ScannableComponent"
+		}
+	],
+	"Name": {
+		"TargetLanguage": "English",
+		"Value": "Caelumite Deposit"
+	},
+	"Model": {
+		"File": "Landscape\\Resources\\FloraCrystalDeposit\\FloraCrystalDeposit01.nif",
+		"FLLD": "0x01000000"
+	},
+	"Keywords": [
+		"06FB66:Starfield.esm",
+		"200AE4:Starfield.esm",
+		"222E04:Starfield.esm",
+		"2C3B5B:Starfield.esm"
+	],
+	"Properties": [
+		{
+			"ActorValue": "252075:Starfield.esm",
+			"Value": 1
+		}
+	],
+	"PNAM": "0xCC4C3300",
+	"ActivateTextOverride": {
+		"TargetLanguage": "English",
+		"Value": "Harvest"
+	},
+	"FNAM": "0x0000",
+	"JNAM": "0x6801",
+	"Ingredient": "339FF8:Starfield.esm",
+	"Production": {},
+	"ActionKeyword": "0638EB:Starfield.esm",
+	"BNAM": 200,
+	"FMAH": 1,
+	"FMIH": 1,
+	"MinGlobal": "27A592:Starfield.esm",
+	"Explosion": "2520C3:Starfield.esm",
+	"FHLS": {
+		"Start": "e5614c75-1eb8-3786-d7ac-a575aa701f86",
+		"Stop": "b5424e57-f6c7-866d-10c7-d85fa52a03a9"
+	}
 }

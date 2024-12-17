@@ -1,350 +1,350 @@
 {
-  "FormKey": "0DA258:Starfield.esm",
-  "EditorID": "UC_NA_AltagraciaGonzalez",
-  "FormVersion": 576,
-  "ObjectBounds": {
-    "First": "-0.591797, -0.3623047, 0",
-    "Second": "0.59179676, 1.0341797, 1.2373047"
-  },
-  "ODTY": 0.0,
-  "ObjectPlacementDefaults": {
-    "Unknown5": 4E-45,
-    "Unknown6": 1.0,
-    "Unknown14": 1.0,
-    "Unknown16": 1.0,
-    "Unknown17": 1.0,
-    "Unknown20": 3.4028235E+38
-  },
-  "Flags": [
-    "Female",
-    "Essential",
-    "Unique"
-  ],
-  "Level": {
-    "MutagenObjectType": "NpcLevel",
-    "Level": 1
-  },
-  "DispositionBase": 35,
-  "UseTemplateActors": "27666",
-  "Factions": [
-    {
-      "Faction": "052ADB:Starfield.esm"
-    },
-    {
-      "Faction": "05BD93:Starfield.esm"
-    }
-  ],
-  "Voice": "2BCA36:Starfield.esm",
-  "DefaultTemplate": "2B2122:Starfield.esm",
-  "TemplateActors": {
-    "StatsTemplate": "2B2122:Starfield.esm",
-    "AiDataTemplate": "2B2122:Starfield.esm",
-    "DefPackListTemplate": "2B2122:Starfield.esm",
-    "AttackDataTemplate": "2B2122:Starfield.esm",
-    "Unknown1": "2B2122:Starfield.esm",
-    "Unknown2": "2B2122:Starfield.esm"
-  },
-  "Race": "00347D:Starfield.esm",
-  "CombatOverridePackageList": "0102ED:Starfield.esm",
-  "Properties": [
-    {
-      "ActorValue": "0002C2:Starfield.esm"
-    },
-    {
-      "ActorValue": "0002C3:Starfield.esm",
-      "Value": 5.0
-    },
-    {
-      "ActorValue": "0002C4:Starfield.esm"
-    },
-    {
-      "ActorValue": "0002C5:Starfield.esm",
-      "Value": 5.0
-    },
-    {
-      "ActorValue": "0002C6:Starfield.esm"
-    },
-    {
-      "ActorValue": "0002C7:Starfield.esm",
-      "Value": 5.0
-    },
-    {
-      "ActorValue": "0002C8:Starfield.esm"
-    },
-    {
-      "ActorValue": "0002D4:Starfield.esm",
-      "Value": 50.0
-    },
-    {
-      "ActorValue": "0002D5:Starfield.esm",
-      "Value": 50.0
-    },
-    {
-      "ActorValue": "0002DA:Starfield.esm",
-      "Value": 100.0
-    },
-    {
-      "ActorValue": "0002CC:Starfield.esm",
-      "Value": 15.0
-    },
-    {
-      "ActorValue": "0002CD:Starfield.esm",
-      "Value": 45.0
-    }
-  ],
-  "Items": [
-    {
-      "Item": {
-        "Item": "2B1A22:Starfield.esm",
-        "Count": 1
-      }
-    }
-  ],
-  "EnergyLevel": 50,
-  "Responsibility": "NoCrime",
-  "Assistance": "HelpsAllies",
-  "Packages": [
-    "105EAA:Starfield.esm",
-    "002124:Catch - 7466-NHV - 12140-MVV.esm"
-  ],
-  "Keywords": [
-    "022E49:Starfield.esm"
-  ],
-  "Class": "010B2F:Starfield.esm",
-  "Name": {
-    "TargetLanguage": "English",
-    "Value": "Altagracia Gonzalez"
-  },
-  "ShortName": {
-    "TargetLanguage": "English",
-    "Value": "Altagracia"
-  },
-  "CalculatedHealth": 145,
-  "CalculatedActionPoints": 50,
-  "GearedUpWeapons": 1,
-  "HeadParts": [
-    "012201:Starfield.esm",
-    "012202:Starfield.esm",
-    "012203:Starfield.esm",
-    "0317AE:Starfield.esm",
-    "0317AF:Starfield.esm",
-    "0640B8:Starfield.esm",
-    "078273:Starfield.esm",
-    "13F87C:Starfield.esm",
-    "3A289C:Starfield.esm",
-    "3BE58F:Starfield.esm"
-  ],
-  "CombatStyle": "2C5F7D:Starfield.esm",
-  "NAM5": "0xFF00",
-  "HeightMin": 1.013733,
-  "HeightMax": 1.013733,
-  "Weight": {},
-  "DefaultOutfit": "253B9A:Starfield.esm",
-  "DefaultPackageList": "2C55CA:Starfield.esm",
-  "CrimeFaction": "05BD93:Starfield.esm",
-  "Tints": [
-    {
-      "TintType": "SimpleGroup",
-      "TintGroup": "Dermaesthetic",
-      "TintName": "African_Female_ol1_Sk1",
-      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/female_af_ol1_sk1_derm.dds",
-      "TintColor": "#00000000",
-      "TintIntensity": 44
-    },
-    {
-      "TintType": "SimpleGroup",
-      "TintGroup": "Complexion1",
-      "TintName": "Vitiligo_1",
-      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/test_vitiligo_01_color.dds",
-      "TintColor": "#00000000",
-      "TintIntensity": 37
-    }
-  ],
-  "FaceDialPositions": [
-    {
-      "Index": 67,
-      "Position": -0.43
-    },
-    {
-      "Index": 70,
-      "Position": -0.84
-    }
-  ],
-  "FaceMorphs": [
-    {
-      "Index": 1,
-      "MorphGroups": [
-        {
-          "MorphGroup": "Chin",
-          "BlendIntensity": 0.52
-        },
-        {
-          "MorphGroup": "Jaw",
-          "BlendIntensity": 0.32
-        },
-        {
-          "MorphGroup": "Mouth",
-          "BlendIntensity": 0.15208696
-        }
-      ]
-    },
-    {
-      "Index": 9,
-      "MorphGroups": [
-        {
-          "MorphGroup": "Eyes",
-          "BlendIntensity": 0.4
-        },
-        {
-          "MorphGroup": "Mouth",
-          "BlendIntensity": 0.18434782
-        },
-        {
-          "MorphGroup": "Nose",
-          "BlendIntensity": 0.27
-        }
-      ]
-    },
-    {
-      "Index": 13,
-      "MorphGroups": [
-        {
-          "MorphGroup": "Mouth",
-          "BlendIntensity": 0.11
-        }
-      ]
-    },
-    {
-      "Index": 17,
-      "MorphGroups": [
-        {
-          "MorphGroup": "Eyes",
-          "BlendIntensity": 0.36
-        },
-        {
-          "MorphGroup": "Nose",
-          "BlendIntensity": 0.18132706
-        }
-      ]
-    },
-    {
-      "Index": 19,
-      "MorphGroups": [
-        {
-          "MorphGroup": "Cheeks",
-          "BlendIntensity": 0.38
-        },
-        {
-          "MorphGroup": "Chin",
-          "BlendIntensity": 0.44
-        },
-        {
-          "MorphGroup": "Ears",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Eyes",
-          "BlendIntensity": 0.24
-        },
-        {
-          "MorphGroup": "Forehead",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Jaw",
-          "BlendIntensity": 0.16
-        },
-        {
-          "MorphGroup": "Mouth",
-          "BlendIntensity": 0.1935652
-        },
-        {
-          "MorphGroup": "Neck",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Nose",
-          "BlendIntensity": 0.16737883
-        }
-      ]
-    }
-  ],
-  "MorphBlends": [
-    {
-      "BlendName": "female_af_md1_Eyes",
-      "Intensity": 0.4
-    },
-    {
-      "BlendName": "female_af_md1_Mouth",
-      "Intensity": 0.18434782
-    },
-    {
-      "BlendName": "female_af_md1_Nose",
-      "Intensity": 0.27
-    },
-    {
-      "BlendName": "female_af_yo1_Mouth",
-      "Intensity": 0.11
-    },
-    {
-      "BlendName": "female_as_yo1_Cheeks",
-      "Intensity": 0.38
-    },
-    {
-      "BlendName": "female_as_yo1_Chin",
-      "Intensity": 0.44
-    },
-    {
-      "BlendName": "female_as_yo1_Ears",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "female_as_yo1_Eyes",
-      "Intensity": 0.24
-    },
-    {
-      "BlendName": "female_as_yo1_Forehead",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "female_as_yo1_Jaw",
-      "Intensity": 0.16
-    },
-    {
-      "BlendName": "female_as_yo1_Mouth",
-      "Intensity": 0.1935652
-    },
-    {
-      "BlendName": "female_as_yo1_Neck",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "female_as_yo1_Nose",
-      "Intensity": 0.16737883
-    },
-    {
-      "BlendName": "female_eu_md2_Chin",
-      "Intensity": 0.52
-    },
-    {
-      "BlendName": "female_eu_md2_Jaw",
-      "Intensity": 0.32
-    },
-    {
-      "BlendName": "female_eu_md2_Mouth",
-      "Intensity": 0.15208696
-    },
-    {
-      "BlendName": "female_eu_yo1_Eyes",
-      "Intensity": 0.36
-    },
-    {
-      "BlendName": "female_eu_yo1_Nose",
-      "Intensity": 0.18132706
-    }
-  ],
-  "SkinToneIndex": 3,
-  "HairColor": "Jet",
-  "EyebrowColor": "SaltAndBrown",
-  "Pronoun": "Unspecified"
+	"FormKey": "0DA258:Starfield.esm",
+	"EditorID": "UC_NA_AltagraciaGonzalez",
+	"FormVersion": 576,
+	"ObjectBounds": {
+		"First": "-0.591797, -0.3623047, 0",
+		"Second": "0.59179676, 1.0341797, 1.2373047"
+	},
+	"ODTY": 0,
+	"ObjectPlacementDefaults": {
+		"Unknown5": 4e-45,
+		"Unknown6": 1,
+		"Unknown14": 1,
+		"Unknown16": 1,
+		"Unknown17": 1,
+		"Unknown20": 3.4028235e+38
+	},
+	"Flags": [
+		"Female",
+		"Essential",
+		"Unique"
+	],
+	"Level": {
+		"MutagenObjectType": "NpcLevel",
+		"Level": 1
+	},
+	"DispositionBase": 35,
+	"UseTemplateActors": "27666",
+	"Factions": [
+		{
+			"Faction": "052ADB:Starfield.esm"
+		},
+		{
+			"Faction": "05BD93:Starfield.esm"
+		}
+	],
+	"Voice": "2BCA36:Starfield.esm",
+	"DefaultTemplate": "2B2122:Starfield.esm",
+	"TemplateActors": {
+		"StatsTemplate": "2B2122:Starfield.esm",
+		"AiDataTemplate": "2B2122:Starfield.esm",
+		"DefPackListTemplate": "2B2122:Starfield.esm",
+		"AttackDataTemplate": "2B2122:Starfield.esm",
+		"Unknown1": "2B2122:Starfield.esm",
+		"Unknown2": "2B2122:Starfield.esm"
+	},
+	"Race": "00347D:Starfield.esm",
+	"CombatOverridePackageList": "0102ED:Starfield.esm",
+	"Properties": [
+		{
+			"ActorValue": "0002C2:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C3:Starfield.esm",
+			"Value": 5
+		},
+		{
+			"ActorValue": "0002C4:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C5:Starfield.esm",
+			"Value": 5
+		},
+		{
+			"ActorValue": "0002C6:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C7:Starfield.esm",
+			"Value": 5
+		},
+		{
+			"ActorValue": "0002C8:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002D4:Starfield.esm",
+			"Value": 50
+		},
+		{
+			"ActorValue": "0002D5:Starfield.esm",
+			"Value": 50
+		},
+		{
+			"ActorValue": "0002DA:Starfield.esm",
+			"Value": 100
+		},
+		{
+			"ActorValue": "0002CC:Starfield.esm",
+			"Value": 15
+		},
+		{
+			"ActorValue": "0002CD:Starfield.esm",
+			"Value": 45
+		}
+	],
+	"Items": [
+		{
+			"Item": {
+				"Item": "2B1A22:Starfield.esm",
+				"Count": 1
+			}
+		}
+	],
+	"EnergyLevel": 50,
+	"Responsibility": "NoCrime",
+	"Assistance": "HelpsAllies",
+	"Packages": [
+		"105EAA:Starfield.esm",
+		"002124:Catch - 7466-NHV - 12140-MVV.esm"
+	],
+	"Keywords": [
+		"022E49:Starfield.esm"
+	],
+	"Class": "010B2F:Starfield.esm",
+	"Name": {
+		"TargetLanguage": "English",
+		"Value": "Altagracia Gonzalez"
+	},
+	"ShortName": {
+		"TargetLanguage": "English",
+		"Value": "Altagracia"
+	},
+	"CalculatedHealth": 145,
+	"CalculatedActionPoints": 50,
+	"GearedUpWeapons": 1,
+	"HeadParts": [
+		"012201:Starfield.esm",
+		"012202:Starfield.esm",
+		"012203:Starfield.esm",
+		"0317AE:Starfield.esm",
+		"0317AF:Starfield.esm",
+		"0640B8:Starfield.esm",
+		"078273:Starfield.esm",
+		"13F87C:Starfield.esm",
+		"3A289C:Starfield.esm",
+		"3BE58F:Starfield.esm"
+	],
+	"CombatStyle": "2C5F7D:Starfield.esm",
+	"NAM5": "0xFF00",
+	"HeightMin": 1.013733,
+	"HeightMax": 1.013733,
+	"Weight": {},
+	"DefaultOutfit": "253B9A:Starfield.esm",
+	"DefaultPackageList": "2C55CA:Starfield.esm",
+	"CrimeFaction": "05BD93:Starfield.esm",
+	"Tints": [
+		{
+			"TintType": "SimpleGroup",
+			"TintGroup": "Dermaesthetic",
+			"TintName": "African_Female_ol1_Sk1",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/female_af_ol1_sk1_derm.dds",
+			"TintColor": "#00000000",
+			"TintIntensity": 44
+		},
+		{
+			"TintType": "SimpleGroup",
+			"TintGroup": "Complexion1",
+			"TintName": "Vitiligo_1",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/test_vitiligo_01_color.dds",
+			"TintColor": "#00000000",
+			"TintIntensity": 37
+		}
+	],
+	"FaceDialPositions": [
+		{
+			"Index": 67,
+			"Position": -0.43
+		},
+		{
+			"Index": 70,
+			"Position": -0.84
+		}
+	],
+	"FaceMorphs": [
+		{
+			"Index": 1,
+			"MorphGroups": [
+				{
+					"MorphGroup": "Chin",
+					"BlendIntensity": 0.52
+				},
+				{
+					"MorphGroup": "Jaw",
+					"BlendIntensity": 0.32
+				},
+				{
+					"MorphGroup": "Mouth",
+					"BlendIntensity": 0.15208696
+				}
+			]
+		},
+		{
+			"Index": 9,
+			"MorphGroups": [
+				{
+					"MorphGroup": "Eyes",
+					"BlendIntensity": 0.4
+				},
+				{
+					"MorphGroup": "Mouth",
+					"BlendIntensity": 0.18434782
+				},
+				{
+					"MorphGroup": "Nose",
+					"BlendIntensity": 0.27
+				}
+			]
+		},
+		{
+			"Index": 13,
+			"MorphGroups": [
+				{
+					"MorphGroup": "Mouth",
+					"BlendIntensity": 0.11
+				}
+			]
+		},
+		{
+			"Index": 17,
+			"MorphGroups": [
+				{
+					"MorphGroup": "Eyes",
+					"BlendIntensity": 0.36
+				},
+				{
+					"MorphGroup": "Nose",
+					"BlendIntensity": 0.18132706
+				}
+			]
+		},
+		{
+			"Index": 19,
+			"MorphGroups": [
+				{
+					"MorphGroup": "Cheeks",
+					"BlendIntensity": 0.38
+				},
+				{
+					"MorphGroup": "Chin",
+					"BlendIntensity": 0.44
+				},
+				{
+					"MorphGroup": "Ears",
+					"BlendIntensity": 1
+				},
+				{
+					"MorphGroup": "Eyes",
+					"BlendIntensity": 0.24
+				},
+				{
+					"MorphGroup": "Forehead",
+					"BlendIntensity": 1
+				},
+				{
+					"MorphGroup": "Jaw",
+					"BlendIntensity": 0.16
+				},
+				{
+					"MorphGroup": "Mouth",
+					"BlendIntensity": 0.1935652
+				},
+				{
+					"MorphGroup": "Neck",
+					"BlendIntensity": 1
+				},
+				{
+					"MorphGroup": "Nose",
+					"BlendIntensity": 0.16737883
+				}
+			]
+		}
+	],
+	"MorphBlends": [
+		{
+			"BlendName": "female_af_md1_Eyes",
+			"Intensity": 0.4
+		},
+		{
+			"BlendName": "female_af_md1_Mouth",
+			"Intensity": 0.18434782
+		},
+		{
+			"BlendName": "female_af_md1_Nose",
+			"Intensity": 0.27
+		},
+		{
+			"BlendName": "female_af_yo1_Mouth",
+			"Intensity": 0.11
+		},
+		{
+			"BlendName": "female_as_yo1_Cheeks",
+			"Intensity": 0.38
+		},
+		{
+			"BlendName": "female_as_yo1_Chin",
+			"Intensity": 0.44
+		},
+		{
+			"BlendName": "female_as_yo1_Ears",
+			"Intensity": 1
+		},
+		{
+			"BlendName": "female_as_yo1_Eyes",
+			"Intensity": 0.24
+		},
+		{
+			"BlendName": "female_as_yo1_Forehead",
+			"Intensity": 1
+		},
+		{
+			"BlendName": "female_as_yo1_Jaw",
+			"Intensity": 0.16
+		},
+		{
+			"BlendName": "female_as_yo1_Mouth",
+			"Intensity": 0.1935652
+		},
+		{
+			"BlendName": "female_as_yo1_Neck",
+			"Intensity": 1
+		},
+		{
+			"BlendName": "female_as_yo1_Nose",
+			"Intensity": 0.16737883
+		},
+		{
+			"BlendName": "female_eu_md2_Chin",
+			"Intensity": 0.52
+		},
+		{
+			"BlendName": "female_eu_md2_Jaw",
+			"Intensity": 0.32
+		},
+		{
+			"BlendName": "female_eu_md2_Mouth",
+			"Intensity": 0.15208696
+		},
+		{
+			"BlendName": "female_eu_yo1_Eyes",
+			"Intensity": 0.36
+		},
+		{
+			"BlendName": "female_eu_yo1_Nose",
+			"Intensity": 0.18132706
+		}
+	],
+	"SkinToneIndex": 3,
+	"HairColor": "Jet",
+	"EyebrowColor": "SaltAndBrown",
+	"Pronoun": "Unspecified"
 }

@@ -1,57 +1,57 @@
 {
-  "FormKey": "294D33:Starfield.esm",
-  "EditorID": "ShipMod_Thrust_Deimos_Btm_A",
-  "FormVersion": 576,
-  "ODTY": 0.0,
-  "Components": [
-    {
-      "MutagenObjectType": "PropertySheetComponent",
-      "Properties": [
-        {
-          "ActorValue": "0002D4:Starfield.esm",
-          "Value": 5.0
-        },
-        {
-          "ActorValue": "00ACDB:Starfield.esm",
-          "Value": 1.0
-        },
-        {
-          "ActorValue": "00ACDE:Starfield.esm",
-          "Value": 400.0
-        },
-        {
-          "ActorValue": "2A9542:Starfield.esm",
-          "Value": 800.0
-        }
-      ]
-    },
-    {
-      "MutagenObjectType": "FormLinkDataComponent",
-      "Links": [
-        {
-          "Keyword": "00662F:Starfield.esm",
-          "LinkedForm": "294D27:Starfield.esm"
-        }
-      ]
-    },
-    {
-      "MutagenObjectType": "KeywordFormComponent",
-      "Keywords": [
-        "1462C0:Starfield.esm",
-        "26FE54:Starfield.esm",
-        "27BABE:Starfield.esm"
-      ]
-    },
-    {
-      "MutagenObjectType": "FullNameComponent",
-      "Name": {
-        "TargetLanguage": "English",
-        "Value": "Cowling"
-      }
-    }
-  ],
-  "Template": "03058E:Starfield.esm",
-  "STRVs": [
-    "BGSMod_Template_Component"
-  ]
+	"FormKey": "294D33:Starfield.esm",
+	"EditorID": "ShipMod_Thrust_Deimos_Btm_A",
+	"FormVersion": 576,
+	"ODTY": 0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 5
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 1
+				},
+				{
+					"ActorValue": "00ACDE:Starfield.esm",
+					"Value": 400
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 800
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "294D27:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C0:Starfield.esm",
+				"26FE54:Starfield.esm",
+				"27BABE:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Cowling"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
 }

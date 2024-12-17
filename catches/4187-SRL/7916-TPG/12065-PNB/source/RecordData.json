@@ -11,11 +11,11 @@
 		],
 		"FormVersion": 576,
 		"Author": "Catch Group",
-		"Description": "0.1.0",
 		"MasterReferences": [
 			{
 				"Master": "Starfield.esm"
 			}
-		]
+		],
+		"Description": "0.1.0"
 	}
 }

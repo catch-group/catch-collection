@@ -38,7 +38,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -52,7 +52,7 @@
 										"MutagenObjectType": "IsTrueForConditionFormConditionData",
 										"FirstParameter": "000887:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -77,7 +77,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -99,7 +99,7 @@
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 10,
 					"Modification": "Multiply",
-					"Value": 100.0
+					"Value": 100
 				}
 			],
 			"Activities": [
@@ -120,7 +120,7 @@
 										"RunOnType": "Target",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -161,7 +161,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -175,7 +175,7 @@
 										"MutagenObjectType": "IsTrueForConditionFormConditionData",
 										"FirstParameter": "000887:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -201,7 +201,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -223,7 +223,7 @@
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 11,
 					"Modification": "Multiply",
-					"Value": 125.0
+					"Value": 125
 				}
 			],
 			"Activities": [
@@ -244,7 +244,7 @@
 										"RunOnType": "Target",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -285,7 +285,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -299,7 +299,7 @@
 										"MutagenObjectType": "IsTrueForConditionFormConditionData",
 										"FirstParameter": "000887:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -325,7 +325,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -347,7 +347,7 @@
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 12,
 					"Modification": "Multiply",
-					"Value": 150.0
+					"Value": 150
 				}
 			],
 			"Activities": [
@@ -368,7 +368,7 @@
 										"RunOnType": "Target",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -402,7 +402,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								},
 								{
 									"MutagenObjectType": "ConditionFloat",
@@ -411,7 +411,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "2C3B5B:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -435,7 +435,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								},
 								{
 									"MutagenObjectType": "ConditionFloat",
@@ -444,7 +444,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "2C3B59:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -468,7 +468,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "222E04:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								},
 								{
 									"MutagenObjectType": "ConditionFloat",
@@ -477,7 +477,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "2C3B5A:Starfield.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -502,7 +502,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -516,7 +516,7 @@
 										"MutagenObjectType": "IsTrueForConditionFormConditionData",
 										"FirstParameter": "000887:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						}
@@ -542,7 +542,7 @@
 										"MutagenObjectType": "HasKeywordConditionData",
 										"FirstParameter": "000801:Catch - 6331-TNV - 8222-ROX.esm"
 									},
-									"ComparisonValue": 1.0
+									"ComparisonValue": 1
 								}
 							]
 						},
@@ -564,7 +564,7 @@
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 13,
 					"Modification": "Multiply",
-					"Value": 175.0
+					"Value": 175
 				}
 			],
 			"Description": {

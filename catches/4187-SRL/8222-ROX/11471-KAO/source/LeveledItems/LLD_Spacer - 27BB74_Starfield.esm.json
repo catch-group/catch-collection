@@ -6,8 +6,8 @@
 	"StarfieldMajorRecordFlags": [
 		"VisibleWhenDistant"
 	],
-	"ODTY": 0.0,
-	"ChanceNone": 5.0,
+	"ODTY": 0,
+	"ChanceNone": 5,
 	"MaxCount": 0,
 	"Flags": [
 		"UseAll"
