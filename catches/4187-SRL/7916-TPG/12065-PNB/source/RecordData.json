@@ -1,0 +1,21 @@
+{
+	"SpriggitSource": {
+		"PackageName": "Spriggit.Json.Starfield",
+		"Version": "0.35.1"
+	},
+	"ModKey": "Catch - 7916-TPG - 12065-PNB.esm",
+	"GameRelease": "Starfield",
+	"ModHeader": {
+		"Flags": [
+			"Master"
+		],
+		"FormVersion": 576,
+		"Author": "Catch Group",
+		"Description": "0.1.0",
+		"MasterReferences": [
+			{
+				"Master": "Starfield.esm"
+			}
+		]
+	}
+}

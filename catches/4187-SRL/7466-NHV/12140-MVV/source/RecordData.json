@@ -1,0 +1,24 @@
+{
+	"SpriggitSource": {
+		"PackageName": "Spriggit.Json.Starfield",
+		"Version": "0.35.1"
+	},
+	"ModKey": "Catch - 7466-NHV - 12140-MVV.esm",
+	"GameRelease": "Starfield",
+	"ModHeader": {
+		"Flags": [
+			"Master"
+		],
+		"FormVersion": 576,
+		"Author": "Catch Group",
+		"Description": "0.1.0",
+		"MasterReferences": [
+			{
+				"Master": "Starfield.esm"
+			},
+			{
+				"Master": "ShopkeeperSchedules.esm"
+			}
+		]
+	}
+}

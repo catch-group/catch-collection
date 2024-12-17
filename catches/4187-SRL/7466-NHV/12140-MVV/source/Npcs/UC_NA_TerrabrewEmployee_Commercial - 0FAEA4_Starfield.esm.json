@@ -1,0 +1,220 @@
+{
+  "FormKey": "0FAEA4:Starfield.esm",
+  "EditorID": "UC_NA_TerrabrewEmployee_Commercial",
+  "FormVersion": 576,
+  "ObjectBounds": {
+    "First": "-0.31000048, -0.31000048, -4.7683716E-07",
+    "Second": "0.31000048, 0.31000048, 1.8000004"
+  },
+  "ODTY": 0.0,
+  "Level": {
+    "MutagenObjectType": "NpcLevel",
+    "Level": 1
+  },
+  "DispositionBase": 35,
+  "UseTemplateActors": "27923",
+  "Factions": [
+    {
+      "Faction": "0FAEA0:Starfield.esm"
+    },
+    {
+      "Faction": "27113D:Starfield.esm"
+    }
+  ],
+  "Voice": "2BCA29:Starfield.esm",
+  "DefaultTemplate": "271137:Starfield.esm",
+  "TemplateActors": {
+    "TraitTemplate": "271137:Starfield.esm",
+    "StatsTemplate": "271137:Starfield.esm",
+    "AiDataTemplate": "271137:Starfield.esm",
+    "InventoryTemplate": "271137:Starfield.esm",
+    "DefPackListTemplate": "271137:Starfield.esm",
+    "AttackDataTemplate": "271137:Starfield.esm",
+    "Unknown1": "271137:Starfield.esm",
+    "Unknown2": "271137:Starfield.esm"
+  },
+  "Race": "00347D:Starfield.esm",
+  "CombatOverridePackageList": "0102ED:Starfield.esm",
+  "Properties": [
+    {
+      "ActorValue": "0002C2:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C3:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C4:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C5:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C6:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C7:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002C8:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002D4:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002D5:Starfield.esm"
+    },
+    {
+      "ActorValue": "0002DA:Starfield.esm",
+      "Value": 100.0
+    }
+  ],
+  "EnergyLevel": 50,
+  "Responsibility": "NoCrime",
+  "Assistance": "HelpsAllies",
+  "Packages": [
+    "0013A3:Catch - 7466-NHV - 12140-MVV.esm",
+    "000ACC:Catch - 7466-NHV - 12140-MVV.esm"
+  ],
+  "Class": "002F64:Starfield.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "TerraBrew Employee"
+  },
+  "GearedUpWeapons": 1,
+  "HeadParts": [
+    "000F94:Starfield.esm",
+    "062F07:Starfield.esm",
+    "064D88:Starfield.esm",
+    "15335C:Starfield.esm",
+    "24A022:Starfield.esm",
+    "24A023:Starfield.esm",
+    "24A03D:Starfield.esm",
+    "253FA3:Starfield.esm",
+    "253FA5:Starfield.esm",
+    "3BE58D:Starfield.esm"
+  ],
+  "CombatStyle": "2C5F7D:Starfield.esm",
+  "NAM5": "0xFF00",
+  "HeightMin": 0.914286,
+  "HeightMax": 1.085714,
+  "Weight": {},
+  "DefaultOutfit": "07F88C:Starfield.esm",
+  "DefaultPackageList": "2C55CA:Starfield.esm",
+  "Tints": [
+    {
+      "TintType": "SimpleGroup",
+      "TintGroup": "ComplexionMask1",
+      "TintName": "Complexion_Eye_Crevices",
+      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_eye_crevices_mask.dds",
+      "TintColor": "#00000000",
+      "TintIntensity": 64
+    },
+    {
+      "TintType": "SimpleGroup",
+      "TintGroup": "Complexion1",
+      "TintName": "Color_Temperature_Yellow",
+      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_colortemperature_yellow_color.dds",
+      "TintColor": "#00000000",
+      "TintIntensity": 24
+    },
+    {
+      "TintType": "SimpleGroup",
+      "TintGroup": "ComplexionMask2",
+      "TintName": "Complexion_LowerFace_Crevices",
+      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_lowerface_crevices_mask.dds",
+      "TintColor": "#00000000",
+      "TintIntensity": 64
+    },
+    {
+      "TintType": "SimpleGroup",
+      "TintGroup": "Eyeshadow1",
+      "TintName": "EyeShadow_Upper_01",
+      "TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper01_mask.dds",
+      "TintColor": "#00000000",
+      "TintIntensity": 64
+    }
+  ],
+  "FaceMorphs": [
+    {
+      "Index": 46,
+      "MorphGroups": [
+        {
+          "MorphGroup": "Cheeks",
+          "BlendIntensity": 0.9516581
+        },
+        {
+          "MorphGroup": "Chin",
+          "BlendIntensity": 0.9576551
+        },
+        {
+          "MorphGroup": "Ears",
+          "BlendIntensity": 0.5617339
+        },
+        {
+          "MorphGroup": "Eyes",
+          "BlendIntensity": 0.82814986
+        },
+        {
+          "MorphGroup": "Forehead",
+          "BlendIntensity": 0.1179285
+        },
+        {
+          "MorphGroup": "Jaw",
+          "BlendIntensity": 0.7364241
+        },
+        {
+          "MorphGroup": "Mouth",
+          "BlendIntensity": 0.034980696
+        },
+        {
+          "MorphGroup": "Neck",
+          "BlendIntensity": 0.65882635
+        },
+        {
+          "MorphGroup": "Nose",
+          "BlendIntensity": 0.82940644
+        }
+      ]
+    }
+  ],
+  "MorphBlends": [
+    {
+      "BlendName": "male_as_yo1_Cheeks",
+      "Intensity": 0.9516581
+    },
+    {
+      "BlendName": "male_as_yo1_Chin",
+      "Intensity": 0.9576551
+    },
+    {
+      "BlendName": "male_as_yo1_Ears",
+      "Intensity": 0.5617339
+    },
+    {
+      "BlendName": "male_as_yo1_Eyes",
+      "Intensity": 0.82814986
+    },
+    {
+      "BlendName": "male_as_yo1_Forehead",
+      "Intensity": 0.1179285
+    },
+    {
+      "BlendName": "male_as_yo1_Jaw",
+      "Intensity": 0.7364241
+    },
+    {
+      "BlendName": "male_as_yo1_Mouth",
+      "Intensity": 0.034980696
+    },
+    {
+      "BlendName": "male_as_yo1_Neck",
+      "Intensity": 0.65882635
+    },
+    {
+      "BlendName": "male_as_yo1_Nose",
+      "Intensity": 0.82940644
+    }
+  ],
+  "SkinToneIndex": 1,
+  "Pronoun": "Unspecified"
+}

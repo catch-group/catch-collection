@@ -1,0 +1,686 @@
+{
+	"FormKey": "285E49:Starfield.esm",
+	"EditorID": "LLS_Weapon_Ranged_Handgun_ByNPCFaction",
+	"FormVersion": 576,
+	"ODTY": 0,
+	"MaxCount": 0,
+	"Flags": [
+		"CalculateFromAllLevelsLessThanOrEqualPlayer",
+		"CalculateForEachItemInCount"
+	],
+	"Conditions": [
+		{
+			"MutagenObjectType": "ConditionFloat",
+			"Unknown2": 55300,
+			"Data": {
+				"MutagenObjectType": "GetIsIDConditionData",
+				"FirstParameter": "000007:Starfield.esm"
+			}
+		}
+	],
+	"Entries": [
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "00A154:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "2D155C:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "26FB5B:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "29A8EF:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "2D1800:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE27:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "2E81EC:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "2E81F3:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 3,
+			"Unused": 95,
+			"Reference": "2E81EC:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 12,
+			"Unused": 95,
+			"Reference": "05B158:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 12,
+			"Unused": 95,
+			"Reference": "2D936F:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 14,
+			"Unused": 95,
+			"Reference": "2D1BE6:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "26FB5B:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "29A8EF:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 16,
+			"Unused": 95,
+			"Reference": "2D23AA:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "00D707:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 16,
+			"Unused": 95,
+			"Reference": "2DEE75:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "26FB5B:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "29A8EF:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 17,
+			"Unused": 95,
+			"Reference": "024E28:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE24:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE25:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE28:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 17,
+			"Unused": 95,
+			"Reference": "0A616B:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "IsTrueForConditionFormConditionData",
+						"FirstParameter": "285E44:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE26:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 35,
+			"Unused": 95,
+			"Reference": "061A17:Starfield.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		},
+		{
+			"Level": 35,
+			"Unused": 95,
+			"Reference": "1188E1:ShatteredSpace.esm",
+			"Count": 1,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Flags": [
+						"OR"
+					],
+					"Unknown2": 50097,
+					"Data": {
+						"MutagenObjectType": "GetInFactionConditionData",
+						"FirstParameter": "04CE29:Starfield.esm"
+					},
+					"ComparisonValue": 1
+				}
+			]
+		}
+	],
+	"Model": {
+		"FLLD": "0x01000000"
+	}
+}
