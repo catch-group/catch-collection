@@ -38,7 +38,7 @@ const nexusModsSessionPage = await getNexusModsSessionPage();
 // TODO[2025-01-01]: Make this dynamic
 const defaultVersion = "0.1.0";
 
-for (const gameCatchId of filteredGameCatchIds.slice(8)) {
+for (const gameCatchId of filteredGameCatchIds) {
 	console.log(gameCatchId);
 
 	await retry(
