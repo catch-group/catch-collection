@@ -26,21 +26,21 @@
 			]
 		},
 		{
-			"MutagenObjectType": "FormLinkDataComponent",
 			"Links": [
 				{
 					"Keyword": "00662F:Starfield.esm",
 					"LinkedForm": "294D2D:Starfield.esm"
 				}
-			]
+			],
+			"MutagenObjectType": "FormLinkDataComponent"
 		},
 		{
-			"MutagenObjectType": "KeywordFormComponent",
 			"Keywords": [
 				"1462C0:Starfield.esm",
 				"26FE54:Starfield.esm",
 				"27BABF:Starfield.esm"
-			]
+			],
+			"MutagenObjectType": "KeywordFormComponent"
 		},
 		{
 			"MutagenObjectType": "FullNameComponent",

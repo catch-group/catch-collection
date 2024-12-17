@@ -12,8 +12,8 @@
 		"Unique"
 	],
 	"Level": {
-		"MutagenObjectType": "NpcLevel",
-		"Level": 1
+		"Level": 1,
+		"MutagenObjectType": "NpcLevel"
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "27666",
@@ -31,10 +31,10 @@
 	"Voice": "22549F:Starfield.esm",
 	"DefaultTemplate": "2B2122:Starfield.esm",
 	"TemplateActors": {
-		"StatsTemplate": "2B2122:Starfield.esm",
 		"AiDataTemplate": "2B2122:Starfield.esm",
-		"DefPackListTemplate": "2B2122:Starfield.esm",
 		"AttackDataTemplate": "2B2122:Starfield.esm",
+		"DefPackListTemplate": "2B2122:Starfield.esm",
+		"StatsTemplate": "2B2122:Starfield.esm",
 		"Unknown1": "2B2122:Starfield.esm",
 		"Unknown2": "2B2122:Starfield.esm"
 	},
@@ -89,8 +89,8 @@
 	"Items": [
 		{
 			"Item": {
-				"Item": "2B1A22:Starfield.esm",
-				"Count": 1
+				"Count": 1,
+				"Item": "2B1A22:Starfield.esm"
 			}
 		}
 	],
@@ -136,60 +136,60 @@
 	"CrimeFaction": "0638E5:Starfield.esm",
 	"Tints": [
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Dermaesthetic",
+			"TintIntensity": 50,
 			"TintName": "African_Male_md1_Sk1",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_af_md1_sk1_derm_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 50
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#F9FF1706",
 			"TintGroup": "Cheeks1",
+			"TintIntensity": 31,
 			"TintName": "Blush_Soft",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/cheeks1/testblush02_mask.dds",
-			"TintColor": "#F9FF1706",
-			"TintIntensity": 31
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#DDFF0600",
 			"TintGroup": "Lipstick1",
+			"TintIntensity": 5,
 			"TintName": "Lipstick_Standard",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/lipstick1/testlipstick01_mask.dds",
-			"TintColor": "#DDFF0600",
-			"TintIntensity": 5
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Eyeshadow1",
+			"TintIntensity": 74,
 			"TintName": "EyeShadow_Upper_01",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper01_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 74
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Eyeshadow2",
+			"TintIntensity": 64,
 			"TintName": "EyeShadow_Lower_02",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeshadow2/testeyeshadowlower02_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 64
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Eyeliner1",
+			"TintIntensity": 64,
 			"TintName": "Eyeliner_Upper_01",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeliner1/testeyelinerupper01_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 64
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Eyeliner2",
+			"TintIntensity": 64,
 			"TintName": "Eyeliner_Lower_02",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeliner2/testeyelinerlower02_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 64
+			"TintType": "SimpleGroup"
 		}
 	],
 	"FaceDialPositions": [
@@ -255,40 +255,40 @@
 			"Index": 1,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Cheeks",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Cheeks"
 				},
 				{
-					"MorphGroup": "Chin",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Chin"
 				},
 				{
-					"MorphGroup": "Ears",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Ears"
 				},
 				{
-					"MorphGroup": "Eyes",
-					"BlendIntensity": 0.51
+					"BlendIntensity": 0.51,
+					"MorphGroup": "Eyes"
 				},
 				{
-					"MorphGroup": "Forehead",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Forehead"
 				},
 				{
-					"MorphGroup": "Jaw",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Jaw"
 				},
 				{
-					"MorphGroup": "Mouth",
-					"BlendIntensity": 0.62
+					"BlendIntensity": 0.62,
+					"MorphGroup": "Mouth"
 				},
 				{
-					"MorphGroup": "Neck",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Neck"
 				},
 				{
-					"MorphGroup": "Nose",
-					"BlendIntensity": 0.58
+					"BlendIntensity": 0.58,
+					"MorphGroup": "Nose"
 				}
 			]
 		},
@@ -296,8 +296,8 @@
 			"Index": 17,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Nose",
-					"BlendIntensity": 0.3
+					"BlendIntensity": 0.3,
+					"MorphGroup": "Nose"
 				}
 			]
 		}

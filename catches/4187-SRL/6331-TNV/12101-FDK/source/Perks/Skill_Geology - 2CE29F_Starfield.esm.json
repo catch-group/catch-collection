@@ -18,6 +18,41 @@
 	"PerkIcon": "Patch_Science_Geology",
 	"Ranks": [
 		{
+			"Activities": [
+				{
+					"ANAM": "res:8337C0B4:0005B078:A791608D",
+					"ATAN": "Harvest",
+					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"20\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000",
+					"Description": {
+						"TargetLanguage": "English",
+						"Value": "Harvest inorganic resources from <repetitions> sources."
+					},
+					"ProgressionEvalutor": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData",
+										"RunOnType": "Target"
+									},
+									"MutagenObjectType": "ConditionFloat"
+								}
+							],
+							"Name": "Flora"
+						},
+						{
+							"Conditions": [],
+							"Name": "Harvested Item"
+						}
+					]
+				}
+			],
+			"Description": {
+				"TargetLanguage": "English",
+				"Value": "Get more common and uncommon inorganic resources from ore deposites and asteroids. Enable the use of mining lasers on ships for asteroid mining."
+			},
 			"Effects": [
 				{
 					"MutagenObjectType": "PerkQuestEffect",
@@ -25,552 +60,517 @@
 					"Stage": 501
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Priority": 1,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 16612,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 16612
 								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 16612,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 16612
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
+					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 0,
-					"Modification": "Multiply",
+					"Priority": 1,
 					"Value": 0.05
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Priority": 2,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 16612,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 16612
 								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 16612,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
-									}
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 16612
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
+					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
 					"PerkConditionTabCount": 3,
 					"PerkEntryID": 10,
-					"Modification": "Multiply",
+					"Priority": 2,
 					"Value": 100
 				}
-			],
-			"Activities": [
-				{
-					"ATAN": "Harvest",
-					"Description": {
-						"TargetLanguage": "English",
-						"Value": "Harvest inorganic resources from <repetitions> sources."
-					},
-					"ProgressionEvalutor": [
-						{
-							"Name": "Flora",
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"RunOnType": "Target",
-										"FirstParameter": "222E04:Starfield.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						},
-						{
-							"Name": "Harvested Item",
-							"Conditions": []
-						}
-					],
-					"ANAM": "res:8337C0B4:0005B078:A791608D",
-					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"20\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000"
-				}
-			],
-			"Description": {
-				"TargetLanguage": "English",
-				"Value": "Get more common and uncommon inorganic resources from ore deposites and asteroids. Enable the use of mining lasers on ships for asteroid mining."
-			}
+			]
 		},
 		{
-			"Effects": [
-				{
-					"MutagenObjectType": "PerkQuestEffect",
-					"Rank": 1,
-					"Quest": "2C59E4:Starfield.esm",
-					"Stage": 502
-				},
-				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 1,
-					"Priority": 1,
-					"Conditions": [
-						{
-							"RunOnTabIndex": 1,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						},
-						{
-							"RunOnTabIndex": 2,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						}
-					],
-					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 1,
-					"Modification": "Multiply",
-					"Value": 0.05
-				},
-				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 1,
-					"Priority": 2,
-					"Conditions": [
-						{
-							"RunOnTabIndex": 1,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						},
-						{
-							"RunOnTabIndex": 2,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
-									}
-								}
-							]
-						}
-					],
-					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 11,
-					"Modification": "Multiply",
-					"Value": 125
-				}
-			],
 			"Activities": [
 				{
+					"ANAM": "res:ABD2D0BC:0005B089:A791608D",
 					"ATAN": "Harvest",
+					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"50\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000",
 					"Description": {
 						"TargetLanguage": "English",
 						"Value": "Harvest inorganic resources from <repetitions> sources."
 					},
 					"ProgressionEvalutor": [
 						{
-							"Name": "Flora",
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1,
 									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
 										"MutagenObjectType": "HasKeywordConditionData",
-										"RunOnType": "Target",
-										"FirstParameter": "222E04:Starfield.esm"
+										"RunOnType": "Target"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat"
 								}
-							]
+							],
+							"Name": "Flora"
 						},
 						{
-							"Name": "Harvested Item",
-							"Conditions": []
+							"Conditions": [],
+							"Name": "Harvested Item"
 						}
-					],
-					"ANAM": "res:ABD2D0BC:0005B089:A791608D",
-					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"50\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000"
+					]
 				}
 			],
 			"Description": {
 				"TargetLanguage": "English",
 				"Value": "Get more rare inorganic resources from ore deposites and asteroids. 25% more damage to asteroids with mining lasers."
-			}
-		},
-		{
+			},
 			"Effects": [
 				{
 					"MutagenObjectType": "PerkQuestEffect",
-					"Rank": 2,
 					"Quest": "2C59E4:Starfield.esm",
-					"Stage": 503
+					"Rank": 1,
+					"Stage": 502
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 2,
-					"Priority": 1,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 2,
 					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 1,
+					"Priority": 1,
+					"Rank": 1,
 					"Value": 0.05
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 2,
-					"Priority": 2,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
-									}
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 12,
 					"Modification": "Multiply",
-					"Value": 150
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 11,
+					"Priority": 2,
+					"Rank": 1,
+					"Value": 125
 				}
-			],
+			]
+		},
+		{
 			"Activities": [
 				{
+					"ANAM": "res:13E6D86A:0005C3D0:A5DDFB78",
 					"ATAN": "Harvest",
+					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"100\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000",
 					"Description": {
 						"TargetLanguage": "English",
 						"Value": "Harvest inorganic resources from <repetitions> sources."
 					},
 					"ProgressionEvalutor": [
 						{
-							"Name": "Flora",
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
+									"ComparisonValue": 1,
 									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
 										"MutagenObjectType": "HasKeywordConditionData",
-										"RunOnType": "Target",
-										"FirstParameter": "222E04:Starfield.esm"
+										"RunOnType": "Target"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat"
 								}
-							]
+							],
+							"Name": "Flora"
 						},
 						{
-							"Name": "Harvested Item",
-							"Conditions": []
+							"Conditions": [],
+							"Name": "Harvested Item"
 						}
-					],
-					"ANAM": "res:13E6D86A:0005C3D0:A5DDFB78",
-					"Configuration": "{\n\t\"Data\" : \n\t{\n\t\t\"OnlyUniqueItems\" : \"false\",\n\t\t\"Repetitions\" : \"100\"\n\t},\n\t\"Type\" : \"BGSHarvestActivity\"\n}\u0000"
+					]
 				}
 			],
 			"Description": {
 				"TargetLanguage": "English",
 				"Value": "Get more exotic inorganic resources from ore deposites and asteroids. 50% more damage to asteroids with mining lasers."
-			}
-		},
-		{
+			},
 			"Effects": [
 				{
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
-					"Rank": 3,
-					"Conditions": [
-						{
-							"RunOnTabIndex": 1,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "222E04:Starfield.esm"
-									},
-									"ComparisonValue": 1
-								},
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "2C3B5B:Starfield.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						}
-					],
-					"EntryPoint": "AddHarvestedItems",
-					"PerkConditionTabCount": 2,
-					"PerkEntryID": 5,
-					"Item": "2C3B5C:Starfield.esm"
+					"MutagenObjectType": "PerkQuestEffect",
+					"Quest": "2C59E4:Starfield.esm",
+					"Rank": 2,
+					"Stage": 503
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
-					"Rank": 3,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "222E04:Starfield.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
-								},
-								{
 									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "2C3B59:Starfield.esm"
-									},
-									"ComparisonValue": 1
+									"Unknown2": 22450
 								}
-							]
-						}
-					],
-					"EntryPoint": "AddHarvestedItems",
-					"PerkConditionTabCount": 2,
-					"PerkEntryID": 6,
-					"Item": "2C3B5E:Starfield.esm"
-				},
-				{
-					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
-					"Rank": 3,
-					"Conditions": [
-						{
-							"RunOnTabIndex": 1,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "222E04:Starfield.esm"
-									},
-									"ComparisonValue": 1
-								},
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "2C3B5A:Starfield.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
-						}
-					],
-					"EntryPoint": "AddHarvestedItems",
-					"PerkConditionTabCount": 2,
-					"PerkEntryID": 7,
-					"Item": "2C3B5D:Starfield.esm"
-				},
-				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 3,
-					"Priority": 1,
-					"Conditions": [
-						{
-							"RunOnTabIndex": 1,
-							"Conditions": [
-								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
-									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
-									},
-									"ComparisonValue": 1
-								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 3,
 					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 2,
+					"Priority": 1,
+					"Rank": 2,
 					"Value": 0.05
 				},
 				{
-					"MutagenObjectType": "PerkEntryPointModifyValue",
-					"Rank": 3,
-					"Priority": 2,
 					"Conditions": [
 						{
-							"RunOnTabIndex": 1,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
+									"ComparisonValue": 1,
 									"Data": {
-										"MutagenObjectType": "HasKeywordConditionData",
-										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm"
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
 									},
-									"ComparisonValue": 1
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 1
 						},
 						{
-							"RunOnTabIndex": 2,
 							"Conditions": [
 								{
-									"MutagenObjectType": "ConditionFloat",
-									"Unknown2": 22450,
 									"Data": {
-										"MutagenObjectType": "IsTrueForConditionFormConditionData",
-										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm"
-									}
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
 								}
-							]
+							],
+							"RunOnTabIndex": 2
 						}
 					],
 					"EntryPoint": "ModWeaponAttackDamage",
-					"PerkConditionTabCount": 3,
-					"PerkEntryID": 13,
 					"Modification": "Multiply",
-					"Value": 175
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 12,
+					"Priority": 2,
+					"Rank": 2,
+					"Value": 150
 				}
-			],
+			]
+		},
+		{
 			"Description": {
 				"TargetLanguage": "English",
 				"Value": "Occasionally harvest additional rarer resources from ore deposites and asteroids. 75% more damage to asteroids with mining lasers."
-			}
+			},
+			"Effects": [
+				{
+					"Conditions": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								},
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "2C3B5B:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 1
+						}
+					],
+					"EntryPoint": "AddHarvestedItems",
+					"Item": "2C3B5C:Starfield.esm",
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
+					"PerkConditionTabCount": 2,
+					"PerkEntryID": 5,
+					"Rank": 3
+				},
+				{
+					"Conditions": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								},
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "2C3B59:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 1
+						}
+					],
+					"EntryPoint": "AddHarvestedItems",
+					"Item": "2C3B5E:Starfield.esm",
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
+					"PerkConditionTabCount": 2,
+					"PerkEntryID": 6,
+					"Rank": 3
+				},
+				{
+					"Conditions": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "222E04:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								},
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "2C3B5A:Starfield.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 1
+						}
+					],
+					"EntryPoint": "AddHarvestedItems",
+					"Item": "2C3B5D:Starfield.esm",
+					"MutagenObjectType": "PerkEntryPointAddLeveledItem",
+					"PerkConditionTabCount": 2,
+					"PerkEntryID": 7,
+					"Rank": 3
+				},
+				{
+					"Conditions": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 1
+						},
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 2
+						}
+					],
+					"EntryPoint": "ModWeaponAttackDamage",
+					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 3,
+					"Priority": 1,
+					"Rank": 3,
+					"Value": 0.05
+				},
+				{
+					"Conditions": [
+						{
+							"Conditions": [
+								{
+									"ComparisonValue": 1,
+									"Data": {
+										"FirstParameter": "000801:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "HasKeywordConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 1
+						},
+						{
+							"Conditions": [
+								{
+									"Data": {
+										"FirstParameter": "000887:Catch - 6331-TNV - 12101-FDK.esm",
+										"MutagenObjectType": "IsTrueForConditionFormConditionData"
+									},
+									"MutagenObjectType": "ConditionFloat",
+									"Unknown2": 22450
+								}
+							],
+							"RunOnTabIndex": 2
+						}
+					],
+					"EntryPoint": "ModWeaponAttackDamage",
+					"Modification": "Multiply",
+					"MutagenObjectType": "PerkEntryPointModifyValue",
+					"PerkConditionTabCount": 3,
+					"PerkEntryID": 13,
+					"Priority": 2,
+					"Rank": 3,
+					"Value": 175
+				}
+			]
 		}
 	]
 }

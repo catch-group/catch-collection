@@ -12,8 +12,8 @@
 		"Unique"
 	],
 	"Level": {
-		"MutagenObjectType": "NpcLevel",
-		"Level": 1
+		"Level": 1,
+		"MutagenObjectType": "NpcLevel"
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "19482",
@@ -31,11 +31,11 @@
 	"Voice": "240427:Starfield.esm",
 	"DefaultTemplate": "2B2120:Starfield.esm",
 	"TemplateActors": {
-		"StatsTemplate": "2B2120:Starfield.esm",
-		"SpellListTemplate": "2B2120:Starfield.esm",
 		"AiDataTemplate": "2B2120:Starfield.esm",
-		"DefPackListTemplate": "2B2120:Starfield.esm",
 		"AttackDataTemplate": "2B2120:Starfield.esm",
+		"DefPackListTemplate": "2B2120:Starfield.esm",
+		"SpellListTemplate": "2B2120:Starfield.esm",
+		"StatsTemplate": "2B2120:Starfield.esm",
 		"Unknown2": "2B2120:Starfield.esm"
 	},
 	"Race": "00347D:Starfield.esm",
@@ -89,8 +89,8 @@
 	"Items": [
 		{
 			"Item": {
-				"Item": "2B1A22:Starfield.esm",
-				"Count": 1
+				"Count": 1,
+				"Item": "2B1A22:Starfield.esm"
 			}
 		}
 	],
@@ -138,44 +138,44 @@
 	"CrimeFaction": "05BD93:Starfield.esm",
 	"Tints": [
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Dermaesthetic",
+			"TintIntensity": 37,
 			"TintName": "African_Male_md1_Sk3",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_af_md1_sk3_derm_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 37
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "ComplexionMask2",
+			"TintIntensity": 107,
 			"TintName": "Stubble_Heavy",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/stubble/heavystubble_stub_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 107
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "ComplexGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Accents1",
+			"TintIntensity": 31,
 			"TintName": "Accents_CrowsFeet_Dark",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_crowsfeet_dark_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 31
+			"TintType": "ComplexGroup"
 		},
 		{
-			"TintType": "ComplexGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Accents2",
+			"TintIntensity": 24,
 			"TintName": "Accents_NasoLabialFolds_Dark",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_dark_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 24
+			"TintType": "ComplexGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Eyeliner1",
+			"TintIntensity": 44,
 			"TintName": "Eyeliner_Lower_01",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeliner2/testeyelinerlower01_mask.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 44
+			"TintType": "SimpleGroup"
 		}
 	],
 	"BodyMorphRegionValues": {
@@ -224,40 +224,40 @@
 			"Index": 9,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Cheeks",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Cheeks"
 				},
 				{
-					"MorphGroup": "Chin",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Chin"
 				},
 				{
-					"MorphGroup": "Ears",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Ears"
 				},
 				{
-					"MorphGroup": "Eyes",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Eyes"
 				},
 				{
-					"MorphGroup": "Forehead",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Forehead"
 				},
 				{
-					"MorphGroup": "Jaw",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Jaw"
 				},
 				{
-					"MorphGroup": "Mouth",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Mouth"
 				},
 				{
-					"MorphGroup": "Neck",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Neck"
 				},
 				{
-					"MorphGroup": "Nose",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Nose"
 				}
 			]
 		}

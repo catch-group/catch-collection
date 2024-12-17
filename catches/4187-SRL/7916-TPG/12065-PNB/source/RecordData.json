@@ -6,11 +6,11 @@
 	"ModKey": "Catch - 7916-TPG - 12065-PNB.esm",
 	"GameRelease": "Starfield",
 	"ModHeader": {
+		"Author": "Catch Group",
 		"Flags": [
 			"Master"
 		],
 		"FormVersion": 576,
-		"Author": "Catch Group",
 		"MasterReferences": [
 			{
 				"Master": "Starfield.esm"

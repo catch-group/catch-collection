@@ -6,11 +6,11 @@
 	"ModKey": "Catch - 7466-NHV - 12140-MVV.esm",
 	"GameRelease": "Starfield",
 	"ModHeader": {
+		"Author": "Catch Group",
 		"Flags": [
 			"Master"
 		],
 		"FormVersion": 576,
-		"Author": "Catch Group",
 		"MasterReferences": [
 			{
 				"Master": "Starfield.esm"

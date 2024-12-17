@@ -7,20 +7,20 @@
 	},
 	"ODTY": 0,
 	"ObjectPlacementDefaults": {
-		"Unknown5": 4e-45,
-		"Unknown6": 1,
 		"Unknown14": 1,
 		"Unknown16": 1,
 		"Unknown17": 1,
-		"Unknown20": 3.4028235e+38
+		"Unknown20": 3.4028235e+38,
+		"Unknown5": 4e-45,
+		"Unknown6": 1
 	},
 	"Flags": [
 		"Essential",
 		"Unique"
 	],
 	"Level": {
-		"MutagenObjectType": "NpcLevel",
-		"Level": 1
+		"Level": 1,
+		"MutagenObjectType": "NpcLevel"
 	},
 	"DispositionBase": 35,
 	"UseTemplateActors": "27666",
@@ -38,10 +38,10 @@
 	"Voice": "01249F:Starfield.esm",
 	"DefaultTemplate": "2B2122:Starfield.esm",
 	"TemplateActors": {
-		"StatsTemplate": "2B2122:Starfield.esm",
 		"AiDataTemplate": "2B2122:Starfield.esm",
-		"DefPackListTemplate": "2B2122:Starfield.esm",
 		"AttackDataTemplate": "2B2122:Starfield.esm",
+		"DefPackListTemplate": "2B2122:Starfield.esm",
+		"StatsTemplate": "2B2122:Starfield.esm",
 		"Unknown1": "2B2122:Starfield.esm",
 		"Unknown2": "2B2122:Starfield.esm"
 	},
@@ -96,8 +96,8 @@
 	"Items": [
 		{
 			"Item": {
-				"Item": "2B1A22:Starfield.esm",
-				"Count": 1
+				"Count": 1,
+				"Item": "2B1A22:Starfield.esm"
 			}
 		}
 	],
@@ -149,60 +149,60 @@
 	"CrimeFaction": "05BD93:Starfield.esm",
 	"Tints": [
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Dermaesthetic",
+			"TintIntensity": 64,
 			"TintName": "African_Male_Yo1_Sk8",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_af_yo1_sk8_derm_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 64
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#14960109",
 			"TintGroup": "ComplexionMask1",
+			"TintIntensity": 17,
 			"TintName": "Liver_Spots",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/liverspots_01_mask.dds",
-			"TintColor": "#14960109",
-			"TintIntensity": 17
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Complexion1",
+			"TintIntensity": 37,
 			"TintName": "TriColor",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/tricolor_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 37
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Complexion2",
+			"TintIntensity": 11,
 			"TintName": "Crevice_Complexion_Cool",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexioncool_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 11
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "SimpleGroup",
+			"TintColor": "#14960109",
 			"TintGroup": "ComplexionMask2",
+			"TintIntensity": 64,
 			"TintName": "moles_Many_Small_02",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/moles_many_small_02.dds",
-			"TintColor": "#14960109",
-			"TintIntensity": 64
+			"TintType": "SimpleGroup"
 		},
 		{
-			"TintType": "ComplexGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Accents1",
+			"TintIntensity": 11,
 			"TintName": "Accents_CrowsFeet",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_crowsfeet_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 11
+			"TintType": "ComplexGroup"
 		},
 		{
-			"TintType": "ComplexGroup",
+			"TintColor": "#00000000",
 			"TintGroup": "Accents2",
+			"TintIntensity": 5,
 			"TintName": "Accents_RoughFace",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_roughface_color.dds",
-			"TintColor": "#00000000",
-			"TintIntensity": 5
+			"TintType": "ComplexGroup"
 		}
 	],
 	"BodyMorphRegionValues": {
@@ -251,40 +251,40 @@
 			"Index": 9,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Cheeks",
-					"BlendIntensity": 0.5
+					"BlendIntensity": 0.5,
+					"MorphGroup": "Cheeks"
 				},
 				{
-					"MorphGroup": "Chin",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Chin"
 				},
 				{
-					"MorphGroup": "Ears",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Ears"
 				},
 				{
-					"MorphGroup": "Eyes",
-					"BlendIntensity": 0.62
+					"BlendIntensity": 0.62,
+					"MorphGroup": "Eyes"
 				},
 				{
-					"MorphGroup": "Forehead",
-					"BlendIntensity": 0.22
+					"BlendIntensity": 0.22,
+					"MorphGroup": "Forehead"
 				},
 				{
-					"MorphGroup": "Jaw",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Jaw"
 				},
 				{
-					"MorphGroup": "Mouth",
-					"BlendIntensity": 0.50768125
+					"BlendIntensity": 0.50768125,
+					"MorphGroup": "Mouth"
 				},
 				{
-					"MorphGroup": "Neck",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Neck"
 				},
 				{
-					"MorphGroup": "Nose",
-					"BlendIntensity": 1
+					"BlendIntensity": 1,
+					"MorphGroup": "Nose"
 				}
 			]
 		},
@@ -292,8 +292,8 @@
 			"Index": 12,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Mouth",
-					"BlendIntensity": 0.36
+					"BlendIntensity": 0.36,
+					"MorphGroup": "Mouth"
 				}
 			]
 		},
@@ -301,8 +301,8 @@
 			"Index": 16,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Forehead",
-					"BlendIntensity": 0.78
+					"BlendIntensity": 0.78,
+					"MorphGroup": "Forehead"
 				}
 			]
 		},
@@ -310,20 +310,20 @@
 			"Index": 42,
 			"MorphGroups": [
 				{
-					"MorphGroup": "Cheeks",
-					"BlendIntensity": 0.5
+					"BlendIntensity": 0.5,
+					"MorphGroup": "Cheeks"
 				},
 				{
-					"MorphGroup": "Chin",
-					"BlendIntensity": -5.551115e-17
+					"BlendIntensity": -5.551115e-17,
+					"MorphGroup": "Chin"
 				},
 				{
-					"MorphGroup": "Eyes",
-					"BlendIntensity": 0.38
+					"BlendIntensity": 0.38,
+					"MorphGroup": "Eyes"
 				},
 				{
-					"MorphGroup": "Mouth",
-					"BlendIntensity": 0.13231874
+					"BlendIntensity": 0.13231874,
+					"MorphGroup": "Mouth"
 				}
 			]
 		}

@@ -6,11 +6,11 @@
 	"ModKey": "Catch - 8222-ROX - 11471-KAO.esm",
 	"GameRelease": "Starfield",
 	"ModHeader": {
+		"Author": "Catch Group",
 		"Flags": [
 			"Master"
 		],
 		"FormVersion": 576,
-		"Author": "Catch Group",
 		"MasterReferences": [
 			{
 				"Master": "Starfield.esm"

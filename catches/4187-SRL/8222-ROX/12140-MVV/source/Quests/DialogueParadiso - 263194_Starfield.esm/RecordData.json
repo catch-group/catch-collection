@@ -3,172 +3,258 @@
 	"EditorID": "DialogueParadiso",
 	"FormVersion": 556,
 	"VirtualMachineAdapter": {
-		"Scripts": [
+		"Aliases": [
 			{
-				"Name": "defaultquestchangelocationscript",
-				"Properties": [
+				"Property": {
+					"Alias": 20,
+					"Name": "",
+					"Object": "263194:Starfield.esm"
+				},
+				"Scripts": [
 					{
-						"MutagenObjectType": "ScriptStructListProperty",
-						"Name": "ChangeLocationStages",
-						"Structs": [
+						"Name": "DefaultAliasOnTriggerEnter",
+						"Properties": [
 							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "CheckPlayerShip"
-									},
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "SetStageOnEnterLocation"
-									},
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 50
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "TargetLocation",
-										"Object": "26310D:Starfield.esm"
-									}
-								]
+								"MutagenObjectType": "ScriptObjectProperty",
+								"Name": "ConditionFormToTest",
+								"Object": "0EE436:Starfield.esm"
 							},
 							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "CheckPlayerShip"
-									},
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "PrereqStage",
-										"Data": 2000
-									},
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "SetStageOnEnterLocation"
-									},
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 2010
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "TargetLocation",
-										"Object": "26310D:Starfield.esm"
-									}
-								]
+								"Data": 300,
+								"MutagenObjectType": "ScriptIntProperty",
+								"Name": "StageToSet"
+							},
+							{
+								"Data": 300,
+								"MutagenObjectType": "ScriptIntProperty",
+								"Name": "TurnOffStageDone"
 							}
 						]
-					},
-					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "SQ_PlayerShip",
-						"Object": "0174A2:Starfield.esm"
 					}
 				]
 			},
 			{
-				"Name": "defaultquestdistancecheckscript",
-				"Properties": [
+				"Property": {
+					"Alias": 22,
+					"Name": "",
+					"Object": "263194:Starfield.esm"
+				},
+				"Scripts": [
 					{
-						"MutagenObjectType": "ScriptStructListProperty",
-						"Name": "DistanceCheckStages",
-						"Structs": [
+						"Name": "DefaultAliasOnTriggerEnter",
+						"Properties": [
 							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 25
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "TargetAlias",
-										"Object": "263194:Starfield.esm",
-										"Alias": 9
-									},
-									{
-										"MutagenObjectType": "ScriptFloatProperty",
-										"Name": "TargetDistance",
-										"Data": 20
-									}
-								]
+								"Data": 600,
+								"MutagenObjectType": "ScriptIntProperty",
+								"Name": "StageToSet"
 							}
 						]
 					}
 				]
 			}
 		],
+		"Fragments": [
+			{
+				"FragmentName": "Fragment_Stage_0011_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 11,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0012_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 12,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0013_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 13,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0014_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 14,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0025_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 25,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0050_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 50,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0101_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 101,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0300_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 300,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0305_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 305,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0401_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 401,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0600_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 600,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1101_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1101,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1103_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1103,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1110_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1110,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1200_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1200,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1210_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1210,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1301_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1301,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1310_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1310,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1320_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1320,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1402_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1402,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1410_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 1410,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2010_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+				"Stage": 2010,
+				"Unknown2": 1
+			}
+		],
 		"Script": {
 			"Name": "Fragments:Quests:QF_DialogueParadiso_00263194",
 			"Properties": [
 				{
+					"Alias": 29,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_BoardRoomDoor",
-					"Object": "263194:Starfield.esm",
-					"Alias": 29
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 2,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_ChiefJiro",
-					"Object": "263194:Starfield.esm",
-					"Alias": 2
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 25,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_Daisuke",
-					"Object": "263194:Starfield.esm",
-					"Alias": 25
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 4,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_Dirk",
-					"Object": "263194:Starfield.esm",
-					"Alias": 4
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 40,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_ECSTransplantSlate",
-					"Object": "263194:Starfield.esm",
-					"Alias": 40
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 5,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_Emilian",
-					"Object": "263194:Starfield.esm",
-					"Alias": 5
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 24,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_Jacquotte",
-					"Object": "263194:Starfield.esm",
-					"Alias": 24
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 8,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_Kumar",
-					"Object": "263194:Starfield.esm",
-					"Alias": 8
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 39,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_NamedECSNPCs",
-					"Object": "263194:Starfield.esm",
-					"Alias": 39
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 31,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_NPCsToDisableExt",
-					"Object": "263194:Starfield.esm",
-					"Alias": 31
+					"Object": "263194:Starfield.esm"
 				},
 				{
+					"Alias": 34,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_NPCsToEnableExt",
-					"Object": "263194:Starfield.esm",
-					"Alias": 34
+					"Object": "263194:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -322,184 +408,98 @@
 				}
 			]
 		},
-		"Fragments": [
+		"Scripts": [
 			{
-				"Stage": 11,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0011_Item_00"
-			},
-			{
-				"Stage": 12,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0012_Item_00"
-			},
-			{
-				"Stage": 13,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0013_Item_00"
-			},
-			{
-				"Stage": 14,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0014_Item_00"
-			},
-			{
-				"Stage": 25,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0025_Item_00"
-			},
-			{
-				"Stage": 50,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0050_Item_00"
-			},
-			{
-				"Stage": 101,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0101_Item_00"
-			},
-			{
-				"Stage": 300,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0300_Item_00"
-			},
-			{
-				"Stage": 305,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0305_Item_00"
-			},
-			{
-				"Stage": 401,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0401_Item_00"
-			},
-			{
-				"Stage": 600,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_0600_Item_00"
-			},
-			{
-				"Stage": 1101,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1101_Item_00"
-			},
-			{
-				"Stage": 1103,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1103_Item_00"
-			},
-			{
-				"Stage": 1110,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1110_Item_00"
-			},
-			{
-				"Stage": 1200,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1200_Item_00"
-			},
-			{
-				"Stage": 1210,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1210_Item_00"
-			},
-			{
-				"Stage": 1301,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1301_Item_00"
-			},
-			{
-				"Stage": 1310,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1310_Item_00"
-			},
-			{
-				"Stage": 1320,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1320_Item_00"
-			},
-			{
-				"Stage": 1402,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1402_Item_00"
-			},
-			{
-				"Stage": 1410,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_1410_Item_00"
-			},
-			{
-				"Stage": 2010,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
-				"FragmentName": "Fragment_Stage_2010_Item_00"
-			}
-		],
-		"Aliases": [
-			{
-				"Property": {
-					"Name": "",
-					"Object": "263194:Starfield.esm",
-					"Alias": 20
-				},
-				"Scripts": [
+				"Name": "defaultquestchangelocationscript",
+				"Properties": [
 					{
-						"Name": "DefaultAliasOnTriggerEnter",
-						"Properties": [
+						"MutagenObjectType": "ScriptStructListProperty",
+						"Name": "ChangeLocationStages",
+						"Structs": [
 							{
-								"MutagenObjectType": "ScriptObjectProperty",
-								"Name": "ConditionFormToTest",
-								"Object": "0EE436:Starfield.esm"
+								"Members": [
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "CheckPlayerShip"
+									},
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "SetStageOnEnterLocation"
+									},
+									{
+										"Data": 50,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "TargetLocation",
+										"Object": "26310D:Starfield.esm"
+									}
+								]
 							},
 							{
-								"MutagenObjectType": "ScriptIntProperty",
-								"Name": "StageToSet",
-								"Data": 300
-							},
-							{
-								"MutagenObjectType": "ScriptIntProperty",
-								"Name": "TurnOffStageDone",
-								"Data": 300
+								"Members": [
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "CheckPlayerShip"
+									},
+									{
+										"Data": 2000,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "PrereqStage"
+									},
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "SetStageOnEnterLocation"
+									},
+									{
+										"Data": 2010,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "TargetLocation",
+										"Object": "26310D:Starfield.esm"
+									}
+								]
 							}
 						]
+					},
+					{
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "SQ_PlayerShip",
+						"Object": "0174A2:Starfield.esm"
 					}
 				]
 			},
 			{
-				"Property": {
-					"Name": "",
-					"Object": "263194:Starfield.esm",
-					"Alias": 22
-				},
-				"Scripts": [
+				"Name": "defaultquestdistancecheckscript",
+				"Properties": [
 					{
-						"Name": "DefaultAliasOnTriggerEnter",
-						"Properties": [
+						"MutagenObjectType": "ScriptStructListProperty",
+						"Name": "DistanceCheckStages",
+						"Structs": [
 							{
-								"MutagenObjectType": "ScriptIntProperty",
-								"Name": "StageToSet",
-								"Data": 600
+								"Members": [
+									{
+										"Data": 25,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"Alias": 9,
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "TargetAlias",
+										"Object": "263194:Starfield.esm"
+									},
+									{
+										"Data": 20,
+										"MutagenObjectType": "ScriptFloatProperty",
+										"Name": "TargetDistance"
+									}
+								]
 							}
 						]
 					}
@@ -532,7 +532,6 @@
 	"Stages": [
 		{
 			"Index": 11,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -546,11 +545,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 12,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -564,11 +563,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 13,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -582,11 +581,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 14,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -600,11 +599,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 25,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -618,11 +617,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 26,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -636,11 +635,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 50,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -654,11 +653,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 100,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -672,11 +671,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 101,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -690,11 +689,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 200,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -708,11 +707,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 300,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -726,11 +725,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 301,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -744,11 +743,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 302,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -762,11 +761,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 305,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -780,11 +779,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 400,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -798,11 +797,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 401,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -816,11 +815,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 402,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -834,11 +833,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 500,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -852,11 +851,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 505,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -870,11 +869,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 600,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -888,11 +887,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 605,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -906,11 +905,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 610,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -924,11 +923,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 700,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -942,11 +941,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 801,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -960,11 +959,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 900,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -978,11 +977,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1000,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -996,11 +995,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1100,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1014,11 +1013,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1101,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1032,11 +1031,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1102,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1050,11 +1049,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1103,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1068,11 +1067,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1105,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1086,11 +1085,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1106,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1104,11 +1103,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1107,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1122,11 +1121,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1110,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1140,11 +1139,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1200,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1158,11 +1157,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1210,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1176,11 +1175,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1300,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1194,11 +1193,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1301,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1212,11 +1211,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1302,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1230,11 +1229,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1303,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1248,11 +1247,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1310,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1266,11 +1265,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1320,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1284,11 +1283,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1400,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1302,11 +1301,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1401,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1320,11 +1319,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1402,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1338,11 +1337,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1409,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1356,11 +1355,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1410,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1374,11 +1373,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1500,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1392,11 +1391,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2000,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1411,11 +1410,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2010,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1430,326 +1429,327 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		}
 	],
 	"Aliases": [
 		{
-			"MutagenObjectType": "QuestLocationAlias",
-			"ID": 21,
-			"Name": "Paradiso",
+			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
-			"ALFG": 0,
+			"ID": 21,
+			"MutagenObjectType": "QuestLocationAlias",
+			"Name": "Paradiso",
 			"SpecificLocation": "26310D:Starfield.esm"
 		},
 		{
-			"MutagenObjectType": "QuestLocationAlias",
-			"ID": 23,
-			"Name": "ParadisoInterior",
+			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
-			"ALFG": 0,
+			"ID": 23,
+			"MutagenObjectType": "QuestLocationAlias",
+			"Name": "ParadisoInterior",
 			"SpecificLocation": "15F5AD:Starfield.esm"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"Name": "AjaMamasa",
+			"ALFG": 0,
 			"Flags": [
 				"AllowDisabled"
 			],
-			"ALFG": 0,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "AjaMamasa",
 			"UniqueActor": "2BACF8:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 1,
-			"Name": "Balam",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 1,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Balam",
 			"UniqueActor": "263109:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 2,
-			"Name": "ChiefJiro",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 2,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ChiefJiro",
 			"UniqueActor": "263169:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 3,
-			"Name": "Clara",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 3,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Clara",
 			"UniqueActor": "263107:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 25,
-			"Name": "Daisuke",
+			"ALFG": 0,
 			"Flags": [
 				"Optional"
 			],
-			"ALFG": 0,
+			"ID": 25,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Daisuke",
 			"UniqueActor": "28B39C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 4,
-			"Name": "Dirk",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 4,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Dirk",
 			"UniqueActor": "263104:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 5,
-			"Name": "Emilian",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 5,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Emilian",
 			"UniqueActor": "263106:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 6,
-			"Name": "Harish",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 6,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Harish",
 			"UniqueActor": "26316B:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 24,
-			"Name": "Jacquotte",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 24,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Jacquotte",
 			"UniqueActor": "15D3C1:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 7,
-			"Name": "Keavy",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 7,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Keavy",
 			"UniqueActor": "263167:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 8,
-			"Name": "Kumar",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 8,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Kumar",
 			"UniqueActor": "263165:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 9,
-			"Name": "Muhammad",
-			"Flags": [],
 			"ALFG": 0,
-			"UniqueActor": "263163:Starfield.esm",
+			"Flags": [],
+			"ID": 9,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Muhammad",
 			"PackageData": [
 				"15F5B1:Starfield.esm",
 				"15F5AE:Starfield.esm"
 			],
+			"UniqueActor": "263163:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 10,
-			"Name": "Oliver",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 10,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Oliver",
 			"UniqueActor": "263161:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 11,
-			"Name": "Polly",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 11,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Polly",
 			"UniqueActor": "263160:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 12,
-			"Name": "Sima",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 12,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Sima",
 			"UniqueActor": "26315E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 13,
-			"Name": "Viator",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 13,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Viator",
 			"UniqueActor": "26315A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 14,
-			"Name": "Violet",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 14,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Violet",
 			"UniqueActor": "26315C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 27,
-			"Name": "Corbin",
+			"ALFG": 0,
 			"Flags": [
 				"AllowDead",
 				"AllowDisabled"
 			],
-			"ALFG": 0,
+			"ID": 27,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Corbin",
 			"UniqueActor": "1C3895:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 38,
-			"Name": "Simon",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 38,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Simon",
 			"UniqueActor": "325C18:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 19,
-			"Name": "Player",
+			"ALFG": 0,
 			"Flags": [
 				"StoresText"
 			],
-			"ALFG": 0,
+			"ID": 19,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Player",
 			"UniqueActor": "000007:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 20,
-			"Name": "KeavySceneTrigger",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 20,
 			"Location": {
 				"AliasID": 23,
 				"RefType": "1CF5EE:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "KeavySceneTrigger",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 22,
-			"Name": "BoardroomSceneTrigger",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 22,
 			"Location": {
 				"AliasID": 23,
 				"RefType": "1CF5EF:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "BoardroomSceneTrigger",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 26,
-			"Name": "ConciergeComputer",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 26,
 			"Location": {
 				"AliasID": 21,
 				"RefType": "15D3BA:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ConciergeComputer",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 29,
-			"Name": "BoardRoomDoor",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 29,
 			"Location": {
 				"AliasID": 23,
 				"RefType": "04842E:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "BoardRoomDoor",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 31,
 					"ALAM": 0,
+					"ID": 31,
 					"ReferenceAlias": {
-						"ID": 31,
-						"Name": "NPCsToDisableExt",
+						"ALFG": 0,
 						"Flags": [
 							"AllowDead"
 						],
-						"ALFG": 0,
+						"ID": 31,
 						"Location": {
 							"AliasID": 21,
 							"RefType": "04557A:Starfield.esm"
 						},
+						"Name": "NPCsToDisableExt",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 34,
 					"ALAM": 0,
+					"ID": 34,
 					"ReferenceAlias": {
-						"ID": 34,
-						"Name": "NPCsToEnableExt",
+						"ALFG": 0,
 						"Flags": [
 							"AllowDisabled"
 						],
-						"ALFG": 0,
+						"ID": 34,
 						"Location": {
 							"AliasID": 21,
 							"RefType": "39436F:Starfield.esm"
 						},
+						"Name": "NPCsToEnableExt",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 35,
-			"Name": "MeditationNPC01",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 35,
 			"Location": {
 				"AliasID": 21,
 				"RefType": "04555F:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "MeditationNPC01",
 			"PackageData": [
 				"045557:Starfield.esm",
 				"045555:Starfield.esm"
@@ -1757,15 +1757,15 @@
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 36,
-			"Name": "MeditationNPC02",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 36,
 			"Location": {
 				"AliasID": 21,
 				"RefType": "04555E:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "MeditationNPC02",
 			"PackageData": [
 				"045557:Starfield.esm",
 				"045555:Starfield.esm"
@@ -1773,29 +1773,31 @@
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 37,
-			"Name": "FrontDeskGreeter",
+			"ALFG": 0,
+			"DisplayName": "045563:Starfield.esm",
 			"Flags": [
 				"UsesStoredText"
 			],
-			"ALFG": 0,
+			"ID": 37,
 			"Location": {
 				"AliasID": 21,
 				"RefType": "045567:Starfield.esm"
 			},
-			"DisplayName": "045563:Starfield.esm",
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "FrontDeskGreeter",
 			"VoiceTypes": "1D0454:Starfield.esm"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 39,
 					"ALAM": 0,
+					"ID": 39,
 					"ReferenceAlias": {
-						"ID": 39,
-						"Name": "NamedECSNPCs",
+						"ALFG": 0,
+						"External": {
+							"AliasID": 40,
+							"Quest": "2741B1:Starfield.esm"
+						},
 						"Flags": [
 							"Optional",
 							"AllowReuseInQuest",
@@ -1803,39 +1805,38 @@
 							"AllowReserved",
 							"ExternalAliasLinked"
 						],
-						"ALFG": 0,
-						"External": {
-							"Quest": "2741B1:Starfield.esm",
-							"AliasID": 40
-						},
+						"ID": 39,
+						"Name": "NamedECSNPCs",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 40,
-			"Name": "ECSTransplantSlate",
+			"ALFG": 0,
 			"Flags": [
 				"AllowDisabled"
 			],
-			"ALFG": 0,
+			"ID": 40,
 			"Location": {
 				"AliasID": 21,
 				"RefType": "394392:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ECSTransplantSlate",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 41,
 					"ALAM": 0,
+					"ID": 41,
 					"ReferenceAlias": {
-						"ID": 41,
-						"Name": "BeachGuests",
+						"ALFG": 0,
+						"Factions": [
+							"04AFE8:Starfield.esm"
+						],
 						"Flags": [
 							"Optional",
 							"AllowReuseInQuest",
@@ -1843,18 +1844,17 @@
 							"AllowDisabled",
 							"AllowReserved"
 						],
-						"ALFG": 0,
+						"ID": 41,
 						"Location": {
 							"AliasID": 21,
 							"RefType": "046A82:Starfield.esm"
 						},
-						"Factions": [
-							"04AFE8:Starfield.esm"
-						],
+						"Name": "BeachGuests",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		}
 	]
 }

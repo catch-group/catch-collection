@@ -3,142 +3,382 @@
 	"EditorID": "DialogueCydonia",
 	"FormVersion": 576,
 	"VirtualMachineAdapter": {
-		"Scripts": [
+		"Aliases": [
 			{
-				"Name": "defaultquestchangelocationscript",
-				"Properties": [
+				"Property": {
+					"Alias": 11,
+					"Name": "",
+					"Object": "24AFED:Starfield.esm"
+				},
+				"Scripts": [
 					{
-						"MutagenObjectType": "ScriptStructListProperty",
-						"Name": "ChangeLocationStages",
-						"Structs": [
+						"Name": "DialogueCydoniaHurstAliasScript",
+						"Properties": [
 							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 12
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "targetLocationAlias",
-										"Object": "24AFED:Starfield.esm",
-										"Alias": 0
-									}
-								]
+								"MutagenObjectType": "ScriptObjectProperty",
+								"Name": "City_CY_RedTape02",
+								"Object": "237491:Starfield.esm"
 							},
 							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "PrereqStage",
-										"Data": 1120
-									},
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "SetStageOnEnterLocation"
-									},
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 1130
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "targetLocationAlias",
-										"Object": "24AFED:Starfield.esm",
-										"Alias": 0
-									}
-								]
-							},
-							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "PrereqStage",
-										"Data": 500
-									},
-									{
-										"MutagenObjectType": "ScriptBoolProperty",
-										"Name": "SetStageOnEnterLocation"
-									},
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 510
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "targetLocationAlias",
-										"Object": "24AFED:Starfield.esm",
-										"Alias": 0
-									}
-								]
-							}
-						]
-					},
-					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "SQ_PlayerShip",
-						"Object": "0174A2:Starfield.esm"
-					}
-				]
-			},
-			{
-				"Name": "defaultquestdistancecheckscript",
-				"Properties": [
-					{
-						"MutagenObjectType": "ScriptStructListProperty",
-						"Name": "DistanceCheckStages",
-						"Structs": [
-							{
-								"Members": [
-									{
-										"MutagenObjectType": "ScriptIntProperty",
-										"Name": "StageToSet",
-										"Data": 10
-									},
-									{
-										"MutagenObjectType": "ScriptObjectProperty",
-										"Name": "TargetAlias",
-										"Object": "24AFED:Starfield.esm",
-										"Alias": 28
-									},
-									{
-										"MutagenObjectType": "ScriptFloatProperty",
-										"Name": "TargetDistance",
-										"Data": 10
-									}
-								]
+								"MutagenObjectType": "ScriptObjectProperty",
+								"Name": "CY_HurstGone",
+								"Object": "23481C:Starfield.esm"
 							}
 						]
 					}
 				]
 			},
 			{
-				"Name": "DialogueCydoniaQuestScript",
-				"Properties": [
+				"Property": {
+					"Alias": 20,
+					"Name": "",
+					"Object": "24AFED:Starfield.esm"
+				},
+				"Scripts": [
 					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "AllMiners",
-						"Object": "24AFED:Starfield.esm",
-						"Alias": 51
-					},
-					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "Cutter",
-						"Object": "016758:Starfield.esm"
-					},
-					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "DialogueCydonia_HorusAid_CooldownTime",
-						"Object": "0A6967:Starfield.esm"
-					},
-					{
-						"MutagenObjectType": "ScriptObjectProperty",
-						"Name": "LL_CY_HorusGift",
-						"Object": "24348C:Starfield.esm"
+						"Name": "DialogueCydoniaNoamAliasScript",
+						"Properties": [
+							{
+								"MutagenObjectType": "ScriptObjectProperty",
+								"Name": "Health",
+								"Object": "0002D4:Starfield.esm"
+							}
+						]
 					}
 				]
+			},
+			{
+				"Property": {
+					"Alias": 30,
+					"Name": "",
+					"Object": "24AFED:Starfield.esm"
+				},
+				"Scripts": [
+					{
+						"Name": "NHAliasDisableOnUnloadScript",
+						"Properties": [
+							{
+								"Data": 11,
+								"MutagenObjectType": "ScriptIntProperty",
+								"Name": "StagePrereq"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Property": {
+					"Alias": 31,
+					"Name": "",
+					"Object": "24AFED:Starfield.esm"
+				},
+				"Scripts": [
+					{
+						"Name": "NHAliasDisableOnUnloadScript",
+						"Properties": [
+							{
+								"Data": 11,
+								"MutagenObjectType": "ScriptIntProperty",
+								"Name": "StagePrereq"
+							}
+						]
+					}
+				]
+			}
+		],
+		"Fragments": [
+			{
+				"FragmentName": "Fragment_Stage_0000_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0001_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0002_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0003_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 3,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0004_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 4,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0005_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 5,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0006_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 6,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0007_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 7,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0008_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 8,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0009_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 9,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0010_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 10,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0011_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 11,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0012_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 12,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0013_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 13,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0015_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 15,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0017_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 17,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0050_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 50,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0120_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 120,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0212_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 212,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0500_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 500,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0801_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 801,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0810_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 810,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0900_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 900,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_0902_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 902,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1002_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1002,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1110_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1110,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1130_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1130,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1150_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1150,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1200_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1200,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1300_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1300,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1302_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1302,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1310_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1310,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1320_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1320,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1321_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1321,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1400_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1400,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1402_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1402,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1500_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1500,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1501_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1501,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1550_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1550,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1700_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1700,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_1800_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 1800,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2000_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2000,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2301_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2301,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2400_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2400,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2405_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2405,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2410_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2410,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2500_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2500,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2510_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2510,
+				"Unknown2": 1
+			},
+			{
+				"FragmentName": "Fragment_Stage_2600_Item_00",
+				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
+				"Stage": 2600,
+				"Unknown2": 1
 			}
 		],
 		"Script": {
@@ -150,64 +390,64 @@
 					"Object": "00ABF9:Starfield.esm"
 				},
 				{
+					"Alias": 51,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_AllMiners",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 51
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 10,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_GillySeong",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 10
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 16,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_JaneWeller",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 16
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 18,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_LaylahPulaski",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 18
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 50,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_OldMiningEquipment",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 50
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 44,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_SaoirseBowden",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 44
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 33,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_SupervisorIntroMarker",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 33
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 27,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_TiaWu",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 27
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 49,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_TrackerAgent",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 49
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 43,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "Alias_TrevorMarker",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 43
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -305,10 +545,10 @@
 					"Object": "20B4B9:Starfield.esm"
 				},
 				{
+					"Alias": 7,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "DenisAverin",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 7
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -401,10 +641,10 @@
 					"Object": "24348C:Starfield.esm"
 				},
 				{
+					"Alias": 3,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "MitchBenjamin",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 3
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -417,16 +657,16 @@
 					"Object": "216D3D:Starfield.esm"
 				},
 				{
+					"Alias": 23,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "ReneeShelby",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 23
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
+					"Alias": 24,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "RivkahOvadia",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 24
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -434,10 +674,10 @@
 					"Object": "227FD7:Starfield.esm"
 				},
 				{
+					"Alias": 28,
 					"MutagenObjectType": "ScriptObjectProperty",
 					"Name": "TrevorPetyarre",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 28
+					"Object": "24AFED:Starfield.esm"
 				},
 				{
 					"MutagenObjectType": "ScriptObjectProperty",
@@ -446,380 +686,140 @@
 				}
 			]
 		},
-		"Fragments": [
+		"Scripts": [
 			{
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0000_Item_00"
-			},
-			{
-				"Stage": 1,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0001_Item_00"
-			},
-			{
-				"Stage": 2,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0002_Item_00"
-			},
-			{
-				"Stage": 3,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0003_Item_00"
-			},
-			{
-				"Stage": 4,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0004_Item_00"
-			},
-			{
-				"Stage": 5,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0005_Item_00"
-			},
-			{
-				"Stage": 6,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0006_Item_00"
-			},
-			{
-				"Stage": 7,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0007_Item_00"
-			},
-			{
-				"Stage": 8,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0008_Item_00"
-			},
-			{
-				"Stage": 9,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0009_Item_00"
-			},
-			{
-				"Stage": 10,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0010_Item_00"
-			},
-			{
-				"Stage": 11,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0011_Item_00"
-			},
-			{
-				"Stage": 12,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0012_Item_00"
-			},
-			{
-				"Stage": 13,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0013_Item_00"
-			},
-			{
-				"Stage": 15,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0015_Item_00"
-			},
-			{
-				"Stage": 17,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0017_Item_00"
-			},
-			{
-				"Stage": 50,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0050_Item_00"
-			},
-			{
-				"Stage": 120,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0120_Item_00"
-			},
-			{
-				"Stage": 212,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0212_Item_00"
-			},
-			{
-				"Stage": 500,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0500_Item_00"
-			},
-			{
-				"Stage": 801,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0801_Item_00"
-			},
-			{
-				"Stage": 810,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0810_Item_00"
-			},
-			{
-				"Stage": 900,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0900_Item_00"
-			},
-			{
-				"Stage": 902,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_0902_Item_00"
-			},
-			{
-				"Stage": 1002,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1002_Item_00"
-			},
-			{
-				"Stage": 1110,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1110_Item_00"
-			},
-			{
-				"Stage": 1130,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1130_Item_00"
-			},
-			{
-				"Stage": 1150,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1150_Item_00"
-			},
-			{
-				"Stage": 1200,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1200_Item_00"
-			},
-			{
-				"Stage": 1300,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1300_Item_00"
-			},
-			{
-				"Stage": 1302,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1302_Item_00"
-			},
-			{
-				"Stage": 1310,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1310_Item_00"
-			},
-			{
-				"Stage": 1320,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1320_Item_00"
-			},
-			{
-				"Stage": 1321,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1321_Item_00"
-			},
-			{
-				"Stage": 1400,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1400_Item_00"
-			},
-			{
-				"Stage": 1402,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1402_Item_00"
-			},
-			{
-				"Stage": 1500,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1500_Item_00"
-			},
-			{
-				"Stage": 1501,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1501_Item_00"
-			},
-			{
-				"Stage": 1550,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1550_Item_00"
-			},
-			{
-				"Stage": 1700,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1700_Item_00"
-			},
-			{
-				"Stage": 1800,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_1800_Item_00"
-			},
-			{
-				"Stage": 2000,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2000_Item_00"
-			},
-			{
-				"Stage": 2301,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2301_Item_00"
-			},
-			{
-				"Stage": 2400,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2400_Item_00"
-			},
-			{
-				"Stage": 2405,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2405_Item_00"
-			},
-			{
-				"Stage": 2410,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2410_Item_00"
-			},
-			{
-				"Stage": 2500,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2500_Item_00"
-			},
-			{
-				"Stage": 2510,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2510_Item_00"
-			},
-			{
-				"Stage": 2600,
-				"Unknown2": 1,
-				"ScriptName": "Fragments:Quests:QF_DialogueCydonia_0024AFED",
-				"FragmentName": "Fragment_Stage_2600_Item_00"
-			}
-		],
-		"Aliases": [
-			{
-				"Property": {
-					"Name": "",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 11
-				},
-				"Scripts": [
+				"Name": "defaultquestchangelocationscript",
+				"Properties": [
 					{
-						"Name": "DialogueCydoniaHurstAliasScript",
-						"Properties": [
+						"MutagenObjectType": "ScriptStructListProperty",
+						"Name": "ChangeLocationStages",
+						"Structs": [
 							{
-								"MutagenObjectType": "ScriptObjectProperty",
-								"Name": "City_CY_RedTape02",
-								"Object": "237491:Starfield.esm"
+								"Members": [
+									{
+										"Data": 12,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"Alias": 0,
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "targetLocationAlias",
+										"Object": "24AFED:Starfield.esm"
+									}
+								]
 							},
 							{
-								"MutagenObjectType": "ScriptObjectProperty",
-								"Name": "CY_HurstGone",
-								"Object": "23481C:Starfield.esm"
+								"Members": [
+									{
+										"Data": 1120,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "PrereqStage"
+									},
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "SetStageOnEnterLocation"
+									},
+									{
+										"Data": 1130,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"Alias": 0,
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "targetLocationAlias",
+										"Object": "24AFED:Starfield.esm"
+									}
+								]
+							},
+							{
+								"Members": [
+									{
+										"Data": 500,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "PrereqStage"
+									},
+									{
+										"MutagenObjectType": "ScriptBoolProperty",
+										"Name": "SetStageOnEnterLocation"
+									},
+									{
+										"Data": 510,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"Alias": 0,
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "targetLocationAlias",
+										"Object": "24AFED:Starfield.esm"
+									}
+								]
+							}
+						]
+					},
+					{
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "SQ_PlayerShip",
+						"Object": "0174A2:Starfield.esm"
+					}
+				]
+			},
+			{
+				"Name": "defaultquestdistancecheckscript",
+				"Properties": [
+					{
+						"MutagenObjectType": "ScriptStructListProperty",
+						"Name": "DistanceCheckStages",
+						"Structs": [
+							{
+								"Members": [
+									{
+										"Data": 10,
+										"MutagenObjectType": "ScriptIntProperty",
+										"Name": "StageToSet"
+									},
+									{
+										"Alias": 28,
+										"MutagenObjectType": "ScriptObjectProperty",
+										"Name": "TargetAlias",
+										"Object": "24AFED:Starfield.esm"
+									},
+									{
+										"Data": 10,
+										"MutagenObjectType": "ScriptFloatProperty",
+										"Name": "TargetDistance"
+									}
+								]
 							}
 						]
 					}
 				]
 			},
 			{
-				"Property": {
-					"Name": "",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 20
-				},
-				"Scripts": [
+				"Name": "DialogueCydoniaQuestScript",
+				"Properties": [
 					{
-						"Name": "DialogueCydoniaNoamAliasScript",
-						"Properties": [
-							{
-								"MutagenObjectType": "ScriptObjectProperty",
-								"Name": "Health",
-								"Object": "0002D4:Starfield.esm"
-							}
-						]
-					}
-				]
-			},
-			{
-				"Property": {
-					"Name": "",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 30
-				},
-				"Scripts": [
+						"Alias": 51,
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "AllMiners",
+						"Object": "24AFED:Starfield.esm"
+					},
 					{
-						"Name": "NHAliasDisableOnUnloadScript",
-						"Properties": [
-							{
-								"MutagenObjectType": "ScriptIntProperty",
-								"Name": "StagePrereq",
-								"Data": 11
-							}
-						]
-					}
-				]
-			},
-			{
-				"Property": {
-					"Name": "",
-					"Object": "24AFED:Starfield.esm",
-					"Alias": 31
-				},
-				"Scripts": [
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "Cutter",
+						"Object": "016758:Starfield.esm"
+					},
 					{
-						"Name": "NHAliasDisableOnUnloadScript",
-						"Properties": [
-							{
-								"MutagenObjectType": "ScriptIntProperty",
-								"Name": "StagePrereq",
-								"Data": 11
-							}
-						]
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "DialogueCydonia_HorusAid_CooldownTime",
+						"Object": "0A6967:Starfield.esm"
+					},
+					{
+						"MutagenObjectType": "ScriptObjectProperty",
+						"Name": "LL_CY_HorusGift",
+						"Object": "24348C:Starfield.esm"
 					}
 				]
 			}
@@ -848,7 +848,6 @@
 	"UnusedConditions": [],
 	"Stages": [
 		{
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -862,11 +861,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -880,11 +879,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -898,11 +897,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 3,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -916,11 +915,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 4,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -934,11 +933,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 5,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -952,11 +951,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 6,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -970,11 +969,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 7,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -988,11 +987,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 8,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1006,11 +1005,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 9,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1024,11 +1023,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 10,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1042,11 +1041,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 11,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1060,11 +1059,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 12,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1078,11 +1077,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 13,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1096,11 +1095,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 15,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1114,11 +1113,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 17,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1132,11 +1131,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 50,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1150,11 +1149,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 100,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1168,11 +1167,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 110,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1186,11 +1185,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 120,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1204,11 +1203,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 121,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1222,11 +1221,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 200,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1240,11 +1239,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 210,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1258,11 +1257,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 211,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1276,11 +1275,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 212,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1294,11 +1293,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 213,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1312,11 +1311,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 300,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1330,11 +1329,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 310,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1344,14 +1343,14 @@
 							"QSRD": "0x01000000",
 							"RewardDatas": [
 								{
-									"XpAwarded": "Null",
 									"BonusCredits": "Null",
 									"Rewards": [
 										{
-											"Item": "24348C:Starfield.esm",
-											"Count": 1
+											"Count": 1,
+											"Item": "24348C:Starfield.esm"
 										}
-									]
+									],
+									"XpAwarded": "Null"
 								}
 							]
 						},
@@ -1360,11 +1359,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 311,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1378,11 +1377,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 320,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1396,11 +1395,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 400,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1414,11 +1413,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 500,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1432,11 +1431,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 510,
-			"Unknown": 244,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1450,11 +1449,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 244
 		},
 		{
 			"Index": 600,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1468,11 +1467,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 700,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1486,11 +1485,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 701,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1504,11 +1503,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 800,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1522,11 +1521,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 801,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1540,11 +1539,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 810,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1558,11 +1557,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 900,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1576,11 +1575,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 901,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1594,11 +1593,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 902,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1612,11 +1611,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 910,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1630,11 +1629,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1000,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1648,11 +1647,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1001,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1666,11 +1665,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1002,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1684,11 +1683,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1003,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1701,11 +1700,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1005,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1719,11 +1718,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1100,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1737,11 +1736,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1101,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1755,11 +1754,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1105,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1773,11 +1772,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1110,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1791,11 +1790,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1120,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1809,11 +1808,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1130,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1827,11 +1826,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1150,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1845,11 +1844,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1200,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1863,11 +1862,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1201,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1881,11 +1880,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1210,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1899,11 +1898,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1250,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1917,11 +1916,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1251,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1935,11 +1934,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1300,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1953,11 +1952,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1301,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1971,11 +1970,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1302,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -1989,11 +1988,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1303,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2007,11 +2006,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1305,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2025,11 +2024,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1306,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2043,11 +2042,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1310,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2061,11 +2060,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1320,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2075,8 +2074,8 @@
 							"QSRD": "0x01000000",
 							"RewardDatas": [
 								{
-									"XpAwarded": "Null",
-									"BonusCredits": "2266D6:Starfield.esm"
+									"BonusCredits": "2266D6:Starfield.esm",
+									"XpAwarded": "Null"
 								}
 							]
 						},
@@ -2085,11 +2084,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1321,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2099,8 +2098,8 @@
 							"QSRD": "0x01000000",
 							"RewardDatas": [
 								{
-									"XpAwarded": "Null",
-									"BonusCredits": "2266D5:Starfield.esm"
+									"BonusCredits": "2266D5:Starfield.esm",
+									"XpAwarded": "Null"
 								}
 							]
 						},
@@ -2109,11 +2108,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1350,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2128,11 +2127,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1400,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2146,11 +2145,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1401,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2164,11 +2163,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1402,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2182,11 +2181,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1403,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2200,11 +2199,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1404,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2218,11 +2217,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1500,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2236,11 +2235,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1501,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2254,11 +2253,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1502,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2272,11 +2271,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1503,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2289,11 +2288,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1510,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2307,11 +2306,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1550,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2325,11 +2324,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1551,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2343,11 +2342,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1601,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2361,11 +2360,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1700,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2379,11 +2378,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1800,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2397,11 +2396,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1801,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2415,11 +2414,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 1900,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2433,11 +2432,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2000,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2451,11 +2450,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2100,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2469,11 +2468,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2101,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2487,11 +2486,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2200,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2505,11 +2504,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2300,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2523,11 +2522,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2301,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2541,11 +2540,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2310,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2559,11 +2558,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2315,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2577,11 +2576,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2320,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2595,11 +2594,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2400,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2613,11 +2612,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2401,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2631,11 +2630,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2402,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2649,11 +2648,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2405,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2667,11 +2666,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2410,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2685,11 +2684,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2411,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2703,11 +2702,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2500,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2721,11 +2720,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2501,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2739,11 +2738,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2510,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2757,11 +2756,11 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		},
 		{
 			"Index": 2600,
-			"Unknown": 171,
 			"LogEntries": [
 				{
 					"Flags": [],
@@ -2775,349 +2774,350 @@
 						}
 					]
 				}
-			]
+			],
+			"Unknown": 171
 		}
 	],
 	"Aliases": [
 		{
-			"MutagenObjectType": "QuestLocationAlias",
-			"Name": "Cydonia",
+			"ALFG": 0,
 			"Flags": [
 				"AllowReserved",
 				"AllowCleared"
 			],
-			"ALFG": 0,
+			"MutagenObjectType": "QuestLocationAlias",
+			"Name": "Cydonia",
 			"SpecificLocation": "015FF7:Starfield.esm"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 1,
-			"Name": "AndresJensen",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 1,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "AndresJensen",
 			"UniqueActor": "255D21:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 2,
-			"Name": "AnnaImani",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 2,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "AnnaImani",
 			"UniqueActor": "255D12:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 3,
-			"Name": "MitchBenjamin",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 3,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "MitchBenjamin",
 			"UniqueActor": "255D20:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 4,
-			"Name": "Booth",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 4,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Booth",
 			"UniqueActor": "255D1F:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 6,
-			"Name": "CharlieFlynn",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 6,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "CharlieFlynn",
 			"UniqueActor": "255D11:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 46,
-			"Name": "DemelzaMyers",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 46,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "DemelzaMyers",
 			"UniqueActor": "09B6B3:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 7,
-			"Name": "DenisAverin",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 7,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "DenisAverin",
 			"UniqueActor": "255D1E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 8,
-			"Name": "ErickVonPrice",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 8,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ErickVonPrice",
 			"UniqueActor": "255D1D:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 9,
-			"Name": "GauriLimsong",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 9,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "GauriLimsong",
 			"UniqueActor": "255D10:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 10,
-			"Name": "GillySeong",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 10,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "GillySeong",
 			"UniqueActor": "255D0F:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 11,
-			"Name": "GlenHurst",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 11,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "GlenHurst",
 			"UniqueActor": "255D1C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 12,
-			"Name": "HenryFerraro",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 12,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "HenryFerraro",
 			"UniqueActor": "255D1A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 13,
-			"Name": "HorusGamal",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 13,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "HorusGamal",
 			"UniqueActor": "255D19:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 14,
-			"Name": "IfeanyiAdigwe",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 14,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "IfeanyiAdigwe",
 			"UniqueActor": "255D18:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 15,
-			"Name": "Jack",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 15,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Jack",
 			"UniqueActor": "28A2B9:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 16,
-			"Name": "JaneWeller",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 16,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "JaneWeller",
 			"UniqueActor": "255D0E:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 17,
-			"Name": "JoyBryant",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 17,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "JoyBryant",
 			"UniqueActor": "255D0D:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 18,
-			"Name": "LaylahPulaski",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 18,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "LaylahPulaski",
 			"UniqueActor": "255D0C:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 19,
-			"Name": "LeonaHawkes",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 19,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "LeonaHawkes",
 			"UniqueActor": "255D0B:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 45,
-			"Name": "ManaakiAlmonte",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 45,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ManaakiAlmonte",
 			"UniqueActor": "09DBA3:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 20,
-			"Name": "Noam",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 20,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Noam",
 			"UniqueActor": "255D07:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 21,
-			"Name": "PeterBrennan",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 21,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "PeterBrennan",
 			"UniqueActor": "255D17:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 23,
-			"Name": "ReneeShelby",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 23,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ReneeShelby",
 			"UniqueActor": "255D0A:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 24,
-			"Name": "RivkahOvadia",
-			"Flags": [],
 			"ALFG": 0,
-			"UniqueActor": "255D09:Starfield.esm",
+			"Flags": [],
+			"ID": 24,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "RivkahOvadia",
 			"PackageData": [
 				"2F17EB:Starfield.esm"
 			],
+			"UniqueActor": "255D09:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 25,
-			"Name": "SamundBergRamirez",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 25,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "SamundBergRamirez",
 			"UniqueActor": "255D16:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 44,
-			"Name": "SaoirseBowden",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 44,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "SaoirseBowden",
 			"UniqueActor": "262CC5:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 26,
-			"Name": "TayeImani",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 26,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "TayeImani",
 			"UniqueActor": "255D15:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 27,
-			"Name": "TiaWu",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 27,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "TiaWu",
 			"UniqueActor": "255D08:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 28,
-			"Name": "TrevorPetyarre",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 28,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "TrevorPetyarre",
 			"UniqueActor": "255D14:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 29,
-			"Name": "VincentWoodard",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 29,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "VincentWoodard",
 			"UniqueActor": "255D13:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 33,
-			"Name": "SupervisorIntroMarker",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 33,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "24AFD8:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "SupervisorIntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 37,
-			"Name": "Miner01IntroMarker",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 37,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "24AFD6:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Miner01IntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 34,
-			"Name": "Miner02IntroMarker",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 34,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "24AFD7:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Miner02IntroMarker",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 30,
-			"Name": "IntroMiner01",
-			"Flags": [
-				"UsesStoredText",
-				"CreateRefTemp"
-			],
 			"ALFG": 0,
 			"CreateReferenceToObject": {
-				"Object": "2CCF9F:Starfield.esm",
-				"AliasID": 37
+				"AliasID": 37,
+				"Object": "2CCF9F:Starfield.esm"
 			},
-			"Keywords": [
-				"3CA246:Starfield.esm"
-			],
 			"DisplayName": "203182:Starfield.esm",
 			"Factions": [
 				"203BC3:Starfield.esm"
 			],
+			"Flags": [
+				"UsesStoredText",
+				"CreateRefTemp"
+			],
+			"ID": 30,
+			"Keywords": [
+				"3CA246:Starfield.esm"
+			],
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "IntroMiner01",
 			"PackageData": [
 				"20B4BF:Starfield.esm",
 				"240488:Starfield.esm"
@@ -3125,25 +3125,25 @@
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 31,
-			"Name": "IntroMiner02",
-			"Flags": [
-				"UsesStoredText",
-				"CreateRefTemp"
-			],
 			"ALFG": 0,
 			"CreateReferenceToObject": {
-				"Object": "2CCF9E:Starfield.esm",
-				"AliasID": 34
+				"AliasID": 34,
+				"Object": "2CCF9E:Starfield.esm"
 			},
-			"Keywords": [
-				"3CA246:Starfield.esm"
-			],
 			"DisplayName": "203182:Starfield.esm",
 			"Factions": [
 				"203BC3:Starfield.esm"
 			],
+			"Flags": [
+				"UsesStoredText",
+				"CreateRefTemp"
+			],
+			"ID": 31,
+			"Keywords": [
+				"3CA246:Starfield.esm"
+			],
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "IntroMiner02",
 			"PackageData": [
 				"20B4BE:Starfield.esm",
 				"240488:Starfield.esm"
@@ -3151,196 +3151,196 @@
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 39,
-			"Name": "IntroChair01",
+			"ALFG": 0,
 			"Flags": [
 				"CreateRefTemp"
 			],
-			"ALFG": 0,
+			"ID": 39,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "20B4C1:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "IntroChair01",
 			"PackageData": [
 				"240488:Starfield.esm"
 			],
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 40,
-			"Name": "IntroChair02",
+			"ALFG": 0,
 			"Flags": [
 				"CreateRefTemp"
 			],
-			"ALFG": 0,
+			"ID": 40,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "20B4C0:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "IntroChair02",
 			"PackageData": [
 				"240488:Starfield.esm"
 			],
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 35,
-			"Name": "Companion",
+			"ALFG": 0,
+			"External": {
+				"AliasID": 0,
+				"Quest": "2A567C:Starfield.esm"
+			},
 			"Flags": [
 				"Optional",
 				"ExternalAliasLinked",
 				"IsCompanion",
 				"OptionalAllScenes"
 			],
-			"ALFG": 0,
-			"External": {
-				"Quest": "2A567C:Starfield.esm",
-				"AliasID": 0
-			},
+			"ID": 35,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Companion",
 			"VoiceTypes": "02935D:Starfield.esm"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 36,
-			"Name": "Player",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 36,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "Player",
 			"UniqueActor": "000007:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 41,
 					"ALAM": 0,
+					"ID": 41,
 					"ReferenceAlias": {
-						"ID": 41,
-						"Name": "PatrolGuards",
-						"Flags": [],
 						"ALFG": 0,
+						"Flags": [],
+						"ID": 41,
 						"Location": {
 							"AliasID": 0,
 							"RefType": "2066CA:Starfield.esm"
 						},
+						"Name": "PatrolGuards",
 						"PackageData": [
 							"2066CB:Starfield.esm"
 						],
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 42,
 					"ALAM": 0,
+					"ID": 42,
 					"ReferenceAlias": {
-						"ID": 42,
-						"Name": "StationarylGuards",
-						"Flags": [],
 						"ALFG": 0,
+						"Flags": [],
+						"ID": 42,
 						"Location": {
 							"AliasID": 0,
 							"RefType": "20668B:Starfield.esm"
 						},
+						"Name": "StationarylGuards",
 						"PackageData": [
 							"20668C:Starfield.esm"
 						],
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 43,
-			"Name": "TrevorMarker",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 43,
 			"Location": {
 				"AliasID": 0,
 				"RefType": "1FA6BB:Starfield.esm"
 			},
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "TrevorMarker",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 47,
-			"Name": "ChrisCullen",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 47,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "ChrisCullen",
 			"UniqueActor": "031AC8:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 48,
-			"Name": "WaylonParker",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 48,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "WaylonParker",
 			"UniqueActor": "02DD56:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestReferenceAlias",
-			"ID": 49,
-			"Name": "TrackerAgent",
-			"Flags": [],
 			"ALFG": 0,
+			"Flags": [],
+			"ID": 49,
+			"MutagenObjectType": "QuestReferenceAlias",
+			"Name": "TrackerAgent",
 			"UniqueActor": "1D8BDF:Starfield.esm",
 			"VoiceTypes": "Null"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 50,
 					"ALAM": 0,
+					"ID": 50,
 					"ReferenceAlias": {
-						"ID": 50,
-						"Name": "OldMiningEquipment",
+						"ALFG": 0,
 						"Flags": [
 							"AllowReuseInQuest",
 							"AllowDisabled",
 							"AllowReserved"
 						],
-						"ALFG": 0,
+						"ID": 50,
 						"Location": {
 							"AliasID": 0,
 							"RefType": "0880B1:Starfield.esm"
 						},
+						"Name": "OldMiningEquipment",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		},
 		{
-			"MutagenObjectType": "QuestCollectionAlias",
 			"Collection": [
 				{
-					"ID": 51,
 					"ALAM": 0,
+					"ID": 51,
 					"ReferenceAlias": {
-						"ID": 51,
-						"Name": "AllMiners",
+						"ALFG": 0,
 						"Flags": [
 							"AllowReuseInQuest",
 							"AllowReserved"
 						],
-						"ALFG": 0,
+						"ID": 51,
 						"Location": {
 							"AliasID": 0,
 							"RefType": "18DD98:Starfield.esm"
 						},
+						"Name": "AllMiners",
 						"VoiceTypes": "Null"
 					}
 				}
-			]
+			],
+			"MutagenObjectType": "QuestCollectionAlias"
 		}
 	]
 }

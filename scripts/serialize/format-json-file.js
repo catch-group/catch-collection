@@ -1,5 +1,5 @@
 import {
-	alphabetical, isPlainObject, traverse
+	alphabetical, isPlainObject, set, traverse
 } from "@radashi-org/radashi";
 
 const {
@@ -19,23 +19,22 @@ const formatJsonFile = async (filePath, { replacer } = {}) => {
 
 	const parsedJson = JSON.parse(fileContent);
 
-	const sortedParsedJson = {};
+	let sortedParsedJson = {};
 
 	traverse(
 		parsedJson,
-		(key, value, parent, { path }) => {
-			if (isPlainObject(value)) {
-				return Object.fromEntries(
-					alphabetical(Object.entries(value), ([innerKey]) => innerKey)
-				);
-			}
-
-			return value;
+		(value, key, parent, { path }) => {
+			sortedParsedJson = set(sortedParsedJson, path.join("."), isPlainObject(value)
+				? Object.fromEntries(
+					Object.entries(value)
+						.toSorted(([keyA], [keyB]) => keyA.localeCompare(keyB))
+				)
+				: value);
 		},
 		{ rootNeedsVisit: true }
 	);
 
-	const formattedJson = JSON.stringify(parsedJson, replacer, "\t");
+	const formattedJson = JSON.stringify(sortedParsedJson, replacer, "\t");
 
 	await writeTextFile(filePath, formattedJson);
 };

@@ -14,52 +14,52 @@
 	],
 	"Entries": [
 		{
-			"Level": 1,
-			"Unused": 95,
-			"Reference": "034C7D:Starfield.esm",
-			"Count": 1
-		},
-		{
-			"Level": 1,
-			"Unused": 95,
-			"Reference": "05F184:Starfield.esm",
-			"Count": 1
-		},
-		{
-			"Level": 1,
-			"Reference": "1CCFB7:Starfield.esm",
 			"Count": 1,
+			"Level": 1,
+			"Reference": "034C7D:Starfield.esm",
+			"Unused": 95
+		},
+		{
+			"Count": 1,
+			"Level": 1,
+			"Reference": "05F184:Starfield.esm",
+			"Unused": 95
+		},
+		{
 			"ChanceNone": 0.85,
 			"Conditions": [
 				{
-					"MutagenObjectType": "ConditionFloat",
-					"Unknown2": 22829,
 					"Data": {
-						"MutagenObjectType": "GetGlobalValueConditionData",
-						"FirstParameter": "1CCFB6:Starfield.esm"
-					}
+						"FirstParameter": "1CCFB6:Starfield.esm",
+						"MutagenObjectType": "GetGlobalValueConditionData"
+					},
+					"MutagenObjectType": "ConditionFloat",
+					"Unknown2": 22829
 				},
 				{
-					"MutagenObjectType": "ConditionFloat",
-					"Unknown2": 22829,
 					"Data": {
-						"MutagenObjectType": "GetIsCurrentLocationConditionData",
-						"FirstParameter": "18AE75:Starfield.esm"
-					}
+						"FirstParameter": "18AE75:Starfield.esm",
+						"MutagenObjectType": "GetIsCurrentLocationConditionData"
+					},
+					"MutagenObjectType": "ConditionFloat",
+					"Unknown2": 22829
 				}
-			]
+			],
+			"Count": 1,
+			"Level": 1,
+			"Reference": "1CCFB7:Starfield.esm"
 		},
 		{
+			"Count": 1,
 			"Level": 1,
-			"Unused": 95,
 			"Reference": "66636E:Catch - 8222-ROX - 11471-KAO.esm",
-			"Count": 1
+			"Unused": 95
 		},
 		{
+			"Count": 1,
 			"Level": 1,
-			"Unused": 95,
 			"Reference": "66636F:Catch - 8222-ROX - 11471-KAO.esm",
-			"Count": 1
+			"Unused": 95
 		}
 	],
 	"Model": {
