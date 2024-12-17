@@ -11,7 +11,8 @@ This is a compatibility patch for:
 		[![Ko-fi Badge](https://img.shields.io/badge/Ko--fi-white?style=flat&logo=kofi&logoColor=black)](https://ko-fi.com/jaedl)
 		[![PayPal Badge](https://img.shields.io/badge/PayPal-white?style=flat&logo=paypal&logoColor=black)](https://www.paypal.com/donate?business=Upsend@gmail.com)
 - [KZ Aggregation of Scraps (11471-KAO)](https://www.nexusmods.com/starfield/mods/11471) by [KryoZet](https://next.nexusmods.com/profile/KryoZet)
-	- NO PERMISSION
+	- Permission to patch granted by:
+		- [Nexus Mods Page - Comments](https://www.nexusmods.com/starfield/mods/11471?tab=posts)
 	- Donate:
 
 		[![PayPal Badge](https://img.shields.io/badge/PayPal-white?style=flat&logo=paypal&logoColor=black)](https://www.paypal.com/donate?business=veli-pekka.kivela@proton.me)
