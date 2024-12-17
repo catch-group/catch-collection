@@ -24,7 +24,6 @@ const formatJsonFile = async (filePath, { replacer } = {}) => {
 	traverse(
 		parsedJson,
 		(key, value, parent, { path }) => {
-			console.log(path);
 			if (isPlainObject(value)) {
 				return Object.fromEntries(
 					alphabetical(Object.entries(value), ([innerKey]) => innerKey)
