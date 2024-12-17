@@ -1,0 +1,35 @@
+{
+	"PackageName": "Spriggit.Json",
+	"Release": "Starfield",
+	"Version": "0.18",
+	"KnownMasters": [
+		{
+			"ModKey": "Starfield.esm",
+			"Style": "Full"
+		},
+		{
+			"ModKey": "ShatteredSpace.esm",
+			"Style": "Full"
+		},
+		{
+			"ModKey": "Mineral Overhaul.esm",
+			"Style": "Small"
+		},
+		{
+			"ModKey": "TNSpaceMining.esm",
+			"Style": "Small"
+		},
+		{
+			"ModKey": "ShopkeeperSchedules.esm",
+			"Style": "Small"
+		},
+		{
+			"ModKey": "KZ_AIO.esm",
+			"Style": "Small"
+		},
+		{
+			"ModKey": "TNShipModsAllInOne.esm",
+			"Style": "Small"
+		}
+	]
+}

@@ -1,4 +1,4 @@
-# Zero-Clause BSD License (0BSD)
+# BSD Zero Clause License
 
 Copyright © 2024 Catch Group
 

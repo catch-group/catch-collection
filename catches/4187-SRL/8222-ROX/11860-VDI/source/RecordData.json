@@ -1,0 +1,24 @@
+{
+	"SpriggitSource": {
+		"PackageName": "Spriggit.Json.Starfield",
+		"Version": "0.35.1"
+	},
+	"ModKey": "Catch - 8222-ROX - 11860-VDI.esm",
+	"GameRelease": "Starfield",
+	"ModHeader": {
+		"Flags": [
+			"Master"
+		],
+		"FormVersion": 576,
+		"Author": "Catch Group",
+		"MasterReferences": [
+			{
+				"Master": "Starfield.esm"
+			},
+			{
+				"Master": "ShatteredSpace.esm"
+			}
+		],
+		"Description": "0.1.0"
+	}
+}

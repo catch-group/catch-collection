@@ -1,0 +1,1860 @@
+{
+  "FormKey": "263194:Starfield.esm",
+  "EditorID": "DialogueParadiso",
+  "FormVersion": 556,
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "defaultquestchangelocationscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "ChangeLocationStages",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CheckPlayerShip"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "SetStageOnEnterLocation"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "StageToSet",
+                    "Data": 50
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetLocation",
+                    "Object": "26310D:Starfield.esm"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CheckPlayerShip"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "PrereqStage",
+                    "Data": 2000
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "SetStageOnEnterLocation"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "StageToSet",
+                    "Data": 2010
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetLocation",
+                    "Object": "26310D:Starfield.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_PlayerShip",
+            "Object": "0174A2:Starfield.esm"
+          }
+        ]
+      },
+      {
+        "Name": "defaultquestdistancecheckscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "DistanceCheckStages",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "StageToSet",
+                    "Data": 25
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetAlias",
+                    "Object": "263194:Starfield.esm",
+                    "Alias": 9
+                  },
+                  {
+                    "MutagenObjectType": "ScriptFloatProperty",
+                    "Name": "TargetDistance",
+                    "Data": 20.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Script": {
+      "Name": "Fragments:Quests:QF_DialogueParadiso_00263194",
+      "Properties": [
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BoardRoomDoor",
+          "Object": "263194:Starfield.esm",
+          "Alias": 29
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_ChiefJiro",
+          "Object": "263194:Starfield.esm",
+          "Alias": 2
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Daisuke",
+          "Object": "263194:Starfield.esm",
+          "Alias": 25
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Dirk",
+          "Object": "263194:Starfield.esm",
+          "Alias": 4
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_ECSTransplantSlate",
+          "Object": "263194:Starfield.esm",
+          "Alias": 40
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Emilian",
+          "Object": "263194:Starfield.esm",
+          "Alias": 5
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Jacquotte",
+          "Object": "263194:Starfield.esm",
+          "Alias": 24
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Kumar",
+          "Object": "263194:Starfield.esm",
+          "Alias": 8
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_NamedECSNPCs",
+          "Object": "263194:Starfield.esm",
+          "Alias": 39
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_NPCsToDisableExt",
+          "Object": "263194:Starfield.esm",
+          "Alias": 31
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_NPCsToEnableExt",
+          "Object": "263194:Starfield.esm",
+          "Alias": 34
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Credits",
+          "Object": "00000F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "CrimeFactionECSConstant",
+          "Object": "28B3AE:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "CrimeFactionParadiso",
+          "Object": "26310C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DialogueECSConstant",
+          "Object": "2741B1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DialogueParadiso_PD_Boardroom_Scene",
+          "Object": "1D043E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DialogueParadiso_PD_IntroScene",
+          "Object": "263159:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DialogueParadiso_PD_Keavy_Intro",
+          "Object": "263156:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "ECSConstantFaction",
+          "Object": "28B3AF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "ECSConstantSecurityFaction",
+          "Object": "12E72E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ01",
+          "Object": "1C7689:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ01Misc",
+          "Object": "1C7688:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFparadisoZ02",
+          "Object": "1C6901:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ02Misc",
+          "Object": "1C6902:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ03",
+          "Object": "1C433F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ03Misc",
+          "Object": "1C433E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ04",
+          "Object": "1C38EA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFParadisoZ04Misc",
+          "Object": "1C38EB:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MS06",
+          "Object": "258694:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "ParadisoFaction",
+          "Object": "26310B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_EnhanceSpecialPrice",
+          "Object": "1D0441:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_EnhanceSpecialVouchers",
+          "Object": "1D0440:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_Hotel_RoomCost_Daily",
+          "Object": "33A1BA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_Hotel_RoomCost_Weekly",
+          "Object": "33A1BB:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_PlayerHasHotelRoomDiscount",
+          "Object": "1D0447:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PD_VisitationCount",
+          "Object": "1D044B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Security",
+          "Object": "2CE2E2:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SQ_PlayerShip",
+          "Object": "0174A2:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TestGoToSpaceQuest",
+          "Object": "29C659:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Vendor_ECS_DaisukeFaction",
+          "Object": "1AFE2C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Vendor_PD_GeneralGoodsFaction",
+          "Object": "15D3C2:Starfield.esm"
+        }
+      ]
+    },
+    "Fragments": [
+      {
+        "Stage": 11,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0011_Item_00"
+      },
+      {
+        "Stage": 12,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0012_Item_00"
+      },
+      {
+        "Stage": 13,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0013_Item_00"
+      },
+      {
+        "Stage": 14,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0014_Item_00"
+      },
+      {
+        "Stage": 25,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0025_Item_00"
+      },
+      {
+        "Stage": 50,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0050_Item_00"
+      },
+      {
+        "Stage": 101,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0101_Item_00"
+      },
+      {
+        "Stage": 300,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0300_Item_00"
+      },
+      {
+        "Stage": 305,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0305_Item_00"
+      },
+      {
+        "Stage": 401,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0401_Item_00"
+      },
+      {
+        "Stage": 600,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_0600_Item_00"
+      },
+      {
+        "Stage": 1101,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1101_Item_00"
+      },
+      {
+        "Stage": 1103,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1103_Item_00"
+      },
+      {
+        "Stage": 1110,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1110_Item_00"
+      },
+      {
+        "Stage": 1200,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1200_Item_00"
+      },
+      {
+        "Stage": 1210,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1210_Item_00"
+      },
+      {
+        "Stage": 1301,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1301_Item_00"
+      },
+      {
+        "Stage": 1310,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1310_Item_00"
+      },
+      {
+        "Stage": 1320,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1320_Item_00"
+      },
+      {
+        "Stage": 1402,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1402_Item_00"
+      },
+      {
+        "Stage": 1410,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_1410_Item_00"
+      },
+      {
+        "Stage": 2010,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_DialogueParadiso_00263194",
+        "FragmentName": "Fragment_Stage_2010_Item_00"
+      }
+    ],
+    "Aliases": [
+      {
+        "Property": {
+          "Name": "",
+          "Object": "263194:Starfield.esm",
+          "Alias": 20
+        },
+        "Scripts": [
+          {
+            "Name": "DefaultAliasOnTriggerEnter",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ConditionFormToTest",
+                "Object": "0EE436:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "StageToSet",
+                "Data": 300
+              },
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "TurnOffStageDone",
+                "Data": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Property": {
+          "Name": "",
+          "Object": "263194:Starfield.esm",
+          "Alias": 22
+        },
+        "Scripts": [
+          {
+            "Name": "DefaultAliasOnTriggerEnter",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "StageToSet",
+                "Data": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "[Paradiso Settlement Dialogue]"
+  },
+  "Data": {
+    "Flags": [
+      "StartGameEnabled",
+      "StartsEnabled",
+      "RunOnce",
+      "WarnOnAliasFillFailure",
+      "0x10000"
+    ],
+    "Priority": 30,
+    "Unused": "0x000000"
+  },
+  "Location": "26310D:Starfield.esm",
+  "TextDisplayGlobals": [
+    "1D0441:Starfield.esm",
+    "32DEA9:Starfield.esm"
+  ],
+  "Summary": "Paradiso is the ultimate resort getaway on the planet Porrima II at the fringes of the Settled Systems. It's a privately owned planet, not affiliated with the United Colonies or the Freestar Collective. As such, they get away with some pretty shady practices, but they generally do a good job of hiding them from the public. Everything about the planet seems too perfect to be true, from the weather, to the beaches, to the wildlife. The resort staff all know each other. Most of the executive board spends more time on the beach than in the boardroom. Recently, a giant mysterious ship has appeared in orbit, and the board is freaking out, and doing their best to hide it from the resort guests. In reality, this ship is a 200 year old colony ship that has just arrived from its long pre-grav drive journey from Earth, and they feel they have a claim to the planet.",
+  "UnusedConditions": [],
+  "Stages": [
+    {
+      "Index": 11,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "DEBUG: Move to Emilain for FFParadisoZ01",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 12,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "DEBUG: Move to Dirk for FFParadisoZ02",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 13,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "DEBUG: Move to Kumar for FFParadisoZ03",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 14,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "DEBUG: Move to Jiro for FFParadisoZ04, set MS06 completed",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 25,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start the Establishing Scene between Viator and Muhammad",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 26,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Establishing scene has finished",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 50,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player has left Paradiso for the first time",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 100,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Violet's Intro Done",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 101,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player bought the Paradiso Enhance! Getaway Bundle",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 200,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Muhammad's Intro Done",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 300,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start Keavy's Greeting Scene",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 301,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Keavy's Intro Done: Player is authorized to enter the board room",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 302,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Keavy's Intro done: Player is not authorized to enter the board room yet",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 305,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Keavy Opens the door for the player to enter the board room",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 400,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Dirk's Intro Done",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 401,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player lied about having a reservation",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 402,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "The player told Dirk they're not a guest.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 500,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Polly Greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 505,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "The player told Polly about Kumar's scheme",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 600,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start the Boardroom Scene",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 605,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player interrupted the Boardroom scene.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 610,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Boardroom Scene Done",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 700,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Harish greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 801,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Jacquotte greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 900,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Clara greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1000,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Front Desk Greeter greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1100,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Emilian Greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1101,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player heard Emilian talk about his problem",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1102,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Emilian explained the issue he's having",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1103,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "The player told Emilian about Jacquotte's attitude",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1105,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Emilian hit on the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1106,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "The player called Emilian on his flirting",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1107,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "The player told Dirk about Emilian's flirting",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1110,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start FFParadisoZ01",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1200,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player arrived on Paradiso for the first time. Start FFParadisoZ02Misc",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1210,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player heard Dirk talk about his problem",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1300,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Kumar greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1301,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player heard Kumar talk about his problem",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1302,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Kumar asked the player if they can help.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1303,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player opened vendor inventory after completing FFParadisoZ03.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1310,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start FFParadisoZ03",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1320,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start FFParadisoZ03 at Stage 200, as if the player had the recipe.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1400,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Jiro Greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1401,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player asked Jiro about his jurisdiciton",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1402,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player heard Jiro ask about getting more help",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1409,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Jiro Greeted the player, post MS06",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1410,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Start FFParadisoZ04",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1500,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Simon greeted the player",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 2000,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Player completed MS06 with ECS_EndState = 1. Colonists are to settle in Paradiso",
+          "ScriptFlagComment": "Set by MS06 Stage 1710.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 2010,
+      "Unknown": 171,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "ECS Constant Settlers Move to Paradiso",
+          "ScriptFlagComment": "Set after the player leaves Paradiso after they complete MS06 by way of resettling the ECS Constant colonists. (Stage 2000 done)This sets DialogueECSConstant Stage 1000 in order to move named NPCs over.",
+          "StageCompleteDatas": [
+            {
+              "QSRD": "0x00000000"
+            },
+            {
+              "QSRD": "[]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Aliases": [
+    {
+      "MutagenObjectType": "QuestLocationAlias",
+      "ID": 21,
+      "Name": "Paradiso",
+      "Flags": [
+        "AllowReserved",
+        "AllowCleared"
+      ],
+      "ALFG": 0,
+      "SpecificLocation": "26310D:Starfield.esm"
+    },
+    {
+      "MutagenObjectType": "QuestLocationAlias",
+      "ID": 23,
+      "Name": "ParadisoInterior",
+      "Flags": [
+        "AllowReserved",
+        "AllowCleared"
+      ],
+      "ALFG": 0,
+      "SpecificLocation": "15F5AD:Starfield.esm"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "Name": "AjaMamasa",
+      "Flags": [
+        "AllowDisabled"
+      ],
+      "ALFG": 0,
+      "UniqueActor": "2BACF8:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 1,
+      "Name": "Balam",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263109:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 2,
+      "Name": "ChiefJiro",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263169:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 3,
+      "Name": "Clara",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263107:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 25,
+      "Name": "Daisuke",
+      "Flags": [
+        "Optional"
+      ],
+      "ALFG": 0,
+      "UniqueActor": "28B39C:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 4,
+      "Name": "Dirk",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263104:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 5,
+      "Name": "Emilian",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263106:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 6,
+      "Name": "Harish",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "26316B:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 24,
+      "Name": "Jacquotte",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "15D3C1:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 7,
+      "Name": "Keavy",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263167:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 8,
+      "Name": "Kumar",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263165:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 9,
+      "Name": "Muhammad",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263163:Starfield.esm",
+      "PackageData": [
+        "15F5B1:Starfield.esm",
+        "15F5AE:Starfield.esm"
+      ],
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 10,
+      "Name": "Oliver",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263161:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 11,
+      "Name": "Polly",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "263160:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 12,
+      "Name": "Sima",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "26315E:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 13,
+      "Name": "Viator",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "26315A:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 14,
+      "Name": "Violet",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "26315C:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 27,
+      "Name": "Corbin",
+      "Flags": [
+        "AllowDead",
+        "AllowDisabled"
+      ],
+      "ALFG": 0,
+      "UniqueActor": "1C3895:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 38,
+      "Name": "Simon",
+      "Flags": [],
+      "ALFG": 0,
+      "UniqueActor": "325C18:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 19,
+      "Name": "Player",
+      "Flags": [
+        "StoresText"
+      ],
+      "ALFG": 0,
+      "UniqueActor": "000007:Starfield.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 20,
+      "Name": "KeavySceneTrigger",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 23,
+        "RefType": "1CF5EE:Starfield.esm"
+      },
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 22,
+      "Name": "BoardroomSceneTrigger",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 23,
+        "RefType": "1CF5EF:Starfield.esm"
+      },
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 26,
+      "Name": "ConciergeComputer",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 21,
+        "RefType": "15D3BA:Starfield.esm"
+      },
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 29,
+      "Name": "BoardRoomDoor",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 23,
+        "RefType": "04842E:Starfield.esm"
+      },
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestCollectionAlias",
+      "Collection": [
+        {
+          "ID": 31,
+          "ALAM": 0,
+          "ReferenceAlias": {
+            "ID": 31,
+            "Name": "NPCsToDisableExt",
+            "Flags": [
+              "AllowDead"
+            ],
+            "ALFG": 0,
+            "Location": {
+              "AliasID": 21,
+              "RefType": "04557A:Starfield.esm"
+            },
+            "VoiceTypes": "Null"
+          }
+        }
+      ]
+    },
+    {
+      "MutagenObjectType": "QuestCollectionAlias",
+      "Collection": [
+        {
+          "ID": 34,
+          "ALAM": 0,
+          "ReferenceAlias": {
+            "ID": 34,
+            "Name": "NPCsToEnableExt",
+            "Flags": [
+              "AllowDisabled"
+            ],
+            "ALFG": 0,
+            "Location": {
+              "AliasID": 21,
+              "RefType": "39436F:Starfield.esm"
+            },
+            "VoiceTypes": "Null"
+          }
+        }
+      ]
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 35,
+      "Name": "MeditationNPC01",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 21,
+        "RefType": "04555F:Starfield.esm"
+      },
+      "PackageData": [
+        "045557:Starfield.esm",
+        "045555:Starfield.esm"
+      ],
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 36,
+      "Name": "MeditationNPC02",
+      "Flags": [],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 21,
+        "RefType": "04555E:Starfield.esm"
+      },
+      "PackageData": [
+        "045557:Starfield.esm",
+        "045555:Starfield.esm"
+      ],
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 37,
+      "Name": "FrontDeskGreeter",
+      "Flags": [
+        "UsesStoredText"
+      ],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 21,
+        "RefType": "045567:Starfield.esm"
+      },
+      "DisplayName": "045563:Starfield.esm",
+      "VoiceTypes": "1D0454:Starfield.esm"
+    },
+    {
+      "MutagenObjectType": "QuestCollectionAlias",
+      "Collection": [
+        {
+          "ID": 39,
+          "ALAM": 0,
+          "ReferenceAlias": {
+            "ID": 39,
+            "Name": "NamedECSNPCs",
+            "Flags": [
+              "Optional",
+              "AllowReuseInQuest",
+              "AllowDisabled",
+              "AllowReserved",
+              "ExternalAliasLinked"
+            ],
+            "ALFG": 0,
+            "External": {
+              "Quest": "2741B1:Starfield.esm",
+              "AliasID": 40
+            },
+            "VoiceTypes": "Null"
+          }
+        }
+      ]
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 40,
+      "Name": "ECSTransplantSlate",
+      "Flags": [
+        "AllowDisabled"
+      ],
+      "ALFG": 0,
+      "Location": {
+        "AliasID": 21,
+        "RefType": "394392:Starfield.esm"
+      },
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestCollectionAlias",
+      "Collection": [
+        {
+          "ID": 41,
+          "ALAM": 0,
+          "ReferenceAlias": {
+            "ID": 41,
+            "Name": "BeachGuests",
+            "Flags": [
+              "Optional",
+              "AllowReuseInQuest",
+              "AllowDead",
+              "AllowDisabled",
+              "AllowReserved"
+            ],
+            "ALFG": 0,
+            "Location": {
+              "AliasID": 21,
+              "RefType": "046A82:Starfield.esm"
+            },
+            "Factions": [
+              "04AFE8:Starfield.esm"
+            ],
+            "VoiceTypes": "Null"
+          }
+        }
+      ]
+    }
+  ]
+}

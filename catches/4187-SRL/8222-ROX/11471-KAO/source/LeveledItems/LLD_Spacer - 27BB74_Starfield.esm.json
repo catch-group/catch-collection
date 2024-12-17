@@ -1,0 +1,68 @@
+{
+	"FormKey": "27BB74:Starfield.esm",
+	"MajorRecordFlagsRaw": 32768,
+	"EditorID": "LLD_Spacer",
+	"FormVersion": 576,
+	"StarfieldMajorRecordFlags": [
+		"VisibleWhenDistant"
+	],
+	"ODTY": 0.0,
+	"ChanceNone": 5.0,
+	"MaxCount": 0,
+	"Flags": [
+		"UseAll"
+	],
+	"Entries": [
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "034C7D:Starfield.esm",
+			"Count": 1
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "05F184:Starfield.esm",
+			"Count": 1
+		},
+		{
+			"Level": 1,
+			"Reference": "1CCFB7:Starfield.esm",
+			"Count": 1,
+			"ChanceNone": 0.85,
+			"Conditions": [
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Unknown2": 22829,
+					"Data": {
+						"MutagenObjectType": "GetGlobalValueConditionData",
+						"FirstParameter": "1CCFB6:Starfield.esm"
+					}
+				},
+				{
+					"MutagenObjectType": "ConditionFloat",
+					"Unknown2": 22829,
+					"Data": {
+						"MutagenObjectType": "GetIsCurrentLocationConditionData",
+						"FirstParameter": "18AE75:Starfield.esm"
+					}
+				}
+			]
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "66636E:Catch - 8222-ROX - 11471-KAO.esm",
+			"Count": 1
+		},
+		{
+			"Level": 1,
+			"Unused": 95,
+			"Reference": "66636F:Catch - 8222-ROX - 11471-KAO.esm",
+			"Count": 1
+		}
+	],
+	"Model": {
+		"FLLD": "0x01000000"
+	}
+}
