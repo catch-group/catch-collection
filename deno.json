@@ -5,7 +5,8 @@
 		"sync": "deno run -A --env-file=./.env ./scripts/sync.js",
 		"generate-images": "deno run -A --env-file=./.env ./scripts/generate-images.js",
 		"lint": "npx eslint@9.14.0",
-		"knip": "npx knip"
+		"knip": "npx knip",
+		"init": "npm install && deno task deserialize"
 	},
 	"imports": {
 		"@astral/astral": "jsr:@astral/astral@^0.4.9",
