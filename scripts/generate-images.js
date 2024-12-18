@@ -8,14 +8,13 @@ import {
 import { generateHeaderImage, generateMainImage } from "./generate-images/_exports.js";
 
 const {
-	mkdir
+	mkdir,
+	stat
 } = Deno;
 
 const numberOfHexColorDigits = 6;
 
 for (const gameCatchId of filteredGameCatchIds) {
-	console.info(`Generating images for ${gameCatchId}...`);
-
 	const {
 		gameId,
 		overriddenModId,
@@ -33,29 +32,48 @@ for (const gameCatchId of filteredGameCatchIds) {
 
 	await mkdir(catchImagesFolderPath, { recursive: true });
 
-	const colorDigits = [overridingModId, overriddenModId]
-		.flatMap((modId) => [...modId]
-			.toReversed()
-			.filter((character) => !Number.isNaN(Number(`0x${character}`)))
-			.slice(0, numberOfHexColorDigits / 2)
+	const mainImageFilePath = join(catchImagesFolderPath, "main.png");
+	const headerImageFilePath = join(catchImagesFolderPath, "header.png");
+
+	let alreadyExists = false;
+
+	try {
+		await stat(mainImageFilePath);
+		await stat(headerImageFilePath);
+
+		alreadyExists = true;
+	}
+	catch {
+		// do nothing
+	}
+
+	if (!alreadyExists) {
+		console.info(`Generating images for ${gameCatchId}...`);
+
+		const colorDigits = [overridingModId, overriddenModId]
+			.flatMap((modId) => [...modId]
+				.toReversed()
+				.filter((character) => !Number.isNaN(Number(`0x${character}`)))
+				.slice(0, numberOfHexColorDigits / 2)
+				.join("")
+				.padEnd(numberOfHexColorDigits / 2, "0"))
 			.join("")
-			.padEnd(numberOfHexColorDigits / 2, "0"))
-		.join("")
-		.toLowerCase();
+			.toLowerCase();
 
-	const color = `#${colorDigits}`;
+		const color = `#${colorDigits}`;
 
-	await Promise.all([
-		generateMainImage({
-			color,
-			folderPath: catchImagesFolderPath,
-			gameId,
-			overriddenModId,
-			overridingModId
-		}),
-		generateHeaderImage({
-			color,
-			folderPath: catchImagesFolderPath
-		})
-	]);
+		await Promise.all([
+			generateMainImage({
+				color,
+				folderPath: catchImagesFolderPath,
+				gameId,
+				overriddenModId,
+				overridingModId
+			}),
+			generateHeaderImage({
+				color,
+				folderPath: catchImagesFolderPath
+			})
+		]);
+	}
 }
