@@ -17,6 +17,7 @@ const {
 	cwd,
 	env,
 	errors: { NotFound },
+	readTextFile,
 	stat
 } = Deno;
 
@@ -44,24 +45,7 @@ const {
 console.log("Serializing these catches:");
 console.log(filteredGameCatchIds.join("\n"));
 
-/**
- *
- * @param {string} key
- * @param {unknown} value
- * @returns {unknown}
- * @example
- */
-const replacer = (key, value) => {
-	if (key === "ModHeader" && isPlainObject(value)) {
-		return {
-			...value,
-			Author: "Catch Group",
-			Description: "0.1.0"
-		};
-	}
-
-	return value;
-};
+const defaultVersion = "0.1.0";
 
 for (const gameCatchId of filteredGameCatchIds) {
 	const {
@@ -156,12 +140,37 @@ for (const gameCatchId of filteredGameCatchIds) {
 
 		const recordDataFilePath = join(catchSourceFolderPath, "RecordData.json");
 
+		const recordDataFileContent = await readTextFile(recordDataFilePath);
+
+		const {
+			ModHeader: {
+				Description: recordDataVersion
+			}
+		} = JSON.parse(recordDataFileContent);
+
 		for await (const { path } of walkIterator) {
 			await formatJsonFile(
 				path,
 				{
+
+					/**
+					 *
+					 * @param key
+					 * @param value
+					 * @example
+					 */
 					replacer: path === recordDataFilePath
-						? replacer
+						? (key, value) => {
+							if (key === "ModHeader" && isPlainObject(value)) {
+								return {
+									...value,
+									Author: "Catch Group",
+									Description: value.Description || recordDataVersion || defaultVersion
+								};
+							}
+
+							return value;
+						}
 						: null
 				}
 			);

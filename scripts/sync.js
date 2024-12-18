@@ -98,11 +98,13 @@ for (const gameCatchId of filteredGameCatchIds) {
 
 			const recordDataFilePath = join(catchSourceFolderPath, "RecordData.json");
 
+			const recordDataFileContent = await readTextFile(recordDataFilePath);
+
 			const {
 				ModHeader: {
 					Description: recordDataVersion
 				}
-			} = JSON.parse(recordDataFilePath);
+			} = JSON.parse(recordDataFileContent);
 
 			if (catchPlatformId === undefined) {
 				console.error(`Platform ID not found for ${catchName}`);
