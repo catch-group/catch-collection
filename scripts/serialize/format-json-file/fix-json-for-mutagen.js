@@ -2,7 +2,7 @@
 /* eslint-disable security/detect-non-literal-regexp */
 
 const subRegexes = /** @type {const} */ ([
-	[[1], /BNAM|ChanceNone|FMAH|FMIH|ODTY|XILS/v],
+	[[1], /BNAM|ChanceNone|Data|FMAH|FMIH|ODTY|XILS/v],
 	[[2], /DirectionalFade|(?:Far|Near)Height(?:Mid|Range)|Fog(?:(?:Far|Near)(?:Scale)?|High(?:Far|Near)Scale|Max|Power)|HighDensityScale|Unknown(?:1[467]|6)/v],
 	[[3], /Intensity|Position/v],
 	[[5], /BlendIntensity/v],
