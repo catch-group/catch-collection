@@ -111,7 +111,7 @@
 		{
 			"TintColor": "#14960109",
 			"TintGroup": "ComplexionMask1",
-			"TintIntensity": 24,
+			"TintIntensity": 41,
 			"TintName": "Freckles_Cheek",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/freckles_cheek_mask.dds",
 			"TintType": "SimpleGroup"
@@ -127,7 +127,7 @@
 		{
 			"TintColor": "#14960109",
 			"TintGroup": "ComplexionMask2",
-			"TintIntensity": 20,
+			"TintIntensity": 13,
 			"TintName": "Freckles_Cheek",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/freckles_cheek_mask.dds",
 			"TintType": "SimpleGroup"
@@ -143,7 +143,7 @@
 		{
 			"TintColor": "#5AFF0902",
 			"TintGroup": "Lipstick1",
-			"TintIntensity": 16,
+			"TintIntensity": 35,
 			"TintName": "Lipstick_Soft",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/lipstick1/testlipstick02_mask.dds",
 			"TintType": "SimpleGroup"
@@ -151,7 +151,7 @@
 		{
 			"TintColor": "#BAFF526C",
 			"TintGroup": "Lipstick2",
-			"TintIntensity": 16,
+			"TintIntensity": 27,
 			"TintName": "LipStain_Bottom",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/lipstick1/lipstain_bottom_mask.dds",
 			"TintType": "SimpleGroup"

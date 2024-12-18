@@ -1,0 +1,641 @@
+{
+	"FormKey": "1D8BE1:Starfield.esm",
+	"EditorID": "FC_Neon_TrackersAllianceAgent",
+	"FormVersion": 576,
+	"ObjectBounds": {
+		"First": "-0.591797, -0.3623047, 0",
+		"Second": "0.59179676, 1.0341797, 1.2373047"
+	},
+	"ODTY": 0.0,
+	"Flags": [
+		"Essential",
+		"Unique"
+	],
+	"XpValueOffset": 5,
+	"Level": {
+		"MutagenObjectType": "NpcLevel",
+		"Level": 2
+	},
+	"DispositionBase": 35,
+	"UseTemplateActors": "32266",
+	"Factions": [
+		{
+			"Faction": "0638E5:Starfield.esm"
+		},
+		{
+			"Faction": "26FDEA:Starfield.esm"
+		}
+	],
+	"DeathItem": "00ABF8:Starfield.esm",
+	"Voice": "2BCA31:Starfield.esm",
+	"DefaultTemplate": "216D35:Starfield.esm",
+	"TemplateActors": {
+		"AttackDataTemplate": "216D35:Starfield.esm",
+		"DefPackListTemplate": "216D35:Starfield.esm",
+		"KeywordsTemplate": "216D35:Starfield.esm",
+		"ScriptTemplate": "216D35:Starfield.esm",
+		"SpellListTemplate": "216D35:Starfield.esm",
+		"StatsTemplate": "216D35:Starfield.esm",
+		"Unknown1": "216D35:Starfield.esm",
+		"Unknown2": "216D35:Starfield.esm"
+	},
+	"Race": "00347D:Starfield.esm",
+	"CombatOverridePackageList": "0102ED:Starfield.esm",
+	"Properties": [
+		{
+			"ActorValue": "0002C2:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C3:Starfield.esm",
+			"Value": 5.0
+		},
+		{
+			"ActorValue": "0002C4:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C5:Starfield.esm",
+			"Value": 5.0
+		},
+		{
+			"ActorValue": "0002C6:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002C7:Starfield.esm",
+			"Value": 5.0
+		},
+		{
+			"ActorValue": "0002C8:Starfield.esm"
+		},
+		{
+			"ActorValue": "0002CC:Starfield.esm",
+			"Value": 15.0
+		},
+		{
+			"ActorValue": "0002CD:Starfield.esm",
+			"Value": 45.0
+		},
+		{
+			"ActorValue": "0002D4:Starfield.esm",
+			"Value": 25.0
+		},
+		{
+			"ActorValue": "0002D5:Starfield.esm",
+			"Value": 50.0
+		},
+		{
+			"ActorValue": "0002DA:Starfield.esm",
+			"Value": 100.0
+		}
+	],
+	"Items": [
+		{
+			"Item": {
+				"Count": 1,
+				"Item": "2B1A22:Starfield.esm"
+			}
+		}
+	],
+	"Confidence": "Foolhardy",
+	"EnergyLevel": 50,
+	"Responsibility": "NoCrime",
+	"Assistance": "HelpsAllies",
+	"Packages": [
+		"0036E0:Catch - 7466-NHV - 12140-MVV.esm",
+		"0036DD:Catch - 7466-NHV - 12140-MVV.esm",
+		"0036DF:Catch - 7466-NHV - 12140-MVV.esm"
+	],
+	"Class": "010B2F:Starfield.esm",
+	"Name": {
+		"TargetLanguage": "English",
+		"Value": "Trackers Alliance Agent"
+	},
+	"ShortName": {
+		"TargetLanguage": "English",
+		"Value": "Trackers Alliance Agent"
+	},
+	"GearedUpWeapons": 1,
+	"Unused": 43,
+	"HeadParts": [
+		"062F07:Starfield.esm",
+		"064D88:Starfield.esm",
+		"10DD21:Starfield.esm",
+		"15F353:Starfield.esm",
+		"24A022:Starfield.esm",
+		"24A023:Starfield.esm",
+		"24A03D:Starfield.esm",
+		"253FA3:Starfield.esm",
+		"253FA5:Starfield.esm",
+		"3A681B:Starfield.esm",
+		"3BE58D:Starfield.esm"
+	],
+	"CombatStyle": "178CA4:Starfield.esm",
+	"NAM5": "0xFF00",
+	"HeightMin": 1.02458,
+	"HeightMax": 1.02458,
+	"Weight": {
+		"Muscular": 0.46
+	},
+	"SpaceOutfit": "15E248:Starfield.esm",
+	"DefaultPackageList": "2C55CA:Starfield.esm",
+	"CrimeFaction": "26FDEA:Starfield.esm",
+	"Tints": [
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "Dermaesthetic",
+			"TintIntensity": 74,
+			"TintName": "Asian_Male_md1_Sk1",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_as_md1_sk1_derm_color.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#6A322B2B",
+			"TintGroup": "ComplexionMask1",
+			"TintIntensity": 64,
+			"TintName": "Complexion_Eye_Crevices",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_eye_crevices_mask.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "Complexion1",
+			"TintIntensity": 64,
+			"TintName": "TriColor",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/tricolor_color.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#6FFF1E31",
+			"TintGroup": "ComplexionMask2",
+			"TintIntensity": 37,
+			"TintName": "Liver_Spots",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/liverspots_01_mask.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "Accents1",
+			"TintIntensity": 44,
+			"TintName": "Accents_NasoLabialFolds",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_color.dds",
+			"TintType": "ComplexGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "Accents2",
+			"TintIntensity": 24,
+			"TintName": "Blemish_VeinsMany",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/scars/blemish_veinsmany_color.dds",
+			"TintType": "ComplexGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "ColorlessAccents1",
+			"TintIntensity": 11,
+			"TintName": "Accents_RoughFace",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/accents/accents_roughface_color.dds",
+			"TintType": "ComplexGroup"
+		},
+		{
+			"TintColor": "#C3FF1F35",
+			"TintGroup": "Cheeks1",
+			"TintIntensity": 17,
+			"TintName": "Blush_Soft",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/cheeks1/testblush02_mask.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "Eyeshadow2",
+			"TintIntensity": 24,
+			"TintName": "EyeShadow_Lower_02",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/eyeshadow2/testeyeshadowlower02_mask.dds",
+			"TintType": "SimpleGroup"
+		},
+		{
+			"TintColor": "#00000000",
+			"TintGroup": "EnvironmentMask",
+			"TintIntensity": 24,
+			"TintName": "Dirt_Heavy_02",
+			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/environmentmask/test_dirt_female_heavy_02_mask.dds",
+			"TintType": "SimpleGroup"
+		}
+	],
+	"FaceDialPositions": [
+		{
+			"Index": 24,
+			"Position": 0.7
+		},
+		{
+			"Index": 25,
+			"Position": 0.14
+		},
+		{
+			"Index": 27,
+			"Position": 0.07
+		},
+		{
+			"Index": 28,
+			"Position": 0.23
+		},
+		{
+			"Index": 29,
+			"Position": 0.52
+		},
+		{
+			"Index": 31,
+			"Position": 0.59
+		},
+		{
+			"Index": 32,
+			"Position": 0.62
+		},
+		{
+			"Index": 35,
+			"Position": -0.54
+		},
+		{
+			"Index": 39,
+			"Position": -0.2
+		},
+		{
+			"Index": 53,
+			"Position": 0.32
+		},
+		{
+			"Index": 58,
+			"Position": -0.1
+		},
+		{
+			"Index": 60,
+			"Position": 0.07
+		},
+		{
+			"Index": 67,
+			"Position": 0.7
+		},
+		{
+			"Index": 68,
+			"Position": 0.66
+		},
+		{
+			"Index": 69,
+			"Position": 0.51
+		},
+		{
+			"Index": 70,
+			"Position": -0.34
+		},
+		{
+			"Index": 71,
+			"Position": -0.38
+		},
+		{
+			"Index": 73,
+			"Position": 0.3
+		},
+		{
+			"Index": 74,
+			"Position": 0.21
+		},
+		{
+			"Index": 75,
+			"Position": -0.69
+		},
+		{
+			"Index": 76,
+			"Position": 0.59
+		},
+		{
+			"Index": 78,
+			"Position": 0.09
+		},
+		{
+			"Index": 79,
+			"Position": -0.43
+		},
+		{
+			"Index": 80,
+			"Position": 0.49
+		},
+		{
+			"Index": 83,
+			"Position": -0.88
+		},
+		{
+			"Index": 87,
+			"Position": 0.54
+		}
+	],
+	"FaceMorphs": [
+		{
+			"Index": 1,
+			"MorphGroups": [
+				{
+					"BlendIntensity": 0.24232635,
+					"MorphGroup": "Cheeks"
+				},
+				{
+					"BlendIntensity": 0.11474925,
+					"MorphGroup": "Chin"
+				},
+				{
+					"BlendIntensity": 0.2481249,
+					"MorphGroup": "Ears"
+				},
+				{
+					"BlendIntensity": 0.23746842,
+					"MorphGroup": "Eyes"
+				},
+				{
+					"BlendIntensity": 0.14819935,
+					"MorphGroup": "Forehead"
+				},
+				{
+					"BlendIntensity": 0.08596474,
+					"MorphGroup": "Jaw"
+				},
+				{
+					"BlendIntensity": 0.10742926,
+					"MorphGroup": "Mouth"
+				},
+				{
+					"BlendIntensity": 0.1408331,
+					"MorphGroup": "Neck"
+				},
+				{
+					"BlendIntensity": 0.086640045,
+					"MorphGroup": "Nose"
+				}
+			]
+		},
+		{
+			"Index": 14,
+			"MorphGroups": [
+				{
+					"BlendIntensity": 0.23669048,
+					"MorphGroup": "Cheeks"
+				},
+				{
+					"BlendIntensity": 0.11606699,
+					"MorphGroup": "Chin"
+				},
+				{
+					"BlendIntensity": 0.081168175,
+					"MorphGroup": "Ears"
+				},
+				{
+					"BlendIntensity": 0.081836574,
+					"MorphGroup": "Eyes"
+				},
+				{
+					"BlendIntensity": 0.046838675,
+					"MorphGroup": "Forehead"
+				},
+				{
+					"BlendIntensity": 0.1566143,
+					"MorphGroup": "Jaw"
+				},
+				{
+					"BlendIntensity": 0.08576129,
+					"MorphGroup": "Mouth"
+				},
+				{
+					"BlendIntensity": 0.17182699,
+					"MorphGroup": "Neck"
+				},
+				{
+					"BlendIntensity": 0.13529354,
+					"MorphGroup": "Nose"
+				}
+			]
+		},
+		{
+			"Index": 44,
+			"MorphGroups": [
+				{
+					"BlendIntensity": 0.18409745,
+					"MorphGroup": "Cheeks"
+				},
+				{
+					"BlendIntensity": 0.062172502,
+					"MorphGroup": "Chin"
+				},
+				{
+					"BlendIntensity": 0.0039605373,
+					"MorphGroup": "Ears"
+				},
+				{
+					"BlendIntensity": 0.17113231,
+					"MorphGroup": "Eyes"
+				},
+				{
+					"BlendIntensity": 0.051408306,
+					"MorphGroup": "Forehead"
+				},
+				{
+					"BlendIntensity": 0.07131741,
+					"MorphGroup": "Jaw"
+				},
+				{
+					"BlendIntensity": 0.041491438,
+					"MorphGroup": "Mouth"
+				},
+				{
+					"BlendIntensity": 0.05977097,
+					"MorphGroup": "Neck"
+				},
+				{
+					"BlendIntensity": 0.13342711,
+					"MorphGroup": "Nose"
+				}
+			]
+		},
+		{
+			"Index": 46,
+			"MorphGroups": [
+				{
+					"BlendIntensity": 0.08595383,
+					"MorphGroup": "Cheeks"
+				},
+				{
+					"BlendIntensity": 0.24619846,
+					"MorphGroup": "Chin"
+				},
+				{
+					"BlendIntensity": 0.019437999,
+					"MorphGroup": "Ears"
+				},
+				{
+					"BlendIntensity": 0.050303463,
+					"MorphGroup": "Eyes"
+				},
+				{
+					"BlendIntensity": 0.06724645,
+					"MorphGroup": "Forehead"
+				},
+				{
+					"BlendIntensity": 0.060498532,
+					"MorphGroup": "Jaw"
+				},
+				{
+					"BlendIntensity": 0.033127286,
+					"MorphGroup": "Mouth"
+				},
+				{
+					"BlendIntensity": 0.12806103,
+					"MorphGroup": "Neck"
+				},
+				{
+					"BlendIntensity": 0.055611815,
+					"MorphGroup": "Nose"
+				}
+			]
+		}
+	],
+	"MorphBlends": [
+		{
+			"BlendName": "male_as_md1_Cheeks",
+			"Intensity": 0.094736844
+		},
+		{
+			"BlendName": "male_as_md1_Chin",
+			"Intensity": 0.69
+		},
+		{
+			"BlendName": "male_as_md1_Ears",
+			"Intensity": 0.45
+		},
+		{
+			"BlendName": "male_as_md1_Eyes",
+			"Intensity": 0.4065659
+		},
+		{
+			"BlendName": "male_as_md1_Forehead",
+			"Intensity": 0.67
+		},
+		{
+			"BlendName": "male_as_md1_Jaw",
+			"Intensity": 0.08596474
+		},
+		{
+			"BlendName": "male_as_md1_Mouth",
+			"Intensity": 0.10742926
+		},
+		{
+			"BlendName": "male_as_md1_Neck",
+			"Intensity": 0.1408331
+		},
+		{
+			"BlendName": "male_as_md1_Nose",
+			"Intensity": 0.3462869
+		},
+		{
+			"BlendName": "male_as_ol1_Cheeks",
+			"Intensity": 0.03031579
+		},
+		{
+			"BlendName": "male_as_ol1_Chin",
+			"Intensity": 0.045409407
+		},
+		{
+			"BlendName": "male_as_ol1_Ears",
+			"Intensity": 0.0039605373
+		},
+		{
+			"BlendName": "male_as_ol1_Eyes",
+			"Intensity": 0.32
+		},
+		{
+			"BlendName": "male_as_ol1_Forehead",
+			"Intensity": 0.051408306
+		},
+		{
+			"BlendName": "male_as_ol1_Jaw",
+			"Intensity": 0.07131741
+		},
+		{
+			"BlendName": "male_as_ol1_Mouth",
+			"Intensity": 0.041491438
+		},
+		{
+			"BlendName": "male_as_ol1_Neck",
+			"Intensity": 0.05977097
+		},
+		{
+			"BlendName": "male_as_ol1_Nose",
+			"Intensity": 0.51
+		},
+		{
+			"BlendName": "male_as_yo1_Cheeks",
+			"Intensity": 0.23494737
+		},
+		{
+			"BlendName": "male_as_yo1_Chin",
+			"Intensity": 0.17981786
+		},
+		{
+			"BlendName": "male_as_yo1_Ears",
+			"Intensity": 0.019437999
+		},
+		{
+			"BlendName": "male_as_yo1_Eyes",
+			"Intensity": 0.012138598
+		},
+		{
+			"BlendName": "male_as_yo1_Forehead",
+			"Intensity": 0.06724645
+		},
+		{
+			"BlendName": "male_as_yo1_Jaw",
+			"Intensity": 0.060498532
+		},
+		{
+			"BlendName": "male_as_yo1_Mouth",
+			"Intensity": 0.033127286
+		},
+		{
+			"BlendName": "male_as_yo1_Neck",
+			"Intensity": 0.12806103
+		},
+		{
+			"BlendName": "male_as_yo1_Nose",
+			"Intensity": 0.041864444
+		},
+		{
+			"BlendName": "male_eu_ol1_Chin",
+			"Intensity": 0.084772736
+		},
+		{
+			"BlendName": "male_eu_ol1_Ears",
+			"Intensity": 0.081168175
+		},
+		{
+			"BlendName": "male_eu_ol1_Forehead",
+			"Intensity": 0.046838675
+		},
+		{
+			"BlendName": "male_eu_ol1_Jaw",
+			"Intensity": 0.1566143
+		},
+		{
+			"BlendName": "male_eu_ol1_Mouth",
+			"Intensity": 0.08576129
+		},
+		{
+			"BlendName": "male_eu_ol1_Neck",
+			"Intensity": 0.17182699
+		},
+		{
+			"BlendName": "male_eu_ol1_Nose",
+			"Intensity": 0.101848654
+		},
+		{
+			"BlendName": "male_eu_yo1_Cheeks",
+			"Intensity": 0.64
+		}
+	],
+	"SkinToneIndex": 0,
+	"HairColor": "Black",
+	"EyebrowColor": "Black",
+	"Pronoun": "Unspecified"
+}

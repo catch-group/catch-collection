@@ -156,7 +156,7 @@
 		{
 			"TintColor": "#A6822846",
 			"TintGroup": "ComplexionMask1",
-			"TintIntensity": 37,
+			"TintIntensity": 36,
 			"TintName": "Freckles_FullFace",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/freckles_fullface_mask.dds",
 			"TintType": "SimpleGroup"
@@ -172,7 +172,7 @@
 		{
 			"TintColor": "#00000000",
 			"TintGroup": "Complexion2",
-			"TintIntensity": 44,
+			"TintIntensity": 43,
 			"TintName": "Color_Temperature_Pink",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_colortemperature_pink_color.dds",
 			"TintType": "SimpleGroup"
@@ -212,7 +212,7 @@
 		{
 			"TintColor": "#65FF3218",
 			"TintGroup": "Lipstick1",
-			"TintIntensity": 37,
+			"TintIntensity": 36,
 			"TintName": "Lipstick_Standard",
 			"TintTexture": "textures/actors/human/faces/chargen/postblenddetails/lipstick1/testlipstick01_mask.dds",
 			"TintType": "SimpleGroup"
