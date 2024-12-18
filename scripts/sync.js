@@ -1,3 +1,4 @@
+/* eslint-disable max-statements */
 import { parseArgs } from "@std/cli";
 import { join } from "@std/path";
 
@@ -35,7 +36,6 @@ const games = await getGames();
 
 const nexusModsSessionPage = await getNexusModsSessionPage();
 
-// TODO[2025-01-01]: Make this dynamic
 const defaultVersion = "0.1.0";
 
 for (const gameCatchId of filteredGameCatchIds) {
@@ -94,6 +94,16 @@ for (const gameCatchId of filteredGameCatchIds) {
 				({ id }) => id === gamePlatformId
 			);
 
+			const catchSourceFolderPath = join(catchFolderPath, "source");
+
+			const recordDataFilePath = join(catchSourceFolderPath, "RecordData.json");
+
+			const {
+				ModHeader: {
+					Description: recordDataVersion
+				}
+			} = JSON.parse(recordDataFilePath);
+
 			if (catchPlatformId === undefined) {
 				console.error(`Platform ID not found for ${catchName}`);
 
@@ -105,7 +115,7 @@ for (const gameCatchId of filteredGameCatchIds) {
 					nexusModsSessionPage,
 					overriddenModPlatformId,
 					overridingModPlatformId,
-					version: defaultVersion
+					version: recordDataVersion || defaultVersion
 				});
 			}
 
@@ -122,7 +132,7 @@ for (const gameCatchId of filteredGameCatchIds) {
 				overriddenModPlatformId,
 				overridingModPlatformId,
 				platformId: catchPlatformId,
-				version: defaultVersion
+				version: recordDataVersion || defaultVersion
 			});
 
 			await sleep(10_000);
