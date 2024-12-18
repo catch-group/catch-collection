@@ -1,0 +1,24 @@
+{
+	"SpriggitSource": {
+		"PackageName": "Spriggit.Json.Starfield",
+		"Version": "0.35.1"
+	},
+	"ModKey": "Catch - 6376-TSF - 12065-PNB.esm",
+	"GameRelease": "Starfield",
+	"ModHeader": {
+		"Author": "Catch Group",
+		"Description": "0.1.0",
+		"Flags": [
+			"Master"
+		],
+		"FormVersion": 576,
+		"MasterReferences": [
+			{
+				"Master": "Starfield.esm"
+			},
+			{
+				"Master": "TNShipModsAllInOne.esm"
+			}
+		]
+	}
+}

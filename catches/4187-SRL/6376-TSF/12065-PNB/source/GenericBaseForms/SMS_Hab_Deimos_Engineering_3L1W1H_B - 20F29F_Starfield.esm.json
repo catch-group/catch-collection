@@ -1,0 +1,98 @@
+{
+	"FormKey": "20F29F:Starfield.esm",
+	"EditorID": "SMS_Hab_Deimos_Engineering_3L1W1H_B",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "AttachParentArrayComponent"
+		},
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "040CE0:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 12.0
+				},
+				{
+					"ActorValue": "001018:Starfield.esm",
+					"Value": -1.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 40.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 10.0
+				},
+				{
+					"ActorValue": "01CAC0:Starfield.esm",
+					"Value": 0.85
+				},
+				{
+					"ActorValue": "2CC9EA:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "06A256:Starfield.esm",
+					"Value": 0.15
+				},
+				{
+					"ActorValue": "0002DC:Starfield.esm",
+					"Value": 50.0
+				},
+				{
+					"ActorValue": "001885:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "1EF0CB:Starfield.esm",
+					"Value": 50.0
+				},
+				{
+					"ActorValue": "1EF0CD:Starfield.esm",
+					"Value": 50.0
+				},
+				{
+					"ActorValue": "2BFAFD:Starfield.esm",
+					"Value": 2.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "20D415:Starfield.esm"
+				},
+				{
+					"Keyword": "0055E9:Starfield.esm",
+					"LinkedForm": "20D416:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C0:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Deimos Engineering Bay B 3x1"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

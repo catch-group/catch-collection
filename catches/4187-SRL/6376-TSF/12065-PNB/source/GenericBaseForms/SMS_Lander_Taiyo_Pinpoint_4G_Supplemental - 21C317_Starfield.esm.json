@@ -1,0 +1,55 @@
+{
+	"FormKey": "21C317:Starfield.esm",
+	"EditorID": "SMS_Lander_Taiyo_Pinpoint_4G_Supplemental",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 2000.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 3.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 4.0
+				},
+				{
+					"ActorValue": "30B58A:Starfield.esm",
+					"Value": 2.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "223D43:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462BE:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Pinpoint 4G+ Landing Gear"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"FormKey": "26FE79:Starfield.esm",
+	"EditorID": "SMS_Lander_Deimos_320CB",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 2000.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 6.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "30B58A:Starfield.esm",
+					"Value": 3.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "23292C:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C0:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "320CB Landing Gear"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

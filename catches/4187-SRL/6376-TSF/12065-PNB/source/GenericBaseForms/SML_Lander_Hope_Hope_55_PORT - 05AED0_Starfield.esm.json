@@ -1,0 +1,68 @@
+{
+	"FormKey": "05AED0:Starfield.esm",
+	"EditorID": "SML_Lander_Hope_Hope_55_PORT",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 20.0
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 2000.0
+				},
+				{
+					"ActorValue": "30B58A:Starfield.esm",
+					"Value": 4.0
+				},
+				{
+					"ActorValue": "001720:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "001721:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "001722:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "05AEA9:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C1:Starfield.esm",
+				"27BAC5:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Hope 55 VTOL - Gear"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

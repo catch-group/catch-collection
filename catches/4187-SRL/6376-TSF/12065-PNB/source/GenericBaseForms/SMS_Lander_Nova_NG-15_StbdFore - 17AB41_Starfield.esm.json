@@ -1,0 +1,64 @@
+{
+	"FormKey": "17AB41:Starfield.esm",
+	"EditorID": "SMS_Lander_Nova_NG-15_StbdFore",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 4.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 20.0
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 2000.0
+				},
+				{
+					"ActorValue": "30B58A:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "001720:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "17AC32:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C2:Starfield.esm",
+				"27BAC2:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "NG-15 Landing Gear Braking Thruster - Stbd"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

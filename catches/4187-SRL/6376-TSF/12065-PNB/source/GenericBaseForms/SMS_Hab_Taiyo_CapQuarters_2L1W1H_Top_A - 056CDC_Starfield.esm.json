@@ -1,0 +1,70 @@
+{
+	"FormKey": "056CDC:Starfield.esm",
+	"EditorID": "SMS_Hab_Taiyo_CapQuarters_2L1W1H_Top_A",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "AttachParentArrayComponent"
+		},
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "02B344:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "040CE0:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 40.0
+				},
+				{
+					"ActorValue": "0002DC:Starfield.esm",
+					"Value": 150.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "01662D:Starfield.esm"
+				},
+				{
+					"Keyword": "0055E9:Starfield.esm",
+					"LinkedForm": "01662E:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462BE:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Taiyo Captains Quarters 2x1 Top A"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

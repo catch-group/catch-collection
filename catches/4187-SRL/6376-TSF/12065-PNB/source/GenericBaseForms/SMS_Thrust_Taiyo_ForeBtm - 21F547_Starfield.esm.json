@@ -1,0 +1,72 @@
+{
+	"FormKey": "21F547:Starfield.esm",
+	"EditorID": "SMS_Thrust_Taiyo_ForeBtm",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "00ACDE:Starfield.esm",
+					"Value": 400.0
+				},
+				{
+					"ActorValue": "278986:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "278987:Starfield.esm",
+					"Value": 25.0
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 4000.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 6.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 10.0
+				},
+				{
+					"ActorValue": "001720:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "223F7E:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462BE:Starfield.esm",
+				"27BABE:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Taiyo Braking Thruster - Btm"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

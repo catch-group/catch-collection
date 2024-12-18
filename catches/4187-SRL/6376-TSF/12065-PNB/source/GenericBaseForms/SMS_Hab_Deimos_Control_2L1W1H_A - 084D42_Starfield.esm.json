@@ -1,0 +1,90 @@
+{
+	"FormKey": "084D42:Starfield.esm",
+	"EditorID": "SMS_Hab_Deimos_Control_2L1W1H_A",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "AttachParentArrayComponent"
+		},
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "05BFA8:Starfield.esm",
+					"Value": 250.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "2CC9EA:Starfield.esm",
+					"Value": 4.0
+				},
+				{
+					"ActorValue": "001018:Starfield.esm",
+					"Value": 3.0
+				},
+				{
+					"ActorValue": "24A05F:Starfield.esm",
+					"Value": 250.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "040CE0:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 60.0
+				},
+				{
+					"ActorValue": "0002DC:Starfield.esm",
+					"Value": 50.0
+				},
+				{
+					"ActorValue": "01CAC0:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "1EF0CA:Starfield.esm",
+					"Value": 25.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "084D40:Starfield.esm"
+				},
+				{
+					"Keyword": "0055E9:Starfield.esm",
+					"LinkedForm": "084D3F:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C0:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Deimos Control Station 2x1"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

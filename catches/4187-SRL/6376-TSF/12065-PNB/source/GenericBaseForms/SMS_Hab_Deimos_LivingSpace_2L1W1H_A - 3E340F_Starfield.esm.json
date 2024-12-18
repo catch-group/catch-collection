@@ -1,0 +1,74 @@
+{
+	"FormKey": "3E340F:Starfield.esm",
+	"EditorID": "SMS_Hab_Deimos_LivingSpace_2L1W1H_A",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "AttachParentArrayComponent"
+		},
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "02B344:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "040CE0:Starfield.esm",
+					"Value": 1.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "01E7DE:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 80.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 8.0
+				},
+				{
+					"ActorValue": "0002DC:Starfield.esm",
+					"Value": 50.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "3E3410:Starfield.esm"
+				},
+				{
+					"Keyword": "0055E9:Starfield.esm",
+					"LinkedForm": "3E3411:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462C0:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Deimos Living Quarters 2x1"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

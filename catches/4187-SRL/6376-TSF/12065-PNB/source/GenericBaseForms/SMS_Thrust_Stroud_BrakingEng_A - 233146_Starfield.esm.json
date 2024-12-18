@@ -1,0 +1,59 @@
+{
+	"FormKey": "233146:Starfield.esm",
+	"EditorID": "SMS_Thrust_Stroud_BrakingEng_A",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "278986:Starfield.esm",
+					"Value": 6.0
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 4000.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 6.0
+				},
+				{
+					"ActorValue": "001720:Catch - 6376-TSF - 12065-PNB.esm",
+					"Value": 1.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "237D2A:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462BD:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Stroud Braking Thruster"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

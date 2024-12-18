@@ -1,0 +1,78 @@
+{
+	"FormKey": "06F4BB:Starfield.esm",
+	"EditorID": "SMS_Hab_Taiyo_ComputerCore_2L2W1H_Btm_B",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "AttachParentArrayComponent"
+		},
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "27BACE:Starfield.esm",
+					"Value": 60.0
+				},
+				{
+					"ActorValue": "001018:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 14.0
+				},
+				{
+					"ActorValue": "040CE0:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "2CC9EA:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "002963:Starfield.esm",
+					"Value": -0.65
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 10.0
+				},
+				{
+					"ActorValue": "0002DC:Starfield.esm",
+					"Value": 50.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "2204AE:Starfield.esm"
+				},
+				{
+					"Keyword": "0055E9:Starfield.esm",
+					"LinkedForm": "2204AF:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"1462BE:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Taiyo Computer Core 2x2 Bottom B"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}

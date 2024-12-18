@@ -1,0 +1,57 @@
+{
+	"FormKey": "26FE78:Starfield.esm",
+	"EditorID": "SMS_Lander_Stroud_Accu-lander_11",
+	"FormVersion": 576,
+	"ODTY": 0.0,
+	"Components": [
+		{
+			"MutagenObjectType": "PropertySheetComponent",
+			"Properties": [
+				{
+					"ActorValue": "0002D4:Starfield.esm",
+					"Value": 5.0
+				},
+				{
+					"ActorValue": "2A9542:Starfield.esm",
+					"Value": 2000.0
+				},
+				{
+					"ActorValue": "00ACDB:Starfield.esm",
+					"Value": 2.0
+				},
+				{
+					"ActorValue": "30B58A:Starfield.esm",
+					"Value": 2.0
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "FormLinkDataComponent",
+			"Links": [
+				{
+					"Keyword": "00662F:Starfield.esm",
+					"LinkedForm": "237C5B:Starfield.esm"
+				}
+			]
+		},
+		{
+			"MutagenObjectType": "KeywordFormComponent",
+			"Keywords": [
+				"27BABE:Starfield.esm",
+				"1462BD:Starfield.esm",
+				"27BABD:Starfield.esm"
+			]
+		},
+		{
+			"MutagenObjectType": "FullNameComponent",
+			"Name": {
+				"TargetLanguage": "English",
+				"Value": "Accu-Lander 11 Landing Gear"
+			}
+		}
+	],
+	"Template": "03058E:Starfield.esm",
+	"STRVs": [
+		"BGSMod_Template_Component"
+	]
+}
