@@ -2,7 +2,7 @@
 
 This is a compatibility patch for:
 
-- [Royal Galaxy - A Starfield Revamp And Cut Content Restoration (8222-ROX)](https://www.nexusmods.com/starfield/mods/11860) by [JaeDL](https://next.nexusmods.com/profile/JaeDL)
+- [Royal Galaxy - A Starfield Revamp And Cut Content Restoration (8222-ROX)](https://www.nexusmods.com/starfield/mods/8222) by [JaeDL](https://next.nexusmods.com/profile/JaeDL)
 	- Permission to patch granted by:
 		- [Nexus Mods - Profile Page](https://web.archive.org/web/20241215224548/https://next.nexusmods.com/profile/JaeDL)
 		- Private messages (Discord)
